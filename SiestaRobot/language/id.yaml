@@ -1,831 +1,831 @@
-# Doğma dilində dil adı
-dil: "İndoneziya"
- # bu tərcümə üzərində işləyən insanların adı
-müəlliflər: "@saint_foire"
+# Language name in their native
+language: "Azərbaycan 🇦🇿"
+# name of people(s) who worked on this translation
+authors: "@saint_foire"
 
- # dil
- curr_chat_lang: "Salam. Hazırkı diliniz {}-dir, lütfən, aşağıdakı düymələrdən istədiyinizi seçin :)"
- set_chat_lang: "Yaxşı, bundan sonra {} Dilindən istifadə edin!"
+# languages
+curr_chat_lang: "Hey. Your current language is {}, select the one you want from the buttons below :)"
+set_chat_lang: "Great, using {} Language it is from now on!"
 
- # PM Mətni
- pm_start_text: |
-   *Salam canım, {} ❤️*
-   Mən anime mövzularını idarə edən robotam [✨](https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg)
+# PM Text
+pm_start_text: |
+  *Hey Darling, {} ❤️*
+  ✪ I'm an anime-theme management robot [✨](https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg)
 
-   •❃°•°❀°•°❃•━━━━━━━━┓
-   × *Serverin işləmə müddəti :* `{}`
-   × `{}` *istifadəçilər, * `{}` *chat.*
-   •❃°•°❀°•°❃•━━━━━━━━┛
+  ┏━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┓
+  × *Server Uptime :* `{}`
+  × `{}` *users, across* `{}` *chats.*
+  ┗━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┛
 
-   Mövcud əmrlərimə baxmaq üçün /help düyməsini basın.
+  ✪ Hit /help to see my available commands.
    
-qrup_başlanğıc_mətni: |
-   *👋🏻 Salam Canım, mən Robot Siestayam!*
+group_start_text: |
+  *👋🏻 Hi Darling, I'm Siesta Robot!*
   
-   *Bu tarixdən aktiv olmağa başladı:* `{}`
+  *Started active since :* `{}`
 
-pm_haqqında_mətn: |
-   Salam əzizim *Siesta Robot*, qrupları asanlıqla idarə etməyə kömək etmək üçün yaradılmış güclü qrup idarəetmə botu.  ️
+pm_about_text: |
+  ✺ Hey Darling I'm *Siesta Robot*, a powerful group management bot built to help you manage your group easily. ✺
 
-   İstifadəçiləri məhdudlaşdıra bilərəm.
-   İstifadəçiləri fərdiləşdirilə bilən salamlama mesajı ilə salamlaya və hətta qrup qaydalarını təyin edə bilərəm.
-   Mənim təkmil anti-daşqın sistemim var.
-   Qadağa, susdurma, zərbə və s. kimi əvvəlcədən təyin edilmiş hər bir hərəkətlə istifadəçiləri maksimum xəbərdarlığa çatana qədər xəbərdar edə bilərəm.
-   Mənim əvvəlcədən təyin edilmiş giriş, qara siyahı və hətta müəyyən açar sözlər üçün cavablar sistemim var.
-   Hər hansı bir əmr və başqa şeyləri işə salmazdan əvvəl admin icazəsini yoxlayıram
+  ✪ I can restrict users.
+  ✪ I can greet users with customizable welcome messages and even set a group's rules.
+  ✪ I have an advanced anti-flood system.
+  ✪ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
+  ✪ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
+  ✪ I check for admins' permissions before executing any command and more stuffs
 
-   _Siesta GNU General Public License v3.0_ əsasında lisenziyalaşdırılıb
-   Siesta Robot üçün əsas yardım almaq üçün aşağıdakı düyməyə klikləyin.
-pm_haqqında_admin_mətn: |
-   *✺ İndi qrupunuzu bir az daha təsirli edək *
+  _Siesta's licensed under the GNU General Public License v3.0_
+  Click on button bellow to get basic help for Siesta Robot.
+pm_about_admin_text: |
+  *✺ Let's make your group bit effective now ✺*
 
-   Təbrik edirik, Siesta Robot artıq qrupunuzu idarə etməyə hazırdır.
+  Congragulations, Siesta Robot now ready to manage your group.
 
-   *İdarəetmə Aləti*
-   Əsas İdarəetmə Alətləri qruplarınızı qorumağa və gücləndirməyə kömək edir.
-   Siz bot əmrləri vasitəsilə üzvləri qadağan edə, Üzvləri Kick edə, Kimisə admin kimi təbliğ edə bilərsiniz.
+  *Admin Tools*
+  Basic Admin tools help you to protect and powerup your group.
+  You can ban members, Kick members, Promote someone as admin through commands of bot.
 
-   *Hörmətlə*
-   Qrupunuza yeni istifadəçiləri salamlamaq üçün salamlama mesajı hazırlayaq.
-   Xoş gəlmisiniz mesajı təyin etmək üçün `/setwelcome [message]` göndərin!
-pm_haqqında_qeydlər_mətni: |
-   *✺ Qeydlər hazırlayın *
+  *Greetings*
+  Lets set a welcome message to welcome new users coming to your group.
+  Send `/setwelcome [message]` to set a welcome message!
+pm_about_notes_text: |
+  *✺ Setting up notes ✺*
 
-   Siz mesajları/medianı/audioları və ya hər hansı bir şeyi qeydlər kimi saxlaya bilərsiniz, sadəcə olaraq sözün əvvəlində # istifadə edin"
-   Siz həmçinin qeydlər və filtrlər üçün düymələr təyin edə bilərsiniz (yardım menyusuna baxın)
+  ✪ You can save message/media/audio or anything as notes to get a note simply use # at the beginning of a word
+  ✪ You can also set buttons for notes and filters (refer help menu)
 pm_about_support_text: |
-   *✺ Siesta Robot dəstək söhbəti *
+  *✺ Siesta Robot support chats ✺*
 
-   Siesta ilə bağlı problemlərə baxmaq və ya bildirmək üçün Dəstək Qrupum/Kanalıma qoşulun.
-pm_haqqında_kredit_mətn: |
-   *✺ Siesta üçün kreditlər *
+  Join My Support Group/Channel for see or report a problem on Siesta.
+pm_about_credit_text: |
+  *✺ Credis for Siesta ✺*
 
-   Burada Tərtibatçılar Siesta Robotunu Yaradıb İlham Verir
+  Here Developers Making And Give Inspiration For Made The Siesta Robot
 pm_help_text: |
-   *✺ Xüsusi əmrin təsvirini əldə etmək üçün aşağıdakı düyməni basın.  *
-pm_help_module_text: "Budur *{}* modulu üçün yardım:\n\n"
+  *✺ Click on the button bellow to get description about specifics command. ✺*
+pm_help_module_text: "Here is the help for the *{}* module :\n\n"
 
- # Qrup Yardım Mətni
-group_help_text: "Mümkün əmrlərin siyahısı üçün PM-də mənimlə əlaqə saxlayın."
-group_help_modules_text: "Kömək üçün PM-də mənimlə əlaqə saxlayın *{}*"
- # Qrup Yardım düyməsi
-group_help_button: "Kömək"
- # PM Parametrləri
-pm_settings_personal_text: "Bunlar sizin cari parametrlərinizdir: "
-pm_settings_group_text: "Hansı modul üçün {} parametrlərini yoxlamaq istəyirsiniz?"
-pm_settings_groups_text: "*{}* modulu *{}* üçün aşağıdakı parametrlərə malikdir:\n\n"
+# Group Help Text
+group_help_text: "Contact me in PM to get the list of possible commands."
+group_help_modules_text: "Contact me in PM to get help of *{}*"
+# Group Help Button
+group_help_button: "Help"
+# PM Settings
+pm_settings_personal_text: "These are your current settings: "
+pm_settings_group_text: "Which module would you like to check {}'s settings for?"
+pm_settings_groups_text: "*{}* has the following settings for the *{}* module:\n\n"
 pm_settings_groupss_text: |
-     salam!  {} üçün bir neçə parametr var - davam edin və maraqlandığınızı seçin.
- # Qrup Parametrləri Mətni
- group_settings_text: "Sizin kimi bu söhbətin parametrlərini əldə etmək üçün buraya klikləyin."
- # Qrup Parametrləri Düyməsi
-group_settings_button: "Parametrlər"
+    Hi there! There are quite a few settings for {} - go ahead and pick what you're interested in.
+# Group Settings Text
+group_settings_text: "Click here to get this chat's settings, as well as yours."
+# Group Settings Button
+group_settings_button: "Settings"
 
- # PM düyməsi
-add_bot_to_group_button: "♕ Məni Qrupunuza əlavə edin"
-support_chat_link_button: "Dəstək"
-updates_channel_link_button: "Yeniləmə"
-qeydlər_düyməsi: "Qeydlər"
-source_button: "Mənbə kodu"
-help_button: "Kömək alın"
-geri_düyməsi: "Geri"
-about_button: "Siesta Robot haqqında"
-inline_button: "Inline cəhd edilir!"
+# PM Button
+add_bot_to_group_button: "♕ Add Me To Your Group ♕"
+support_chat_link_button: "Support"
+updates_channel_link_button: "Update"
+notes_button: "Notes"
+source_button: "Source Code"
+help_button: "Get Help"
+back_button: "Go back"
+about_button: "About Siesta Robot"
+inline_button: "Try inline!​​"
 
- # MODULLAR
+# MODULES
 admin_help: |
-     Admin
+    ──「 Admins 」──
 
-     *İstifadəçi əmri*:
-     /admins*:* çatda admin siyahısı
-     /pinned*:* hazırda bərkidilmiş mesajı əldə etmək üçün.
+    *User Commands*:
+    ❂ /admins*:* list of admins in the chat
+    ❂ /pinned*:* to get the current pinned message.
 
-     *Aşağıdakı əmrlər yalnız Admin üçündür:*
-     /pin*:* səssizcə cavab mesajlarını sancaqlayır - istifadəçiləri xəbərdar etmək üçün ''yüksək'' və ya ''bildiriş'' əlavə edin
-     /unpin*:* hazırda bərkidilmiş mesajı çıxarır
-     /invitelink*:* dəvət linki əldə edir
-     /promote*:* istifadəçi cavabını təşviq edin
-     /fullpromote*:* cavab verən istifadəçini tam hüquqlarla təşviq edin
-     /demote*:* aşağı səslər cavab verən istifadəçilər
-     /title <burada başlıq>*:* təşviq edilən bot admin üçün fərdi başlıq təyin edir
-     /admincache*:* admin siyahısını yeniləməyə məcbur edin
-     /del*:* cavab verdiyiniz mesajı silin
-     /purge*:* bu və cavab verilən mesaj arasındakı bütün mesajları silir.
-     /purge <integer X>*:* cavab verilən mesajı və mesaja cavab verərkən ondan sonra gələn X mesajlarını silir.
-     /setgtitle <text>*:* qrup başlığını təyin edin
-     /setgpic*:* qrup şəkli kimi təyin etmək üçün şəklə cavab verin
-     /setdesc*:* Qrup təsvirini təyin edin
-     /setsticker*:* Qrup stikerini təyin edin
+    *The Following Commands are Admins only:* 
+    ❂ /pin*:* silently pins the message replied to - add `'loud'` or `'notify'` to give notifs to users
+    ❂ /unpin*:* unpins the currently pinned message
+    ❂ /invitelink*:* gets invitelink
+    ❂ /promote*:* promotes the user replied to
+    ❂ /fullpromote*:* promotes the user replied to with full rights
+    ❂ /demote*:* demotes the user replied to
+    ❂ /title <title here>*:* sets a custom title for an admin that the bot promoted
+    ❂ /admincache*:* force refresh the admins list
+    ❂ /del*:* deletes the message you replied to
+    ❂ /purge*:* deletes all messages between this and the replied to message.
+    ❂ /purge <integer X>*:* deletes the replied message, and X messages following it if replied to a message.
+    ❂ /setgtitle <text>*:* set group title
+    ❂ /setgpic*:* reply to an image to set as group photo
+    ❂ /setdesc*:* Set group description
+    ❂ /setsticker*:* Set group sticker
 
-     *Qayda*:
-     /qaydalar*:* bu söhbət üçün qaydaları əldə edin.
-     /setrules <qaydalarınız burada>*:* bu söhbət üçün qaydaları təyin edin.
-     /clearrules*:* bu söhbət qaydasını silin.
+    *Rules*:
+    ❂ /rules*:* get the rules for this chat.
+    ❂ /setrules <your rules here>*:* set the rules for this chat.
+    ❂ /clearrules*:* clear the rules for this chat.
 anime_help: |
-     Anime Quest
+    ──「 Anime Search 」──   
 
-     /anime <anime>: anime haqqında məlumatı qaytarır.
-     /whatanime: foto və ya gif-ə cavab verərkən anime mənbəyini bərpa edin.
-     /character <xarakter>: xarakter haqqında məlumatı qaytarır.
-     /manga <manga>: manqa haqqında məlumatı qaytarır.
-     /user <user>: MyAnimeList istifadəçisi haqqında məlumatı qaytarır.
-     /gələcək: qarşıdan gələn mövsümdə yeni animelərin siyahısını qaytarır.
-     /<anime> yayımı: anime baxma məlumatını qaytarır.
-     /whatanime <anime>: gif və ya fotoşəkillərə cavab verin.
-     /kaizoku <anime>: animekaizoku.com saytında anime axtarın
-     /kayo <anime>: animekayo.com saytında anime axtarın
+    ❂ /anime <anime>: returns information about the anime.
+    ❂ /whatanime: returns source of anime when replied to photo or gif.                                                          
+    ❂ /character <character>: returns information about the character.
+    ❂ /manga <manga>: returns information about the manga.
+    ❂ /user <user>: returns information about a MyAnimeList user.
+    ❂ /upcoming: returns a list of new anime in the upcoming seasons.
+    ❂ /airing <anime>: returns anime airing info.
+    ❂ /whatanime <anime>: reply to gif or photo.
+    ❂ /kaizoku <anime>: search an anime on animekaizoku.com
+    ❂ /kayo <anime>: search an anime on animekayo.com
 
-     Anime Sitatlar
+    ──「 Anime Quotes 」──
 
-     /animequotes: foto kimi təsadüfi anime sitatlar üçün.
-     /quote: mətn kimi təsadüfi sitatlar göndərin
-antikanal_yardım: |
-     Anti-kanal
+    ❂ /animequotes: for anime quotes randomly as photos.
+    ❂ /quote: send quotes randomly as text
+antichannel_help: |
+    ──「 Anti-Channels 」──
 
-         ️ XƏBƏRDARLIQ ️
+        ⚠️ WARNING ⚠️
 
-     *ƏGƏR BU REJİMDƏN İSTİFADƏ ETMƏSƏNİZƏN, NƏTİCƏ ƏMƏLİ QRUPDA OLAR KANALDAN İSTİFADƏ EDİLƏN SÖHBƏT ETMƏ BİLMƏZSİNİZ*
+    *IF YOU USE THIS MODE, THE RESULT IS IN THE GROUP FOREVER YOU CAN'T CHAT USING THE CHANNEL*
 
-     Anti-kanal rejimi söhbət edən istifadəçilərin Kanallardan istifadəsini avtomatik qadağan edən rejimdir.
-     Bu əmr yalnız *Admin* tərəfindən istifadə edilə bilər.
+    Anti Channel Mode is a mode to automatically ban users who chat using Channels. 
+    This command can only be used by *Admins*.
 
-     /antichannelmode <'on'/'yes'> *:* antikanal rejimini aktivləşdirin
-     /antichannelmode <'off'/'no'> *:* antikanal rejimini söndürün
+    ❂ /antichannelmode <'on'/'yes'> *:* enables anti-channel-mode
+    ❂ /antichannelmode <'off'/'no'> *:* disabled anti-channel-mode
 antiflood_help: |
-     Daşqın əleyhinə
+    ──「 Anti-Flood 」──
 
-     Antiflood, ardıcıl olaraq x-dən çox mesaj göndərən istifadəçilərə qarşı tədbir görməyə imkan verir.  Müəyyən edilmiş daşqını keçdi \
-     həmin istifadəçinin məhdudlaşdırılması ilə nəticələnəcək.
-     Ardıcıl olaraq 10-dan çox mesaj göndərən istifadəçinin səsini kəsəcək, botlara məhəl qoyulmur.
-     `/daşqın`*:* Cari daşqına nəzarət parametrlərini əldə edin
+    Antiflood allows you to take action on users that send more than x messages in a row. Exceeding the set flood \
+    will result in restricting that user.
+    This will mute users if they send more than 10 messages in a row, bots are ignored.
+    ❂ `/flood`*:* Get the current flood control setting
 
-     *yalnız admin :*
+    *Admins only:*
 
-     `/setflood <int/'no'/'off'>`*:* daşqına nəzarəti aktivləşdirin və ya söndürün
-       *Misal:* `/setflood 10`
-     `/setfloodmode <ban/kick/mute/tban/tmute> <value>`*:* İstifadəçi daşqın limitini keçdikdə görüləcək tədbir.  təkər/təpik/lal/tmute/tban
+    ❂ `/setflood <int/'no'/'off'>`*:* enables or disables flood control
+    *Example:* `/setflood 10`
+    ❂ `/setfloodmode <ban/kick/mute/tban/tmute> <value>`*:* Action to perform when user have exceeded flood limit. ban/kick/mute/tmute/tban
 
-     *Qeydlər:*
-     Tban və tmute üçün dəyərlər tələb olunur!!
-     Bu ola bilər:
-     `5m` = 5 dəqiqə
-     `6 saat` = 6 saat
-     `3 gün` = 3 gün
-     `1w` = 1 həftə
+    *Note:*
+    Value must be filled for tban and tmute!!
+    It can be:
+    ➩ `5m` = 5 minutes
+    ➩ `6h` = 6 hours
+    ➩ `3d` = 3 days
+    ➩ `1w` = 1 week
 antispam_help: |
-     Anti-Spam
+    ──「 Anti-Spam 」──
 
-     *yalnız admin :*
-     `/antispam <on/off/yes/no>`*:* Antispam texnologiyamızı aktivləşdirəcək və ya cari parametrlərinizi bərpa edəcək.
+    *Admins only:*
+    ❂ `/antispam <on/off/yes/no>`*:* Will toggle our antispam tech or return your current settings.
 
-     Anti-Spam, bot tərtibatçıları tərəfindən bütün qruplarda spam göndərənləri qadağan etmək üçün istifadə olunur.  Bu, \
-     spam göndərənləri mümkün qədər tez silməklə siz və qrupunuz.
-     *Qeyd:* İstifadəçilər @{SUPPORT_CHAT} ünvanında spam göndərə və ya şikayət edə bilər.
+    Anti-Spam, used by bot devs to ban spammers across all groups. This helps protect \
+    you and your groups by removing spam flooders as quickly as possible.
+    *Note:* Users can appeal gbans or report spammers at @{SUPPORT_CHAT}
 
-     O, həmçinin söhbət otağınızdan mümkün qədər çox Spam göndərənləri silmək üçün @Spamwatch API-ni birləşdirir!
-     *SpamWatch nədir?*
-     SpamWatch-də spam-botların, trolların, bitcoin-spamerlərin və pis personajların daim yenilənən qadağa siyahısı var[.](https://telegra.ph/file/f584b643c6f4be0b1de53.jpg)
-     Qrupunuzdan spam göndərənlərə avtomatik qadağa qoymağa kömək etməyə davam edin. Beləliklə, spam göndərənlərin qrupunuzu zəbt etməsindən narahat olmayın.
-     *Qeyd:* İstifadəçilər spam izləmə qadağası ilə bağlı @SpamwatchSupport ünvanında şikayət edə bilərlər
+    This also integrates @Spamwatch API to remove Spammers as much as possible from your chatroom!
+    *What is SpamWatch?*
+    SpamWatch maintains a large constantly updated ban-list of spambots, trolls, bitcoin spammers and unsavoury characters[.](https://telegra.ph/file/f584b643c6f4be0b1de53.jpg)
+    Constantly help banning spammers off from your group automatically So, you wont have to worry about spammers storming your group.
+    *Note:* Users can appeal spamwatch bans at @SpamwatchSupport
 approve_help: |
-     Təsdiq edildi
+    ──「 Aprroved 」──
 
-     Bəzən istifadəçilərə arzuolunmaz məzmun göndərməmək üçün etibar edə bilərsiniz.
-     Onları administrator etmək kifayət olmaya bilər, lakin onlara aid olmayan kilidlər, qara siyahılar və daşqınlara qarşı mübarizə apara bilərsiniz.
+    Sometimes, you might trust a user not to send unwanted content.
+    Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
 
-     Razılığın məqsədi budur - etibarlı istifadəçilərə göndərməyə icazə vermək üçün onları təsdiqləyin
+    That's what approvals are for - approve of trustworthy users to allow them to send
 
-     *Admin əmri:*
-     /təsdiq*:* Bu söhbətdə istifadəçilərin təsdiq statusunu yoxlayın.
-     /approve*:* İstifadəçini təsdiqləyin.  Kilidlər, qara siyahılar və daşqına qarşı tədbirlər artıq tətbiq edilməyəcək.
-     /unapprove*:* İstifadəçiləri rədd edir.  İndi onlar kilidlənəcək, qara siyahıya salınacaq və yenidən daşqından qorunacaqlar.
-     /təsdiqlənmiş*:* Bütün təsdiq edilmiş istifadəçilərin siyahısı.
-     /unapprovall*:* Çatdakı *BÜTÜN* istifadəçilərin təsdiqini ləğv edin.  Bu geri qaytarıla bilməz.
+    *Admin commands:*
+    ❂ /approval*:* Check a user's approval status in this chat.
+    ❂ /approve*:* Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.
+    ❂ /unapprove*:* Unapprove of a user. They will now be subject to locks, blacklists, and antiflood again.
+    ❂ /approved*:* List all approved users.
+    ❂ /unapproveall*:* Unapprove *ALL* users in a chat. This cannot be undone.
 bansmutes_help: |
-     Qadağa / Səssiz
+    ──「 Bans / Mutes 」──
 
-     *İstifadəçi əmri:*
+    *User Commands:*
 
-     /kickme*:* əmri verən istifadəçini təpikləyir
+    ❂ /kickme*:* kicks the user who issued the command
 
-     *yalnız admin :*
+    *Admins only:*
 
-     /ban <userhandle>*:* istifadəçini qadağan edir.  (sap və ya cavab vasitəsilə)
-     /sban <userhandle>*:* İstifadəçilərə səssizcə qadağa qoyur.  Sil əmri, Mesaja cavab verin və cavab verməyin.  (sap və ya cavab vasitəsilə)
-     /tban <userhandle> x(m/h/d)*:* istifadəçiyə x dəfə qadağa qoyur.  (sap və ya cavab vasitəsilə).  m = dəqiqə, h = saat, d = gün.
-     /unban <userhandle>*:* istifadəçini blokdan çıxarır.  (sap və ya cavab vasitəsilə)
-     /kick <userhandle>*:* istifadəçini qrupdan çıxarır (dəlil və ya cavab vasitəsilə)
-     /mute <userhandle>*:* istifadəçinin səsini kəsir.  Cavab verən istifadəçini deaktiv edərək cavab olaraq da istifadə edilə bilər.
-     /tmute <userhandle> x(m/h/d)*:* istifadəçini x dəfə söndürür.  (sap və ya cavab vasitəsilə).  m = dəqiqə, h = saat, d = gün.
-     /unmute <userhandle>*:* istifadəçinin səsini aktivləşdirir.  Cavab verən istifadəçini deaktiv edərək cavab olaraq da istifadə edilə bilər.
-     /zombies*:* silinmiş hesabları axtarır
-     /zombies clean*:* silinmiş hesabı qrupdan silir.
-     /snipe <chatid> <string>*:* Məni konkret söhbətə mesaj göndərməyə məcbur edin.
-qara siyahı_kömək: |
-     Qara siyahı
+    ❂ /ban <userhandle>*:* bans a user. (via handle, or reply)
+    ❂ /sban <userhandle>*:* Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
+    ❂ /tban <userhandle> x(m/h/d)*:* bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
+    ❂ /unban <userhandle>*:* unbans a user. (via handle, or reply)
+    ❂ /kick <userhandle>*:* kicks a user out of the group, (via handle, or reply)
+    ❂ /mute <userhandle>*:* silences a user. Can also be used as a reply, muting the replied to user.
+    ❂ /tmute <userhandle> x(m/h/d)*:* mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
+    ❂ /unmute <userhandle>*:* unmutes a user. Can also be used as a reply, muting the replied to user.
+    ❂ /zombies*:* searches deleted accounts
+    ❂ /zombies clean*:* removes deleted accounts from the group.
+    ❂ /snipe <chatid> <string>*:* Make me send a message to a specific chat.
+blacklist_help: |
+    ──「 Blacklist 」──
 
-     Qara siyahılar müəyyən tetikleyicilərin qrupda danışılmasını dayandırmaq üçün istifadə olunur.  Hər hansı bir tetikleyici qeyd edildikdə, mesaj dərhal silinir.  Böyük kombinlər bəzən bunu xəbərdarlıq filtri ilə birləşdirirlər!
+    Blacklists are used to stop certain triggers from being said in a group. Any time the trigger is mentioned, the message will immediately be deleted. A good combo is sometimes to pair this up with warn filters!
 
-     *QEYD*: Qara siyahı qrup adminlərinə təsir etmir.
+    *NOTE*: Blacklists do not affect group admins.
 
-     /qara siyahı*:* Hazırda qara siyahıda olan sözlərə baxın.
+    ❂ /blacklist*:* View the current blacklisted words.
 
-     Yalnız adminlər:
-     /addblacklist <triggers>*:* Qara siyahıya tətik əlavə edin.  Hər bir cərgə tək tətik hesab olunur, ona görə də müxtəlif cərgələrdən istifadə çoxlu tətiklər əlavə etməyə imkan verəcək.
-     /unblacklist <triggers>*:* Tətikləri qara siyahıdan silin.  Eyni yeni sətir məntiqi burada tətbiq edilir, beləliklə, birdən çox tetikleyiciyi silə bilərsiniz.
-     /blacklistmode <off/del/warn/ban/kick/mute/tban/tmute>*:* Kimsə qara siyahıya salınmış sözləri göndərdikdə əməliyyat həyata keçirilir.
+    Admin only:
+    ❂ /addblacklist <triggers>*:* Add a trigger to the blacklist. Each line is considered one trigger, so using different lines will allow you to add multiple triggers.
+    ❂ /unblacklist <triggers>*:* Remove triggers from the blacklist. Same newline logic applies here, so you can remove multiple triggers at once.
+    ❂ /blacklistmode <off/del/warn/ban/kick/mute/tban/tmute>*:* Action to perform when someone sends blacklisted words.
 
-     Qara siyahı stikerləri müəyyən stikerləri dayandırmaq üçün istifadə olunur.  Hər dəfə stiker göndərildikdə mesaj dərhal silinəcək.
-     *QEYD:* Qara siyahı stikerləri qrup adminlərinə təsir etmir
-     /blsticker*:* Hazırda qara siyahıya salınmış stikerlərə baxın
-     *yalnız admin :*
-     /addblsticker <stiker linki>*:* Qara siyahıya stiker tetiği əlavə edin.  Cavab etiketi vasitəsilə əlavə edilə bilər
-     /unblsticker <stiker link>*:* Tətiyi qara siyahıdan çıxarın.  Eyni yeni sətir məntiqi burada tətbiq edilir, beləliklə, birdən çox tetikleyiciyi silə bilərsiniz
-     /rmblsticker <stiker linki>*:* Yuxarıdakı kimi
-     /blstickermode <delete/ban/tban/mute/tmute>*:* istifadəçi qara siyahıya salınmış stikerdən istifadə edərsə nə etməli olduğuna dair defolt əməliyyatı təyin edir
-     Qeydlər:
-     <stiker linki> `https://t.me/addstickers/<sticker>` və ya sadəcə `<stiker>` ola bilər və ya stiker mesajlarına cavab verə bilər
+    Blacklist sticker is used to stop certain stickers. Whenever a sticker is sent, the message will be deleted immediately.
+    *NOTE:* Blacklist stickers do not affect the group admin
+    ❂ /blsticker*:* See current blacklisted sticker
+    *Only admin:*
+    ❂ /addblsticker <sticker link>*:* Add the sticker trigger to the black list. Can be added via reply sticker
+    ❂ /unblsticker <sticker link>*:* Remove triggers from blacklist. The same newline logic applies here, so you can delete multiple triggers at once
+    ❂ /rmblsticker <sticker link>*:* Same as above
+    ❂ /blstickermode <delete/ban/tban/mute/tmute>*:* sets up a default action on what to do if users use blacklisted stickers
+    Note:
+    ❂ <sticker link> can be `https://t.me/addstickers/<sticker>` or just `<sticker>` or reply to the sticker message
 chatbot_help: |
-     AI Chat Botu
+    ──「 Chatbot AI 」──
 
-     Siesta AI 200-ə qədər dili aşkarlaya və cavab verə bilən yeganə süni intellekt sistemidir
+    Siesta AI is the only ai system which can detect & reply upto 200 language's
 
-     /chatbot [ON/OFF]: AI Chat rejimini aktivləşdirin və söndürün.
-     /chatbot EN : Yalnız İngilis chatbotunu aktivləşdirir.
-təmizləyici_yardım: |
-     Təmizləmə
+    ❂ /chatbot [ON/OFF]: Enables and disables AI Chat mode.
+    ❂ /chatbot EN : Enables English only chatbot.
+cleaner_help: |
+    ──「 Cleaner 」──
 
-     Mavi mətn təmizləyicisi söhbətlərinizdəki insanların göndərdiyi bütün uydurma əmrləri silir.
+    Blue text cleaner removed any made up commands that people send in your chat.
 
-     /cleanblue <on/off/yes/no>*:* göndərdikdən sonra təmizləmə əmri
-     /ignoreblue <word>*:* əmrlərin avtomatik təmizlənməsinin qarşısını alır
-     /unignoreblue <word>*:* delete əmrlərin avtomatik təmizlənməsinin qarşısını alır
-     /listblue*:* hazırda ağ siyahıda olan əmrlərin siyahısı
+    ❂ /cleanblue <on/off/yes/no>*:* clean commands after sending
+    ❂ /ignoreblue <word>*:* prevent auto cleaning of the command
+    ❂ /unignoreblue <word>*:* remove prevent auto cleaning of the command
+    ❂ /listblue*:* list currently whitelisted commands
 
-     *Budur, Fəlakət üçün xüsusi bir əmr, admin bundan istifadə edə bilməz:*
+    *Following are Disasters only commands, admins cannot use these:*
 
-     /gignoreblue <word>*:* qlobal olaraq Saitamada saxlanan sözlərin aydın mavi mətninə məhəl qoymur.
-     /ungignoreblue <word>*:* əmri qlobal təmizləmə siyahısından çıxarın
-əlaqə_köməki: |
-     Əlaqə
+    ❂ /gignoreblue <word>*:* globally ignorea bluetext cleaning of saved word across Saitama.
+    ❂ /ungignoreblue <word>*:* remove said command from global cleaning list
+connection_help: |
+    ──「 Connection 」──
 
-     Bəzən siz qrup söhbətinə bəzi qeydlər və filtrlər əlavə etmək istəyirsiniz, lakin hamının onları görməsini istəmirsiniz;  Burada əlaqə yaranır...
-     Bu, söhbət verilənlər bazasına qoşulmağa və söhbətdə heç bir göstəriş görünmədən ona hər hansı bir şey əlavə etməyə imkan verir!  Aşkar səbəblərə görə nəsə əlavə etmək üçün admin olmalısınız;  lakin qrupdakı hər bir üzv məlumatlarınızı görə bilər.
+    Sometimes, you just want to add some notes and filters to a group chat, but you don't want everyone to see; This is where connections come in...
+    This allows you to connect to a chat's database, and add things to it without the commands appearing in chat! For obvious reasons, you need to be an admin to add things; but any member in the group can view your data.
 
-     /connect: Söhbətə qoşulun (PM-də /connect və ya /connect <chat id> ilə qrup şəklində edilə bilər)
-     /bağlantılar: Qoşulmuş söhbətlərin siyahısı
-     /bağlantıyı kəsin: Söhbətlə əlaqəni kəsin
-     /helpconnect: Uzaqdan istifadə edilə bilən mövcud əmrlərin siyahısı
+    ❂ /connect: Connects to chat (Can be done in a group by /connect or /connect <chat id> in PM)
+    ❂ /connection: List connected chats
+    ❂ /disconnect: Disconnect from a chat
+    ❂ /helpconnect: List available commands that can be used remotely
 
-     *Yalnız admin:*
+    *Admin only:*
 
-     /allowconnect <yes/no>: istifadəçiyə söhbətə qoşulmağa icazə verin
-disabled_help: |
-     Deaktiv edilir
+    ❂ /allowconnect <yes/no>: allow a user to connect to a chat
+disabling_help: |
+    ──「 Disabling 」──
 
-     /cmds*:* hazırda söndürülmüş komandanın vəziyyətini yoxlayın
+    ❂ /cmds*:* check the current status of disabled commands
 
-     *yalnız admin :*
+    *Admins only:*
 
-     /enable <cmd name>*:* həmin əmri aktivləşdirin
-     /disable <cmd name>*:* həmin əmri deaktiv edin
-     /enablemodule <modul adı>*:* həmin moduldakı bütün əmrləri aktivləşdirin
-     /disablemodule <modul adı>*:* həmin moduldakı bütün əmrləri söndürün
-     /listcmds*:* bütün mümkün dəyişdirilə bilən əmrləri sadalayın
-əlavələr_yardım: |
-     Əlavələr
+    ❂ /enable <cmd name>*:* enable that command
+    ❂ /disable <cmd name>*:* disable that command
+    ❂ /enablemodule <module name>*:* enable all commands in that module
+    ❂ /disablemodule <module name>*:* disable all commands in that module
+    ❂ /listcmds*:* list all possible toggleable commands
+extras_help: |
+    ──「 Extras 」──
 
-     /markdownhelp*:* teleqramda markdown necə işlədiyinə dair qısa xülasə - yalnız şəxsi söhbətdə zəng etmək olar
-     /paste*:* `nekobin.com`-a cavab verilmiş məzmunu saxlayır və url ilə cavab verir
-     /spaste*:* `spaceb.in` ünvanına cavab məzmununu saxlayır və url ilə cavab verir
-     /react*:* Təsadüfi reaksiyalarla reaksiya verin
-     /ud <word>*:* Axtarmaq istədiyiniz sözü və ya ifadəni yazın
-     /reverse*:* Cavab verilmiş medianın əks təsvir axtarışını həyata keçirir.
-     /wiki <query>*:* vikipediya sorğunuz
-     /wall <query>*:* divar kağızlarını wall.alphacoders.com saytından əldə edin
-     /cash*:* valyuta çeviricisi
+    ❂ /markdownhelp*:* quick summary of how markdown works in telegram - can only be called in private chats
+    ❂ /paste*:* Saves replied content to `nekobin.com` and replies with a url
+    ❂ /spaste*:* Saves replied content to `spaceb.in` and replies with a url
+    ❂ /react*:* Reacts with a random reaction 
+    ❂ /ud <word>*:* Type the word or expression you want to search use
+    ❂ /reverse*:* Does a reverse image search of the media which it was replied to.
+    ❂ /wiki <query>*:* wikipedia your query
+    ❂ /wall <query>*:* get a wallpaper from wall.alphacoders.com
+    ❂ /cash*:* currency converter
 
-       Misal:
-       `/nağd 1 USD INR`
-           _OR_
-       `/cash 1 usd inr`
-          Nəticə: `1,0 USD = 75,505 INR`
+      Example:
+      ➩ `/cash 1 USD INR`  
+            _OR_
+      ➩ `/cash 1 usd inr`
+         Output: `1.0 USD = 75.505 INR`
 MARKDOWN_HELP: |
-     Markdown Kömək
+    ──「 Markdown Help 」──
 
-     Markdown telegram tərəfindən dəstəklənən çox güclü formatlama vasitəsidir.  {dispatcher.bot.first_name} bir neçə təkmilləşdirməyə malikdir ki, \
-     saxlanılan mesajlar düzgün təhlil edilir və düymələr yaratmağa imkan verir.
+    Markdown is a very powerful formatting tool supported by telegram. {dispatcher.bot.first_name} has some enhancements, to make sure that \
+    saved messages are correctly parsed, and to allow you to create buttons.
 
-     <code>_italic_</code>: mətni '_' ilə bükmək kursiv mətnlə nəticələnəcək
-     <code>*bold*</code>: mətni '*' ilə bükmək qalın mətnlə nəticələnəcək
-     <code>`code`</code>: mətni '''' ilə bükmək 'kod' kimi də tanınan monoboşluqlu mətnlə nəticələnəcək
-     <code>[sometext](someURL)</code>: bu, bir keçid yaradacaq - mesaj yalnız <code>bir mətn</code> göstərəcək, \
-     və üzərinə toxunmaq <code>someURL</code> ünvanında səhifəni açacaq.
-     <b>Nümunə:</b><code>[test](example.com)</code>
+    ❂ <code>_italic_</code>: wrapping text with '_' will produce italic text
+    ❂ <code>*bold*</code>: wrapping text with '*' will produce bold text
+    ❂ <code>`code`</code>: wrapping text with '`' will produce monospaced text, also known as 'code'
+    ❂ <code>[sometext](someURL)</code>: this will create a link - the message will just show <code>sometext</code>, \
+    and tapping on it will open the page at <code>someURL</code>.
+    <b>Example:</b><code>[test](example.com)</code>
 
-     <code>[buttontext](buttonurl:someURL)</code>: bu, istifadəçilərə teleqrama sahib olmaq üçün xüsusi təkmilləşdirmədir \
-     onların işarələməsindəki düymə.  <code>buttontext</code> düymədə göstəriləcək və <code>someurl</code> \
-     açılmış url olacaq.
-     <b>Misal:</b> <code>[Bu bir düymədir](buttonurl:example.com)</code>
+    ❂ <code>[buttontext](buttonurl:someURL)</code>: this is a special enhancement to allow users to have telegram \
+    buttons in their markdown. <code>buttontext</code> will be what is displayed on the button, and <code>someurl</code> \
+    will be the url which is opened.
+    <b>Example:</b> <code>[This is a button](buttonurl:example.com)</code>
 
-     Eyni sətirdə bir neçə düyməni istəyirsinizsə, :same istifadə edin, məsələn:
-     <kod>[bir](buttonurl://example.com)
-     [iki](buttonurl://google.com:same)</code>
-     Bu, hər cərgədə bir düymə yerinə iki düymə yaradacaq.
+    If you want multiple buttons on the same line, use :same, as such:
+    <code>[one](buttonurl://example.com)
+    [two](buttonurl://google.com:same)</code>
+    This will create two buttons on a single line, instead of one button per line.
 
-     Unutmayın ki, mesajınız <b>GƏLİR</b> yalnız düymədən başqa bəzi mətnlərdən ibarətdir!
-MARKDOWN_HELP_TEXT_1: "Aşağıdakı mesajı mənə yönləndirməyə cəhd edin və siz görəcəksiniz və #testdən istifadə edin!"
+    Keep in mind that your message <b>MUST</b> contain some text other than just a button!
+MARKDOWN_HELP_TEXT_1: "Try forwarding the following message to me, and you'll see, and Use #test!"
 MARKDOWN_HELP_TEXT_2: |
-     /save testi Bu, işarələmə testidir.  _kursiv_, *qalın*, kod,
-     [URL](example.com) [button](buttonurl:github.com)
-     [button2](buttonurl://google.com:same)
+    /save test This is a markdown test. _italics_, *bold*, code, 
+    [URL](example.com) [button](buttonurl:github.com)
+    [button2](buttonurl://google.com:same)
 fsub_feds_help: |
-     F-Subs / Federal
+    ──「 F-Subs / Feds 」──
 
-     *Məcburi Abunəlik:*
+    *Force Subscribe:*
 
-     Siesta kanalınıza abunə olmayan üzvləri aktivləşdirildikdə abunə olana qədər səsini kəsə bilər, mən abunə olmayan üzvlərin səsini söndürəcəm və səssiz düyməsini onlara göstərəcəyəm.  Onlar düyməni basanda mən onlara zəng vuracağam
+    Siesta can mute members who are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 
-     *Parametrlər* *:* *Yalnız Yaradıcı*
-     Məni qrupunuza admin olaraq əlavə edin
-     Məni kanalınıza admin olaraq əlavə edin
+    *Setup* *:* *Only creator*
+    ❂ Add me in your group as admin
+    ❂ Add me in your channel as admin 
     
-     *Sifariş*
-     /fsub {kanal istifadəçi adı} - Kanalları aktivləşdirmək və idarə etmək üçün.
+    *Commmands*
+    ❂ /fsub {channel username} - To turn on and setup the channel.
 
-       Əvvəlcə bunu et...
+      💡Do this first...
 
-     /fsub - Cari parametri əldə etmək üçün.
-     /fsub disable - ForceSubscribe-ı söndürmək üçün..
+    ❂ /fsub - To get the current settings.
+    ❂ /fsub disable - To turn of ForceSubscribe..
 
-       Əgər fsub-u deaktiv etsəniz, işləməsi üçün onu yenidən quraşdırmalı olacaqsınız.. /fsub {kanal istifadəçi adı}
+      💡If you disable fsub, you need to set again for working.. /fsub {channel username} 
 
-     /fsub clear - Səssizləşdirdiyim bütün üzvlərin səsini açmaq üçün.
+    ❂ /fsub clear - To unmute all members who muted by me.
 
-     *Federasiya*
-     Spam göndərənlər qrupunuza daxil olmağa başlayana qədər hər şey əyləncəlidir və siz onları bloklamalı olacaqsınız.  Sonra daha çox və daha çox qadağan etməyə başlamalısınız və bu, ağrıyır.
-     Amma sonra sizin çoxlu qruplarınız var və siz bu spamerin qruplarınızdan heç birində olmasını istəmirsiniz - bunun öhdəsindən necə gələ bilərsiniz?  Onu bütün qruplarınızda əl ilə bloklamalısınız?\n
-     *Artıq yox!* Federasiya ilə siz bir çatda qadağaları bütün digər çatları üst-üstə qoya bilərsiniz.\n
-     Siz hətta federasiya admini təyin edə bilərsiniz, beləliklə, etibarlı admininiz qorumaq istədiyiniz söhbətlərdən bütün spam göndərənləri blok edə bilər.\n
-     *Əmr:*\n
-     Rahatlığınız üçün Feds indi 3 bölməyə bölünür.
-     `/fedownerhelp`*:* Yalnız lentin yaradılması və sahib əmrləri üçün yardım təmin edir
-     `/fedadminhelp`*:* Yemək idarəsi sifarişləri üçün yardım göstərir
-     `/feduserhelp`*:* Hər kəsin istifadə edə biləcəyi əmrlər üçün yardım təmin edir
-FED_OWNER_HELP: |
-     Federal
+    *Federation*
+    Everything is fun, until a spammer starts entering your group, and you have to block it. Then you need to start banning more, and more, and it hurts.
+    But then you have many groups, and you don't want this spammer to be in one of your groups - how can you deal? Do you have to manually block it, in all your groups?\n
+    *No longer!* With Federation, you can make a ban in one chat overlap with all other chats.\n
+    You can even designate federation admins, so your trusted admin can ban all the spammers from chats you want to protect.\n
+    *Commands:*\n
+    Feds are now divided into 3 sections for your ease.
+    ❂ `/fedownerhelp`*:* Provides help for fed creation and owner only commands
+    ❂ `/fedadminhelp`*:* Provides help for fed administration commands
+    ❂ `/feduserhelp`*:* Provides help for commands anyone can use
+FED_OWNER_HELP: | 
+    ──「 Feds 」──
 
-     *👑 Yalnız Fed Sahibləri:*
-     `/newfed <fed_name>`*:* Federasiya yaradın, hər istifadəçiyə icazə verilir
-     `/renamefed <fed_id> <new_fed_name>`*:* Lent id-nin adını yeni ada dəyişdirin
-     `/delfed <fed_id>`*:* Federasiyanı və onunla əlaqəli hər hansı məlumatı silin.  Bloklanmış istifadəçiləri ləğv etməyəcək
-     `/fpromote <user>`*:* İstifadəçini federasiya admini olaraq təyin edin.  `Fed Admins` altında istifadəçilər üçün bütün əmrləri aktivləşdirin
-     `/fdemote <user>`*:* İstifadəçinin federasiya adminindən normal İstifadəçiyə çıxarılması
-     `/subfed <fed_id>`*:* Xüsusi lent identifikatoruna abunə olun, həmin abunə olunan lentə qadağalar lentinizdə də olacaq
-     `/unsubfed <fed_id>`*:* Verilmiş lent identifikatorunun abunəliyini dayandırın
-     `/setfedlog <fed_id>`*:* Qrupu federasiya üçün lent jurnalının hesabat bazası kimi təyin edir
-     `/unsetfedlog <fed_id>`*:* Federasiya üçün federasiya jurnalı hesabat bazası kimi qrup silindi
-     `/fbroadcast <message>`*:* Lentinizə qoşulmuş bütün qruplara mesaj yayımlayın
-     `/fedsubs`*:* FBI qrup abunəliyinizi göstərir `(sınmış rn)`
+    *👑 Fed Owner Only:*
+    ❂ `/newfed <fed_name>`*:* Creates a Federation, One allowed per user
+    ❂ `/renamefed <fed_id> <new_fed_name>`*:* Renames the fed id to a new name
+    ❂ `/delfed <fed_id>`*:* Delete a Federation, and any information related to it. Will not cancel blocked users
+    ❂ `/fpromote <user>`*:* Assigns the user as a federation admin. Enables all commands for the user under `Fed Admins`
+    ❂ `/fdemote <user>`*:* Drops the User from the admin Federation to a normal User
+    ❂ `/subfed <fed_id>`*:* Subscribes to a given fed ID, bans from that subscribed fed will also happen in your fed
+    ❂ `/unsubfed <fed_id>`*:* Unsubscribes to a given fed ID
+    ❂ `/setfedlog <fed_id>`*:* Sets the group as a fed log report base for the federation
+    ❂ `/unsetfedlog <fed_id>`*:* Removed the group as a fed log report base for the federation
+    ❂ `/fbroadcast <message>`*:* Broadcasts a messages to all groups that have joined your fed
+    ❂ `/fedsubs`*:* Shows the feds your group is subscribed to `(broken rn)`
 FED_ADMIN_HELP: |
-     Federal
+    ──「 Feds 」──
 
-     *🔱 Fed Admin:*
-     `/fban <user> <səbəb>`*:* Fed istifadəçini qadağan etdi
-     `/unfban <user> <səbəb>`*:* İstifadəçini yemək qadağasından çıxarır
-     `/fedinfo <fed_id>`*:* Göstərilən Federasiya haqqında məlumat
-     `/joinfed <fed_id>`*:* Federasiya ilə cari söhbətə qoşulun.  Bunu yalnız söhbət sahibi edə bilər.  Hər bir söhbət yalnız bir Federasiyada ola bilər
-     `/leaefed <fed_id>`*:* Verilən Federasiyadan ayrılır.  Bunu yalnız söhbət sahibləri edə bilər
-     `/setfrules <qaydalar>`*:* Federasiya qaydalarının hazırlanması
-     `/fedadmins`*:* Federasiya adminlərini göstərin
-     `/fbanlist`*:* Cari Federasiyada qurban olan bütün istifadəçiləri göstərir
-     `/ fedchats`*:* Federasiyada bütün əlaqəli söhbətləri əldə edin
-     `/chatfed `*:* Cari çatda Federasiyaya baxın\n
-FED_USER_HELP: |
-     Federal
+    *🔱 Fed Admins:*
+    ❂ `/fban <user> <reason>`*:* Fed bans a user
+    ❂ `/unfban <user> <reason>`*:* Removes a user from a fed ban
+    ❂ `/fedinfo <fed_id>`*:* Information about the specified Federation
+    ❂ `/joinfed <fed_id>`*:* Join the current chat to the Federation. Only chat owners can do this. Every chat can only be in one Federation
+    ❂ `/leavefed <fed_id>`*:* Leave the Federation given. Only chat owners can do this
+    ❂ `/setfrules <rules>`*:* Arrange Federation rules
+    ❂ `/fedadmins`*:* Show Federation admin
+    ❂ `/fbanlist`*:* Displays all users who are victimized at the Federation at this time
+    ❂ `/fedchats`*:* Get all the chats that are connected in the Federation
+    ❂ `/chatfed `*:* See the Federation in the current chat\n
+FED_USER_HELP: | 
+    ──「 Feds 」──
 
-     *🎩 Hər bir istifadəçi:*
-     /fbanstat*:* Sizin/və ya cavab verdiyiniz istifadəçinin və ya istifadəçi adının haradasa bloklandığını və ya bloklandığını göstərir
-     /fednotif <on/off>*:* İstifadəçi bloklandıqda/qadağan edilərkən federasiya parametrləri PM-ə göndərilmir.
-     /frules*:* Federasiya qaydalarına baxın\n
+    *🎩 Any user:*
+    ❂ /fbanstat*:* Shows if you/or the user you are replying to or their username is fbanned somewhere or not
+    ❂ /fednotif <on/off>*:* Federation settings not in PM when there are users who are fbaned/unfbanned
+    ❂ /frules*:* See Federation regulations\n
 filters_help: |
-     Filtrlər
+    ──「 Filters 」──
 
-     /filtrlər*:* Söhbətdə saxlanan bütün aktiv filtrləri sadalayın.
-     *Yalnız admin:*
-     /filter <açar söz> <mesajı cavablandır>*:* Bu söhbətə filtr əlavə edin.  İndi bot hər dəfə 'açar söz'\ olanda həmin mesaja cavab verəcək
-     qeyd olunub.  Əgər stikerə açar sözlə cavab versəniz, bot həmin stikerlə cavab verəcək.  QEYD: bütün filtrlər \
-     açar sözlər kiçik hərflərlə.  Açar sözlərinizin cümlə olmasını istəyirsinizsə, sitatlardan istifadə edin.  məsələn: /filtr "hey orada" Necəsən \
-     etmək?
-       Təsadüfi cavablar əldə etmək üçün müxtəlif cavabları `%%%` ilə bölün
-       *Məsələn:*
-       `/filtr "filtr adı"
-          Cavab 1
-          %%%
-          Cavab 2
-          %%%
-          Cavab verin 3`
+    ❂ /filters*:* List all active filters saved in the chat.
+    *Admin only:*
+    ❂ /filter <keyword> <reply message>*:* Add a filter to this chat. The bot will now reply that message whenever 'keyword'\
+    is mentioned. If you reply to a sticker with a keyword, the bot will reply with that sticker. NOTE: all filter \
+    keywords are in lowercase. If you want your keyword to be a sentence, use quotes. eg: /filter "hey there" How you \
+    doin?
+    Separate diff replies by `%%%` to get random replies
+      *Example:* 
+      ➩ `/filter "filtername"
+         Reply 1
+         %%%
+         Reply 2
+         %%%
+         Reply 3`
 
-     /stop <açar söz filtri>*:* Həmin filtri dayandırın.
+    ❂ /stop <filter keyword>*:* Stop that filter.
 
-     *Yalnız söhbət yaradıcısı:*
+    *Chat creator only:*
 
-     /removeallfilters*:* Bütün söhbət filtrlərini bir anda silin.
-     *Qeyd*: Filtrlər həmçinin işarələmə formatlarını dəstəkləyir: {birinci}, {son} və s.  və düymələr.
-     Ətraflı məlumat üçün /markdownhelp-i yoxlayın!
+    ❂ /removeallfilters*:* Remove all chat filters at once.
+    *Note*: Filters also support markdown formatters like: {first}, {last} etc.. and buttons.
+    Check /markdownhelp to know more!
 fun_help: |
-     Əyləncəli
+    ──「 Fun 」──
 
-     /runs*:* cavab massivindən təsadüfi sətirlərə cavab verir
-     /slap*:* istifadəçini sillələyin və ya cavab vermədikdə sillələyin
-     /çiyinlərini çək*:* çiyinlərini çək XD
-     /table*:* çevirmək/açmaq :v
-     /qərar verin*:* Təsadüfi olaraq bəli/yox/bəlkə cavab verin
-     /toss*:* Bir sikkə atmaq
-     /bluetekst*:* özünüzü yoxlayın :V
-     /roll*:* Zərləri yuvarlayır
-     /rlg*:* Qulaq, burun, ağız birləşdirin və emo edin;-;
-     /shout <açar söz>*:* qışqırmaq istədiyinizi yazın
-     /weebify <text>*:* weebify mətnini qaytarır
-     /sanitize*:* həmişə bunu /pat və ya hər hansı əlaqədən əvvəl istifadə edin
-     /pat*:* istifadəçini sığallayın və ya toxunun
-     /8ball*:* 8ball metodundan istifadə edərək proqnozlaşdırın
+    ❂ /runs*:* reply a random string from an array of replies
+    ❂ /slap*:* slap a user, or get slapped if not a reply
+    ❂ /shrug*:* get shrug XD
+    ❂ /table*:* get flip/unflip :v
+    ❂ /decide*:* Randomly answers yes/no/maybe
+    ❂ /toss*:* Tosses A coin
+    ❂ /bluetext*:* check urself :V
+    ❂ /roll*:* Roll a dice
+    ❂ /rlg*:* Join ears,nose,mouth and create an emo ;-;
+    ❂ /shout <keyword>*:* write anything you want to give loud shout
+    ❂ /weebify <text>*:* returns a weebified text
+    ❂ /sanitize*:* always use this before /pat or any contact
+    ❂ /pat*:* pats a user, or get patted
+    ❂ /8ball*:* predicts using 8ball method
 
-     - Animasiya
-     /sevgi *:* Sevgi Üçün Animasiya ❤️
-     /hack *:* Hack üçün animasiya
-     /ay *:* Ay üçün animasiya
-     /block *:* Blok üçün animasiya
-     /bombalar *:* Bombalar üçün animasiya
-     / öldürmək *:* Öldürmək üçün animasiya
+    - Animation
+    ❂ /love *:* Animation For Love ❤️
+    ❂ /hack *:* Animation For Hacking
+    ❂ /moon *:* Animation For Moon 🌕
+    ❂ /block *:* Animation For Block 🟦
+    ❂ /bombs *:* Animation For Bomb 💣
+    ❂ /kill *:* Animation For Kill 🔪
 
-     - Çatdırılma
-     /cüt - bu gün bir tərəfdaş alın
+    - Shippering
+    ❂ /couples - get couples of today
 
-     - Budur Styletext modulu üçün kömək:
-     /weebify <text>: mətninizi weebify edin!
-     /bubble <mətn>: mətn qabarcınız!
-     /fbubble <text>: mətniniz qabarcıqlarla doludur!
-     /square <text>: mətninizin kvadratı!
-     /fsquare <text>: mətn doldurma qutunuz!
-     /mavi <mətn>: mətninizi maviləşdirin!
-     /latin <text>: Mətninizi latınlaşdırın!
-     /lined <mətn>: mətninizi üst-üstə qoyun!
-salamlar_kömək: |
-     salamlar
+    - Here is the help for the Styletext module:
+    ❂ /weebify <text>: weebify your text!
+    ❂ /bubble <text>: bubble your text!
+    ❂ /fbubble <text>: bubble-filled your text!
+    ❂ /square <text>: square your text!
+    ❂ /fsquare <text>: square-filled your text!
+    ❂ /blue <text>: bluify your text!
+    ❂ /latin <text>: latinify your text!
+    ❂ /lined <text>: lined your text!
+greetings_help: |
+    ──「 Greetings 」──
 
-     *yalnız admin :*
-     /xoş gəldin <on/off>*:* salamlama mesajını aktivləşdir/deaktiv et.
-     /xoş gəldiniz*:* cari qarşılama parametrini göstərir.
-     /xoş gəldiniz noformat*:* cari salamlama parametrini göstərir, formatlaşdırma yoxdur - salamlama mesajlarınızı təkrar emal etmək üçün faydalıdır!
-     /goodbye*:* `/welcome` ilə eyni istifadə və arqumentlər.
-     /setwelcome <sometext>*:* fərdi salamlama mesajı təyin edin.  Əgər mediaya cavab vermək üçün istifadə olunursa, həmin mediadan istifadə edin.
-     /setgoodbye <sometext>*:* fərdi vida mesajı təyin edin.  Əgər mediaya cavab vermək üçün istifadə olunursa, həmin mediadan istifadə edin.
-     /resetwelcome*:* defolt salamlama mesajına sıfırlanır.
-     /resetgoodbye*:* defolt vida mesajına sıfırlanır.
-     /cleanwelcome <on/off>*:* Yeni üzvlər üçün spam söhbətindən qaçmaq üçün əvvəlki salamlama mesajını silməyə çalışın.
-     /welcomemutehelp*:* səssiz salamlamalar haqqında məlumat verir.
-     /cleanservice <on/off*:* teleqram salamlama/sol xidmət mesajını silir.
-     *Məsələn:*
-     istifadəçi söhbətə qoşulur, istifadəçi söhbəti tərk edir.
-     *Xoş gəldiniz qeydi:*
-     /welcomehelp*:* xüsusi salamlama/əlvida mesajları üçün daha çox formatlama məlumatına baxın.
+    *Admins only:*
+    ❂ /welcome <on/off>*:* enable/disable welcome messages.
+    ❂ /welcome*:* shows current welcome settings.
+    ❂ /welcome noformat*:* shows current welcome settings, without the formatting - useful to recycle your welcome messages!
+    ❂ /goodbye*:* same usage and args as `/welcome`.
+    ❂ /setwelcome <sometext>*:* set a custom welcome message. If used replying to media, uses that media.
+    ❂ /setgoodbye <sometext>*:* set a custom goodbye message. If used replying to media, uses that media.
+    ❂ /resetwelcome*:* reset to the default welcome message.
+    ❂ /resetgoodbye*:* reset to the default goodbye message.
+    ❂ /cleanwelcome <on/off>*:* On new member, try to delete the previous welcome message to avoid spamming the chat.
+    ❂ /welcomemutehelp*:* gives information about welcome mutes.
+    ❂ /cleanservice <on/off*:* deletes telegrams welcome/left service messages.
+    *Example:*
+    user joined chat, user left chat.
+    *Welcome markdown:*
+    ❂ /welcomehelp*:* view more formatting information for custom welcome/goodbye messages.
 WELCOME_HELP_TEXT: |
-     Salamlama Format Yardımı
+    ──「 Greetings Format Help 」──
 
-     "Qrupunuzun salamlama/vida mesajı müxtəlif yollarla fərdiləşdirilə bilər. Mesajı istəyirsinizsə"
-     " defolt salamlama mesajı kimi tək-tək yaratmaq üçün *this*:\n" dəyişənindən istifadə edə bilərsiniz
-     " `{first}`*:* bu istifadəçinin *adını* təmsil edir\n"
-     " `{last}`*:* bu istifadəçinin *soyadını* təmsil edir. Əgər istifadəçidə yoxdursa, standart *ad*dır.
-     "soyad.\n"
-     " `{tam ad}`*:* bu istifadəçinin *tam adını* təmsil edir. Əgər istifadəçinin adı yoxdursa, defolt olaraq *ad* olur.
-     "soyad.\n"
-     " `{username}`*:* bu *istifadəçi adı* istifadəçini təmsil edir. Defolt *deyin* "istifadəçi"dir
-     "istifadəçi adı yoxdursa ad.\n"
-     " `{mention}`*:* bu yalnız *istifadəçiləri qeyd edir* - onları öz adları ilə etiketləyir.\n"
-     " `{id}`*:* bu *id*\n" istifadəçisini təmsil edir
-     " `{count}`*:* bu istifadəçinin *üzv nömrəsini* təmsil edir.\n"
-     " `{chatname}`*:* bu *cari söhbət adını* təmsil edir.\n"
-     "\nƏvəz edilmək üçün hər dəyişən `{}` ilə əhatə olunmalıdır.\n"
-     "Xoş gəlmisiniz mesajları həmçinin işarələməni dəstəkləyir, beləliklə siz qalın/italik/kodla/istənilən elementi əlaqələndirə bilərsiniz."
-     "Düymələr də dəstəklənir, ona görə də bəzi gözəl introlarla qarşılamanızı gözəl göstərə bilərsiniz"
-     "düyməsinə.\n"
-     f"Qaydanızla əlaqə saxlayan düymə yaratmaq üçün bundan istifadə edin: `[Qayda](buttonurl://t.me/{dispatcher.bot.username}?start=group_id)`."
-     "Sadəcə `group_id`-ni qrup identifikatorunuzla əvəz edin, onu /id vasitəsilə əldə edə bilərsiniz və getməyə hazırsınız"
-     "get. Qeyd edək ki, qrup identifikatorlarından əvvəl adətən `-` işarəsi qoyulur; bu məcburidir, ona görə də lütfən, bunu etməyin"
-     "sil.\n"
-     "Siz hətta şəkil/gif/video/səs mesajını salamlama mesajı kimi təyin edə bilərsiniz"
-     "İstədiyiniz mediaya cavab verin və `/setwelcome` zəng edin."
+    "Your group's welcome/goodbye messages can be personalised in multiple ways. If you want the messages"
+    " to be individually generated, like the default welcome message is, you can use *these* variables:\n"
+    "  ❂ `{first}`*:* this represents the user's *first* name\n"
+    "  ❂ `{last}`*:* this represents the user's *last* name. Defaults to *first name* if user has no "
+    "last name.\n"
+    "  ❂ `{fullname}`*:* this represents the user's *full* name. Defaults to *first name* if user has no "
+    "last name.\n"
+    "  ❂ `{username}`*:* this represents the user's *username*. Defaults to a *mention* of the user's "
+    "first name if has no username.\n"
+    "  ❂ `{mention}`*:* this simply *mentions* a user - tagging them with their first name.\n"
+    "  ❂ `{id}`*:* this represents the user's *id*\n"
+    "  ❂ `{count}`*:* this represents the user's *member number*.\n"
+    "  ❂ `{chatname}`*:* this represents the *current chat name*.\n"
+    "\nEach variable MUST be surrounded by `{}` to be replaced.\n"
+    "Welcome messages also support markdown, so you can make any elements bold/italic/code/links. "
+    "Buttons are also supported, so you can make your welcomes look awesome with some nice intro "
+    "buttons.\n"
+    f"To create a button linking to your rules, use this: `[Rules](buttonurl://t.me/{dispatcher.bot.username}?start=group_id)`. "
+    "Simply replace `group_id` with your group's id, which can be obtained via /id, and you're good to "
+    "go. Note that group ids are usually preceded by a `-` sign; this is required, so please don't "
+    "remove it.\n"
+    "You can even set images/gifs/videos/voice messages as the welcome message by "
+    "replying to the desired media, and calling `/setwelcome`."
 WELCOME_MUTE_HELP_TEXT: |
-     Salamlar Səssiz Format Yardımı
+    ──「 Greetings Mute Format Help 」──
 
-     "Qrupunuza qoşulan yeni insanları susdurmaq üçün botlar yarada bilərsiniz və buna görə də spambotların qrupunuzu doldurmasının qarşısını ala bilərsiniz."
-     "Aşağıdakı seçimlər mümkündür:\n"
-     " `/welcomemute soft`*:* 24 saat ərzində yeni üzvlərin media göndərməsini məhdudlaşdırır.\n"
-     " `/welcomemute strong`*:* yeni üzvlərin insan olduqlarını təsdiqləmək üçün düyməyə toxunana qədər səsini söndürür.\n"
-     " `/welcomemute captcha`*:* yeni üzvləri captcha düyməsini sındırana qədər susdurur, beləliklə onların insan olduqlarını təsdiqləyir.\n"
-     " `/xoş gəlmisiniz off`*:* salamlama səsini söndürün.\n"
-     "*Qeyd:* Güclü rejim istifadəçiləri 120 saniyə ərzində doğrulamazlarsa, söhbətdən çıxarır. Onlar həmişə yenidən qoşula bilərlər"
+    "You can get the bot to mute new people who join your group and hence prevent spambots from flooding your group. "
+    "The following options are possible:\n"
+    "  ❂ `/welcomemute soft`*:* restricts new members from sending media for 24 hours.\n"
+    "  ❂ `/welcomemute strong`*:* mutes new members till they tap on a button thereby verifying they're human.\n"
+    "  ❂ `/welcomemute captcha`*:*  mutes new members till they solve a button captcha thereby verifying they're human.\n"
+    "  ❂ `/welcomemute off`*:* turns off welcomemute.\n"
+    "*Note:* Strong mode kicks a user from the chat if they dont verify in 120seconds. They can always rejoin though"
 info_and_afk_help: |
-     Məlumat və AFK
+    ──「 Info and AFK 」──
 
-     *ID:*
-     /id*:* cari qrup identifikatorunu əldə edin.  Mesaja cavab verməklə istifadə edilərsə, həmin istifadəçinin id-sini əldə edin.
-     /gifid*:* Sizə fayl ID-ni bildirmək üçün mənə gif-i cavablandırın.
+    *ID:*
+    ❂ /id*:* get the current group id. If used by replying to a message, gets that user's id.
+    ❂ /gifid*:* reply to a gif to me to tell you its file ID.
     
-     *Əlavə şəxsi məlumat:*
-     /setme <text>*:* məlumatınızı təyin edəcək
-     /me*:* sizin və ya digər istifadəçilərin məlumatlarını alacaq.
-     Misal:
-     /setme Mən canavaram.
-     /me @username(heç bir istifadəçi müəyyən edilməyibsə, defoltunuz)
+    *Self addded information:* 
+    ❂ /setme <text>*:* will set your info
+    ❂ /me*:* will get your or another user's info.
+    Examples:
+    ❂ /setme I am a wolf.
+    ❂ /me @username(defaults to yours if no user specified)
     
-     *Başqalarının sizə əlavə etdiyi məlumatlar:*
-     /bio*:* sizin və ya digər istifadəçinin bio-nu əldə edəcək.  Onu tək qoymaq olmaz.
-     /setbio <text>*:* cavab verərkən digər istifadəçinin bio-nu saxlayacaq
-     Misal:
-     /bio @username(müəyyən edilməyibsə, defoltunuz).
-     /setbio Bu istifadəçi canavardır (istifadəçiyə cavab)
+    *Information others add on you:* 
+    ❂ /bio*:* will get your or another user's bio. This cannot be set by yourself.
+    ❂ /setbio <text>*:* while replying, will save another user's bio 
+    Examples:
+    ❂ /bio @username(defaults to yours if not specified).
+    ❂ /setbio This user is a wolf (reply to the user)
     
-     *Sizin haqqınızda ümumi məlumat:*
-     /info*:* istifadəçi haqqında məlumat əldə edin.
+    *Overall Information about you:*
+    ❂ /info*:* get information about a user. 
     
-     *json Tam məlumat:*
-     /json*:* İstənilən mesaj haqqında ətraflı məlumat əldə edin.
+    *json Detailed info:*
+    ❂ /json*:* Get Detailed info about any message.
     
-     *AFk:*
-     AFK kimi qeyd edildikdə, hər hansı qeyd əlçatan olmadığınızı bildirən bir mesajla geri qaytarılacaq!
-     /afk <səbəb>*:* Özünüzü AFK kimi qeyd edin.
-       - brb <səbəb>: afk əmri ilə eynidir, lakin əmr deyil.
+    *AFk:*
+    When marked as AFK, any mentions will be replied to with a message stating that you're not available!
+    ❂ /afk <reason>*:* Mark yourself as AFK.
+      - brb <reason>: Same as the afk command, but not a command. 
       
-     *Sağlamlıq nədir?*
-     Gəlin və baxın [HP Sistem Təsviri](https://t.me/KennedyProject/44)
+    *What is that health thingy?*
+    Come and see [HP System explained](https://t.me/KennedyProject/44)
 locks_help: |
-     Bağlamaq
+    ──「 Locks 」──
 
-     Stikerlər sizi qıcıqlandırır?  və ya insanların linki paylaşmasından qaçmaq istəyirsiniz?  yoxsa şəkillər?  \
-     Siz doğru yerdəsiniz!
-     Kilid modulu sizə \-də bəzi ümumi elementləri kilidləməyə imkan verir.
-     teleqram dünyası;  bot onu avtomatik siləcək!
+    Do stickers annoy you? or want to avoid people sharing links? or pictures? \
+    You're in the right place!
+    The locks module allows you to lock away some common items in the \
+    telegram world; the bot will automatically delete them!
 
-     /locktypes*:* Bütün mümkün kilid tiplərini sadalayır
+    ❂ /locktypes*:* Lists all possible locktypes
 
-     *yalnız admin :*
-     /lock <type>*:* Xüsusi növ elementləri kilidləyir (şəxsi olaraq mövcud deyil)
-     /unlock <type>*:* Müəyyən növ elementlərin kilidini açın (şəxsi olaraq mövcud deyil)
-     /kilidlər*:* Bu söhbətdəki cari kilidlərin siyahısı.
+    *Admins only:*
+    ❂ /lock <type>*:* Lock items of a certain type (not available in private)
+    ❂ /unlock <type>*:* Unlock items of a certain type (not available in private)
+    ❂ /locks*:* The current list of locks in this chat.
 
-     Qrup istifadəçilərini məhdudlaşdırmaq üçün kilidlərdən istifadə edilə bilər.
-     misal üçün:
-     URL-nin kilidlənməsi url ilə bütün mesajları avtomatik siləcək, kilidləmə stiker hamısını məhdudlaşdıracaq \
-     admin olmayan istifadəçilərə stiker göndərməkdən və s.
-     Botların kilidlənməsi admin olmayanların çatlara bot əlavə etməsinə mane olacaq.
+    Locks can be used to restrict a group's users.
+    eg:
+    Locking urls will auto-delete all messages with urls, locking stickers will restrict all \
+    non-admin users from sending stickers, etc.
+    Locking bots will stop non-admins from adding bots to the chat.
 
-     *Qeydlər:*
-     *Məlumat* icazəsinin açılması üzvlərə (admin olmayanlara) qrup təsviri və ya adı kimi qrup məlumatlarını dəyişməyə imkan verəcək
-     *pin* kilidini açmaq icazəsi üzvlərə (admin olmayanlara) qrupda mesajları sancmağa imkan verəcək
+    *Note:*
+    ❂ Unlocking permission *info* will allow members (non-admins) to change the group information, such as the description or the group name
+    ❂ Unlocking permission *pin* will allow members (non-admins) to pinned a message in a group
 logchannel_help: |
-     Kanala daxil olun
+    ──「 Log channel 」──
 
-     /logchannel*:* log kanalı məlumatını əldə edin
-     /setlog*:* log kanalını təyin edin.
-     /unsetlog*:* jurnal kanalını silin.
+    ❂ /logchannel*:* get log channel info
+    ❂ /setlog*:* set the log channel.
+    ❂ /unsetlog*:* unset the log channel.
 
-     *Giriş kanalı parametrləri tərəfindən həyata keçirilir*:
+    *Setting the log channel is done by*:
 
-     istədiyiniz kanala botu əlavə edin (admin olaraq!)
-     kanalda göndərmək/setlog
-     /setlogu qrupa yönləndirin
+    ➩ adding the bot to the desired channel (as an admin!)
+    ➩ sending /setlog in the channel
+    ➩ forwarding the /setlog to the group
 logomarker_help: |
-     Logo Maker
+    ──「 Logo Marker 」──
+    
+    This is help menu for logomaker
+    ❂ /logo <text/name> - Create a logo with random view.
+    ❂ /wlogo <text/name> - Create a logo with wide view only.
 
-     Bu loqo istehsalçısı üçün yardım menyusudur
-     /logo <text/name> - Təsadüfi loqo yaradır.
-     /wlogo <text/name> - Yalnız geniş görünüşlü loqo yaradın.
-
-     *Şəkil Redaktoru:*
-     /edit <reply photo> - şəkli redaktə etmək üçün.
+    *Image Editor : *
+    ❂  /edit <reply photo> - to edit image.
 musicplayer_help: |
-     Musiqiçi
+    ──「 Musicplayer 」──
 
-     Musiqi Yardımı müxtəlif əmrlərlə daxil ola bilər və idarə paneli parametrlərinə kömək və dəstək verə bilər.
-     /mhelp - musiqi modulu yardımı üçün
-     /msettings - musiqi modulunu qurmaq üçün
+    Help Music can access with different command and support dashboard help and setting.
+    ❂ /mhelp - for help music module
+    ❂ /msettings - for setting music module
 
-     QEYD: İSTƏNƏN MAHNI VƏ VİDEOLARI SPAM ETMƏYİN...
-qeydlər_kömək: |
-     Qeydlər
+    NOTE : DON'T SPAMMING AT REQUEST SONG OR VIDEO...
+notes_help: |
+    ──「 Notes 」──
 
-     /get <notename>*:* bu qeyd adı ilə qeyd alın
-     #<notename>*:* bərabərdir /get
-     ❂ /notes atau /saved*:* daftarkan semua catatan yang disimpan dalam obrolan ini
-     ❂ /nomor *:* Akan menarik catatan nomor itu dalam daftar
-     Jika Anda ingin mengambil isi catatan tanpa format apapun, gunakan `/get <notename> noformat`. Ini bisa \
-     berguna saat memperbarui catatan saat ini
+    ❂ /get <notename>*:* get the note with this notename
+    ❂ #<notename>*:* same as /get
+    ❂ /notes or /saved*:* list all saved notes in this chat
+    ❂ /number *:* Will pull the note of that number in the list
+    If you would like to retrieve the contents of a note without any formatting, use `/get <notename> noformat`. This can \
+    be useful when updating a current note
 
-     *Hanya Admin :*
-     ❂ /save <notename> <notedata>*:* menyimpan notedata sebagai catatan dengan nama notename
-     Tombol dapat ditambahkan ke catatan dengan menggunakan sintaks tautan penurunan harga standar - tautan harus diawali dengan \
-     bagian `buttonurl:`, seperti: `[somelink](buttonurl:example.com)`. Periksa `/markdownhelp` untuk info lebih lanjut
-     ❂ /save <notename>*:* simpan pesan balasan sebagai catatan dengan nama notename
-     Pisahkan balasan yang berbeda dengan `%%%` untuk mendapatkan catatan acak
-     *Contoh:*
-       ➩ `/simpan nama catatan
-          Balas 1
-          %%%
-          Balas 2
-          %%%
-          Balas 3`
+    *Admins only:*
+    ❂ /save <notename> <notedata>*:* saves notedata as a note with name notename
+    A button can be added to a note by using standard markdown link syntax - the link should just be prepended with a \
+    `buttonurl:` section, as such: `[somelink](buttonurl:example.com)`. Check `/markdownhelp` for more info
+    ❂ /save <notename>*:* save the replied message as a note with name notename
+    Separate diff replies by `%%%` to get random notes
+    *Example:*
+      ➩ `/save notename
+         Reply 1
+         %%%
+         Reply 2
+         %%%
+         Reply 3`
 
-     ❂ /clear <notename>*:* hapus note dengan nama ini
-     ❂ /removeallnotes*:* menghapus semua catatan dari grup
+    ❂ /clear <notename>*:* clear note with this name
+    ❂ /removeallnotes*:* removes all notes from the group
 
-     *Catatan:* Nama catatan tidak peka huruf besar/kecil, dan secara otomatis diubah menjadi huruf kecil sebelum disimpan.
- reports_help: |
-     ──「 Laporan 」──
+    *Note:* Note names are case-insensitive, and they are automatically converted to lowercase before getting saved.
+reports_help: |
+    ──「 Report 」──
 
-     ❂ /report <reason>*:* membalas pesan untuk melaporkannya ke admin.
-     ❂ @admin*:* membalas pesan untuk melaporkannya ke admin.
-     *CATATAN:* Tak satu pun dari ini akan dipicu jika digunakan oleh admin.
+    ❂ /report <reason>*:* reply to a message to report it to admins.
+    ❂ @admin*:* reply to a message to report it to admins.
+    *NOTE:* Neither of these will get triggered if used by admins.
 
-     *Hanya Admin :*
-     ❂ /reports <on/off>*:* mengubah pengaturan laporan, atau melihat status saat ini.
-     ❂ Jika dilakukan di malam hari, matikan status Anda.
-     ❂ Jika dalam grup, matikan status grup itu.
- search_help: |
-     ──「 Pencarian 」──
+    *Admins only:*
+    ❂ /reports <on/off>*:* change report setting, or view current status.
+    ❂ If done in pm, toggles your status.
+    ❂ If in group, toggles that groups's status.
+search_help: |
+    ──「 Search 」──
 
-     ❂ /google <query>*:* Lakukan pencarian google
-     ❂ /image <query>*:* Cari gambar di Google dan kembalikan\nUntuk no yang lebih besar. dari hasil tentukan lim, Misalnya: `/img hello lim=10`
-     ❂ /app <appname>*:* Mencari aplikasi di Play Store dan mengembalikan detailnya.
-     ❂ /reverse: Melakukan pencarian gambar terbalik dari media yang dibalas.
-     ❂ /gps <lokasi>*:* Dapatkan lokasi gps.
-     ❂ /github <username>*:* Dapatkan informasi tentang pengguna GitHub.
-     ❂ /country <nama negara>*:* Mengumpulkan info tentang negara tertentu
-     ❂ /imdb <Nama film>*:* Dapatkan info lengkap tentang film dengan imdb.com
-     ❂ Siesta <query>*:* Siesta menjawab pertanyaan
+    ❂ /google <query>*:* Perform a google search
+    ❂ /image <query>*:* Search Google for images and returns them\nFor greater no. of results specify lim, For eg: `/img hello lim=10`
+    ❂ /app <appname>*:* Searches for an app in Play Store and returns its details.
+    ❂ /reverse: Does a reverse image search of the media which it was replied to.
+    ❂ /gps <location>*:* Get gps location.
+    ❂ /github <username>*:* Get information about a GitHub user.
+    ❂ /country <country name>*:* Gathering info about given country
+    ❂ /imdb <Movie name>*:* Get full info about a movie with imdb.com
+    ❂ Siesta <query>*:* Siesta answers the query
 
-     💡 Contoh : `Siesta di mana Jepang?`
- stickers_help: |
-     ──「 Stiker 」──
+    💡 Ex : `Siesta where is Japan?`
+stickers_help: |
+    ──「 Stickers 」──
 
-     *Menu bantuan untuk alat stiker*
-     ❂ /stickerid*:* balas stiker ke saya untuk memberi tahu Anda ID file-nya.
-     ❂ /getsticker*:* balas stiker ke saya untuk mengunggah file PNG mentahnya.
-     ❂ /kang*:* membalas stiker untuk menambahkannya ke paket Anda.
-     ❂ /delsticker*:* Balas stiker anime yang ada ke paket Anda untuk menghapusnya.
-     ❂ /stickers*:* Temukan stiker untuk istilah tertentu di katalog stiker kombo
-     ❂ /tiny*:* Untuk membuat stiker kecil
-     ❂ /kamuii <1-8> *:* Untuk memperdalam stiker
-     ❂ /mmf <balas dengan teks>*:* Untuk menggambar teks untuk stiker atau pohots
- tools_help: |
-     ──「 Alat 」──
+    *Help menu for stickers tools*
+    ❂ /stickerid*:* reply to a sticker to me to tell you its file ID.
+    ❂ /getsticker*:* reply to a sticker to me to upload its raw PNG file.
+    ❂ /kang*:* reply to a sticker to add it to your pack.
+    ❂ /delsticker*:* Reply to your anime exist sticker to your pack to delete it.
+    ❂ /stickers*:* Find stickers for given term on combot sticker catalogue
+    ❂ /tiny*:* To make small sticker
+    ❂ /kamuii <1-8> *:* To deepefying stiker
+    ❂ /mmf <reply with text>*:* To draw a text for sticker or pohots
+tools_help: |
+    ──「 Tools 」──
 
-     *Bot Info Sangmata*
-     ❂ /sg <reply>*:* Untuk memeriksa nama riwayat
+    *Sangmata Info bot*
+    ❂ /sg <reply>*:* To check history name
 
-     *Tanggal-waktu-Cuaca*
-     ❂ /time <kode negara>*:* Memberikan informasi tentang zona waktu.
-     ❂ /weather <city>*:* Dapatkan info cuaca di tempat tertentu.
-     ❂ /wttr <city>*:* Modul cuaca lanjutan, penggunaannya sama dengan /weather
-     ❂ /wttr moon*:* Dapatkan status bulan saat ini
+    *Date-time-Weather*
+    ❂ /time <country code>*:* Gives information about a timezone.
+    ❂ /weather <city>*:* Get weather info in a particular place.
+    ❂ /wttr <city>*:* Advanced weather module, usage same as /weather
+    ❂ /wttr moon*:* Get the current status of moon
 
-     *Mengkonversi*
-     ❂ /encrypt*:* Mengenkripsi Teks yang Diberikan
-     ❂ /decrypt*:* Mendekripsi Teks Terenkripsi Sebelumnya
-     ❂ /zip*:* membalas file telegram untuk mengompresnya dalam format .zip
-     ❂ /unzip*:* membalas file telegram untuk mendekompresnya dari format .zip
+    *Converts*
+    ❂ /encrypt*:* Encrypts The Given Text
+    ❂ /decrypt*:* Decrypts Previously Ecrypted Text
+    ❂ /zip*:* reply to a telegram file to compress it in .zip format
+    ❂ /unzip*:* reply to a telegram file to decompress it from the .zip format
 
-     *API Acak*
-     ❂ /ptl: dapatkan video acak dari timeline Instagram
-     ❂ /chika: dapatkan video acak dari chikakiku
-     ❂ /wibu:dapatkan video atau foto anime pendek secara acak
-     ❂ /kebenaran: tantangan
-     ❂ /dare: tantangan
-     Tautan Ke Berkas:
-     ❂ /up: balas tautan unduhan langsung untuk mengunggahnya ke telegram sebagai file
+    *Random API*
+    ❂ /ptl: get random video from Instagram timeline
+    ❂ /chika: get random video from chikakiku
+    ❂ /wibu:get random short anime video or photos
+    ❂ /truth: challenge 
+    ❂ /dare: challenge
+    Link To File:
+    ❂ /up: reply to a direct download link to upload it to telegram as files
     
-     File Ke Tautan:
-     ❂ /transfersh: balas file telegram untuk mengunggahnya di transfersh dan dapatkan tautan unduhan langsung
-     ❂ /tmpninja: balas file telegram untuk diunggah ke tmpninja dan dapatkan tautan unduhan langsung
-     File Atau Teks Ke Telegraf:
-     ❂ /tgm : Dapatkan Tautan Telegraf Media Balasan
-     ❂ /tgt: Dapatkan Tautan Telegraf dari Teks Balasan
+    File To Link:
+    ❂ /transfersh: reply to a telegram file to upload it on transfersh and get direct download link
+    ❂ /tmpninja: reply to a telegram file to upload it on tmpninja and get direct download link
+    File Or Text To Telegraph:
+    ❂ /tgm : Get Telegraph Link Of Replied Media
+    ❂ /tgt: Get Telegraph Link of Replied Text
 
-     penanda
-     ❂ /tagall : untuk tag semua orang minimal 100 member dulu.
+    Tagger
+    ❂ /tagall : for tag everyone at least 100 member first.
 translator_help: |
-     ──「 Penerjemah 」──
+    ──「 Translator 」──
 
-     Gunakan modul ini untuk menerjemahkan barang!
+    Use this module to translate stuff!
 
-     *Perintah:*
-     ❂ /tl (atau /tr): sebagai balasan pesan, menerjemahkannya ke bahasa Inggris.
-     ❂ /tl <lang>: diterjemahkan menjadi <lang>
-        misalnya: /tl ja: diterjemahkan ke bahasa Jepang.
-     ❂ /tl <source>//<dest>: menerjemahkan dari <source> ke <lang>.
-        misalnya: /tl ja//en: menerjemahkan dari bahasa Jepang ke bahasa Inggris.
-     ❂ /langs: dapatkan daftar bahasa yang didukung untuk terjemahan.
+    *Commands:*
+    ❂ /tl (or /tr): as a reply to a message, translates it to English.
+    ❂ /tl <lang>: translates to <lang>
+       eg: /tl ja: translates to Japanese.
+    ❂ /tl <source>//<dest>: translates from <source> to <lang>.
+       eg:  /tl ja//en: translates from Japanese to English.
+    ❂ /langs: get a list of supported languages for translation.
 
-     Saya dapat mengubah teks menjadi suara dan suara menjadi teks..
-     ❂ /tts <lang code>*:* Membalas pesan apa pun untuk mendapatkan keluaran teks ke ucapan
-     ❂ /stt*:* Ketikkan balasan ke pesan suara (hanya mendukung bahasa Inggris) untuk mengekstrak teks darinya.
+    I can convert text to voice and voice to text..
+    ❂ /tts <lang code>*:* Reply to any message to get text to speech output
+    ❂ /stt*:* Type in reply to a voice message(support english only) to extract text from it.
     
-     *Kode Bahasa*
-       `af,am,ar,az,be,bg,bn,bs,ca,ceb,co,cs,cy,da,de,el,en,eo,es,
-       et,eu,fa,fi,fr,fy,ga,gd,gl,gu,ha,haw,hai,hmn,hr,ht,hu,hy,
-       id,ig,is,it,iw,ja,jw,ka,kk,km,kn,ko,ku,ky,la,lb,lo,lt,lv,mg,mi,mk,
-       ml,mn,mr,ms,mt,my,ne,nl,no,ny,pa,pl,ps,pt,ro,ru,sd,si,sk,sl,
-       sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
-       vi,xh,yi,yo,zh,zh_CN,zh_TW,zu`
- warns_help: |
-     ──「 Peringatan 」──
+    *Language Codes*
+      `af,am,ar,az,be,bg,bn,bs,ca,ceb,co,cs,cy,da,de,el,en,eo,es,
+      et,eu,fa,fi,fr,fy,ga,gd,gl,gu,ha,haw,hi,hmn,hr,ht,hu,hy,
+      id,ig,is,it,iw,ja,jw,ka,kk,km,kn,ko,ku,ky,la,lb,lo,lt,lv,mg,mi,mk,
+      ml,mn,mr,ms,mt,my,ne,nl,no,ny,pa,pl,ps,pt,ro,ru,sd,si,sk,sl,
+      sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
+      vi,xh,yi,yo,zh,zh_CN,zh_TW,zu`
+warns_help: |
+    ──「 Warns 」──
 
-     ❂ /warns <userhandle>: mendapatkan nomor pengguna, dan alasan, dari peringatan.
-     ❂ /warnlist: daftar semua filter peringatan saat ini
-     ❂ /warn <userhandle>: memperingatkan pengguna. Setelah 3 kali peringatan, pengguna akan diblokir dari grup. Bisa juga digunakan sebagai balasan.
-     ❂ /dwarn <userhandle>: memperingatkan pengguna dan menghapus pesan. Setelah 3 kali peringatan, pengguna akan diblokir dari grup. Bisa juga digunakan sebagai balasan.
-     ❂ /resetwarn <userhandle>: mengatur ulang peringatan untuk pengguna. Bisa juga digunakan sebagai balasan.
-     ❂ /addwarn <keyword> <reply message>: mengatur filter peringatan pada kata kunci tertentu. Jika Anda ingin kata kunci Anda menjadi kalimat, lampirkan dengan tanda kutip, seperti: /addwarn "sangat marah" Ini adalah pengguna yang marah.
-     ❂ /nowwarn <keyword>: hentikan filter peringatan
-     ❂ /warnlimit <num>: mengatur batas peringatan
-     ❂ /strongwarn <on/yes/off/no>: Jika disetel ke aktif, melebihi batas peringatan akan mengakibatkan larangan. Lain, hanya akan pukulan.
+    ❂ /warns <userhandle>: get a user's number, and reason, of warns.
+    ❂ /warnlist: list of all current warning filters
+    ❂ /warn <userhandle>: warn a user. After 3 warns, the user will be banned from the group. Can also be used as a reply.
+    ❂ /dwarn <userhandle>: warn a user and delete the message. After 3 warns, the user will be banned from the group. Can also be used as a reply.
+    ❂ /resetwarn <userhandle>: reset the warns for a user. Can also be used as a reply.
+    ❂ /addwarn <keyword> <reply message>: set a warning filter on a certain keyword. If you want your keyword to be a sentence, encompass it with quotes, as such: /addwarn "very angry" This is an angry user.
+    ❂ /nowarn <keyword>: stop a warning filter
+    ❂ /warnlimit <num>: set the warning limit
+    ❂ /strongwarn <on/yes/off/no>: If set to on, exceeding the warn limit will result in a ban. Else, will just punch.
 
- # Admin.py Variabel Text
- user_change_info: "Anda kehilangan hak untuk mengubah info obrolan!"
- set_error: "Kesalahan! {}."
- set_sticker: "Anda perlu membalas beberapa stiker untuk mengatur set stiker obrolan!"
- set_sticker_success: "Berhasil mengatur stiker grup baru di {}!"
- set_sticker_restrictions: "Maaf, karena pembatasan telegram, obrolan harus memiliki minimal 100 anggota sebelum mereka dapat memiliki stiker grup!"
- set_chatpic: "Anda hanya dapat mengatur beberapa foto sebagai gambar obrolan!"
- set_chatpic_loading: "Sebentar..."
- set_chatpic_success: "Berhasil mengatur chatpic baru!"
- set_chatpic_none: "Balas beberapa foto atau file untuk mengatur gambar obrolan baru!"
- rm_chatpic: "Anda tidak memiliki cukup hak untuk menghapus foto grup"
- rm_chatpic_success: "Foto profil obrolan berhasil dihapus!"
- set_desc: "Menyetel deskripsi kosong tidak akan menghasilkan apa-apa!"
- set_desc_len: "Deskripsi harus kurang dari 255 karakter!"
- set_desc_success: "Berhasil memperbarui deskripsi obrolan di {}!"
- set_chat_title: "Masukkan beberapa teks untuk menetapkan judul baru dalam obrolan Anda!"
- set_chat_title_success: "Berhasil menetapkan <b>{}</b> sebagai judul obrolan baru!"
- promote_creator: "Anda tidak memiliki hak yang diperlukan untuk melakukan itu!"
- promote_id_error: "Sepertinya Anda tidak merujuk ke pengguna atau ID yang ditentukan salah.."
- promote_admin: "Bagaimana cara saya mempromosikan seseorang yang sudah menjadi admin?"
- promote_self: "Saya tidak dapat mempromosikan diri saya sendiri! Mintalah seorang admin untuk melakukannya untuk saya."
- promote_error1: "Saya tidak dapat mempromosikan seseorang yang tidak ada dalam grup."
- promote_error2: "Terjadi kesalahan saat mempromosikan."
- promote_success: "Mempromosikan pengguna di <b>{}</b>\n\nUser: {}\nAdmin: {}"
- full_promote_success: "Promosi penuh pengguna di <b>{}</b>\n\n<b>Pengguna: {}</b>\n<b> Promotor: {}</b>"
- demote_creator: "Orang ini MENCIPTAKAN obrolan, bagaimana cara menurunkannya?"
- demote_admin: "Tidak dapat menurunkan apa yang tidak dipromosikan!"
- demote_self: "Saya tidak bisa menurunkan diri saya sendiri! Minta admin untuk melakukannya untuk saya."
- demote_success: "Berhasil menurunkan admin di <b>{}</b>\n\nAdmin: <b>{}</b>\nDemoter: {}"
- demote_error: "Tidak dapat menurunkan. Saya mungkin bukan admin, atau status admin ditunjuk oleh pengguna lain, jadi saya tidak dapat menindaklanjutinya!"
- admin_refresh: "✅ List Admin Disegarkan!"
- set_title_creator: "Orang ini MENCIPTAKAN obrolan, bagaimana saya bisa mengatur judul khusus untuknya?"
- set_title_admin: "Tidak dapat menyetel judul untuk non-admin!\nPromosikan mereka terlebih dahulu untuk menyetel judul khusus!"
- set_title_self: "Saya tidak dapat menetapkan judul saya sendiri! Dapatkan orang yang menjadikan saya admin untuk melakukannya untuk saya."
- set_title_none: "Menetapkan judul kosong tidak berarti apa-apa!"
- set_title_len: "Panjang judul lebih dari 16 karakter.\nMemotongnya menjadi 16 karakter."
- set_title_error: "Entah mereka tidak dipromosikan oleh saya atau Anda menetapkan teks judul yang tidak mungkin untuk disetel."
- set_title_success: "Berhasil mengatur judul untuk <code>{}</code> ke <code>{}</code>!"
- pin_none: "Balas pesan untuk menyematkannya!"
- pin_success: "Saya telah menyematkan pesan."
- unpin_creator: "Anda tidak memiliki hak yang diperlukan untuk melakukan itu!"
- unpin_success: "Lepas pin <a href='{}'>pesan ini</a>."
- unpin_last_msg: "Melepas pin dari pesan yang terakhir disematkan."
- unpin_error: "Saya tidak dapat melihat pesan yang disematkan, Mungkin sudah dilepas pinnya, atau sematkan Pesan ke yang lama 🙂"
- pinned: '🔽 Disematkan di {}.'
- pinned_none: "Tidak ada pesan yang dipasangi pin di <b>{}!</b>"
- invite_error1: "Saya tidak memiliki akses ke tautan undangan, coba ubah izin saya!"
- invite_error2: "Saya hanya bisa memberi Anda tautan undangan untuk grup dan saluran super, maaf!"
- list_admin_error: "Perintah ini hanya berfungsi di Grup."
- list_admin_loading: "Mengambil admin grup..."
- list_admin_text: "Admin di <b>{}</b> :"
- list_admin_delete_acc: "☠ Akun Dihapus"
- demote_callback_success: "Admin {} Turunkan {}!"
- demote_callback_answer: "Diturunkan!"
- demote_callback_error: "Pengguna ini tidak dipromosikan atau telah meninggalkan grup!" 
- # Admin.py Variabel Button
- demote_button: "Turunkan"
- pin_button: "👉 Buka pesan"
+# Admin.py Variabel Text
+user_change_info: "You're missing rights to change chat info!"
+set_error: "Error! {}."
+set_sticker: "You need to reply to some sticker to set chat sticker set!"
+set_sticker_success: "Successfully set new group stickers in {}!"
+set_sticker_restrictions: "Sorry, due to telegram restrictions chat needs to have minimum 100 members before they can have group stickers!"
+set_chatpic: "You can only set some photo as chat pic!"
+set_chatpic_loading: "Just a sec..."
+set_chatpic_success: "Successfully set new chatpic!"
+set_chatpic_none: "Reply to some photo or file to set new chat pic!"
+rm_chatpic: "You don't have enough rights to delete group photo"
+rm_chatpic_success: "Successfully deleted chat's profile photo!"
+set_desc: "Setting empty description won't do anything!"
+set_desc_len: "Description must needs to be under 255 characters!"
+set_desc_success: "Successfully updated chat description in {}!"
+set_chat_title: "Enter some text to set new title in your chat!"
+set_chat_title_success: "Successfully set <b>{}</b> as new chat title!"
+promote_creator: "You don't have the necessary rights to do that!"
+promote_id_error: "You don't seem to be referring to a user or the ID specified is incorrect.."
+promote_admin: "How am I meant to promote someone that's already an admin?"
+promote_self: "I can't promote myself! Get an admin to do it for me."
+promote_error1: "I can't promote someone who isn't in the group."
+promote_error2: "An error occured while promoting."
+promote_success: "Promoting a user in <b>{}</b>\n\nUser: {}\nAdmin: {}"
+full_promote_success: "Fullpromoting a user in <b>{}</b>\n\n<b>User: {}</b>\n<b>Promoter: {}</b>"
+demote_creator: "This person CREATED the chat, how would I demote them?"
+demote_admin: "Can't demote what wasn't promoted!"
+demote_self: "I can't demote myself! Get an admin to do it for me."
+demote_success: "Sucessfully demoted a admins in <b>{}</b>\n\nAdmin: <b>{}</b>\nDemoter: {}"
+demote_error: "Could not demote. I might not be admin, or the admin status was appointed by another user, so I can't act upon them!"
+admin_refresh: "✅ Admins cache refreshed!"
+set_title_creator: "This person CREATED the chat, how can i set custom title for him?"
+set_title_admin: "Can't set title for non-admins!\nPromote them first to set custom title!"
+set_title_self: "I can't set my own title myself! Get the one who made me admin to do it for me."
+set_title_none: "Setting blank title doesn't do anything!"
+set_title_len: "The title length is longer than 16 characters.\nTruncating it to 16 characters."
+set_title_error: "Either they aren't promoted by me or you set a title text that is impossible to set."
+set_title_success: "Sucessfully set title for <code>{}</code> to <code>{}</code>"
+pin_none: "Reply a message to pin it!"
+pin_success: "I have pinned a message."
+unpin_creator: "You don't have the necessary rights to do that!"
+unpin_success: "Unpinned <a href='{}'>this message</a>."
+unpin_last_msg: "Unpinned the last pinned message."
+unpin_error: "I can't see pinned message, Maybe already unpined, or pin Message to old 🙂"
+pinned: '🔽 Pinned on {}.'
+pinned_none: "There is no pinned message in <b>{}!</b>"
+invite_error1: "I don't have access to the invite link, try changing my permissions!"
+invite_error2: "I can only give you invite links for supergroups and channels, sorry!"
+list_admin_error: "This command only works in Groups."
+list_admin_loading: "Fetching group admins..."
+list_admin_text: "Admins in <b>{}</b> :"
+list_admin_delete_acc: "☠ Deleted Account"
+demote_callback_success: "Admin {} Demoted {}!"
+demote_callback_answer: "Demoted!"
+demote_callback_error: "This user is not promoted or has left the group!" 
+# Admin.py Variabel Button
+demote_button: "Demote"
+pin_button: "👉 Go to message"
 
- # Afk.py Variabel
- reason_len: "\nAlasan afk Anda dipersingkat menjadi 100 karakter."
- afk: "{} sekarang pergi! {}"
- afk_array1: "{} ada di sini!"
- afk_array2: "{} kembali!"
- afk_array3: "{} sekarang dalam obrolan!"
- afk_array4: "{} sudah bangun!"
- afk_array5: "{} kembali online!"
- afk_array6: "{} akhirnya di sini!"
- afk_array7: "Selamat datang kembali! {}"
- afk_array8: "Di mana {}?\nDalam obrolan!"
- afk_check: "{} sedang afk"
- afk_check_reason: "{} sedang afk.\nAlasan: <code>{}</code>"
+# Afk.py Variabel
+reason_len: "\nYour afk reason was shortened to 100 characters."
+afk: "{} is now away! {}"
+afk_array1: "{} is here!"
+afk_array2: "{} is back!"
+afk_array3: "{} is now in the chat!"
+afk_array4: "{} is awake!"
+afk_array5: "{} is back online!"
+afk_array6: "{} is finally here!"
+afk_array7: "Welcome back! {}"
+afk_array8: "Where is {}?\nIn the chat!"
+afk_check: "{} is afk"
+afk_check_reason: "{} is afk.\nReason: <code>{}</code>"
 
- # Antichannel.py Variabel
- active_antichannel: "Antichannel diaktifkan di {}"
- disable_antuchannel: "Antichannel dinonaktifkan di {}"
- invalid_antichannel: "Argumen tidak dikenal {}"
- status_antichannel: "Setelan antichannel saat ini {} di {}"
+# Antichannel.py Variabel
+active_antichannel: "Enabled antichannel in {}"
+disable_antuchannel: "Disabled antichannel in {}"
+invalid_antichannel: "Unrecognized arguments {}"
+status_antichannel: "Antichannel setting is currently {} in {}"
