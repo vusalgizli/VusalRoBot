@@ -118,18 +118,15 @@ hack_you = [
 
 
 bomb_ettu = [
-
-        "`Sana neden inanayım?! 🧐`\n"
-        "\n`Yalan mı doğru mu öğrenelim`"
-        "`Araştırılıyor...🔎`\n"
-        "\n`Yalan🤥`"
-        "`Doğru👍`"
-        "`Yalan🤥`"
-        "`Doğru👍`"
-        "`Yalan🤥`"
-        "`Doğru👍`"
-        "`Yalan🤥`"
-        "`Doğru👍`"
+    "▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️",
+    "💣💣💣💣\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️",
+    "▪️▪️▪️▪️\n💣💣💣💣\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️",
+    "▪️▪️▪️▪️\n▪️▪️▪️▪️\n💣💣💣💣\n▪️▪️▪️▪️\n▪️▪️▪️▪️",
+    "▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n💣💣💣💣\n▪️▪️▪️▪️",
+    "▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n💣💣💣💣",
+    "▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n💥💥💥💥",
+    "▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n💥💥💥💥\n💥💥💥💥",
+    "▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n😵😵😵😵",
 ]
 
 
@@ -236,9 +233,9 @@ def moonanimation(update: Update, context: CallbackContext):
     msg.edit_text("🌙")
 
 
-def yd(update: Update, context: CallbackContext):
+def bombs(update: Update, context: CallbackContext):
     bot, args = context.bot, context.args
-    msg = update.effective_message.reply_text("")
+    msg = update.effective_message.reply_text("💣")
     for x in range(EDIT_TIMES):
         msg.edit_text(bomb_ettu[x % 9])
         time.sleep(EDIT_SLEEP)
@@ -276,7 +273,7 @@ def kill(update: Update, context: CallbackContext):
 KILL_HANDLER = DisableAbleCommandHandler("kill", kill, run_async=True)
 LOVE_HANDLER = DisableAbleCommandHandler("love", love, run_async=True)
 HACK_HANDLER = DisableAbleCommandHandler("hack", hack, run_async=True)
-BOMBS_HANDLER = DisableAbleCommandHandler("yd", bombs, run_async=True)
+BOMBS_HANDLER = DisableAbleCommandHandler("bombs", bombs, run_async=True)
 MOONANIMATION_HANDLER = DisableAbleCommandHandler("moon", moonanimation, run_async=True)
 CLOCKANIMATION_HANDLER = DisableAbleCommandHandler(
     "clock", clockanimation, run_async=True
