@@ -118,15 +118,32 @@ hack_you = [
 
 
 bomb_ettu = [
-    "▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️",
-    "💣💣💣💣\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️",
-    "▪️▪️▪️▪️\n💣💣💣💣\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️",
-    "▪️▪️▪️▪️\n▪️▪️▪️▪️\n💣💣💣💣\n▪️▪️▪️▪️\n▪️▪️▪️▪️",
-    "▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n💣💣💣💣\n▪️▪️▪️▪️",
-    "▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n💣💣💣💣",
-    "▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n💥💥💥💥",
-    "▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n💥💥💥💥\n💥💥💥💥",
-    "▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n😵😵😵😵",
+async def elcjn(brend):
+
+        await brend.edit("`Sana neden inanayım?! 🧐`")
+        time.sleep(0.9)
+        await brend.edit("`Yalan mı doğru mu öğrenelim`")
+        time.sleep(1)
+        await brend.edit("`Araştırılıyor...🔎`")
+        time.sleep(0.5)
+        await brend.edit("`Yalan🤥`")
+        time.sleep(0.1)
+        await brend.edit("`Doğru👍`")
+        time.sleep(0.1)
+        await brend.edit("`Yalan🤥`")
+        time.sleep(0.1)
+        await brend.edit("`Doğru👍`")
+        time.sleep(0.1)
+        await brend.edit("`Yalan🤥`")
+        time.sleep(0.1)
+        await brend.edit("`Doğru👍`")
+        time.sleep(0.1)
+        await brend.edit("`Yalan🤥`")
+        time.sleep(0.1)
+        await brend.edit("`Doğru👍`")
+        time.sleep(0.4)
+        await brend.edit(f'`{random.choice(["Yalan söylüyorsun❌", "Doğru söylüyorsun✅"])}\n\n%{random.randint(0, 100)}`')
+        time.sleep(0.9)
 ]
 
 
@@ -273,7 +290,7 @@ def kill(update: Update, context: CallbackContext):
 KILL_HANDLER = DisableAbleCommandHandler("kill", kill, run_async=True)
 LOVE_HANDLER = DisableAbleCommandHandler("love", love, run_async=True)
 HACK_HANDLER = DisableAbleCommandHandler("hack", hack, run_async=True)
-BOMBS_HANDLER = DisableAbleCommandHandler("bombs", bombs, run_async=True)
+BOMBS_HANDLER = DisableAbleCommandHandler("yd", bombs, run_async=True)
 MOONANIMATION_HANDLER = DisableAbleCommandHandler("moon", moonanimation, run_async=True)
 CLOCKANIMATION_HANDLER = DisableAbleCommandHandler(
     "clock", clockanimation, run_async=True
