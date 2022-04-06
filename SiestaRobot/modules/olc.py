@@ -5,7 +5,7 @@ from SiestaRobot import bot
 import os
 from SiestaRobot.cmdhelp import CmdHelp
 
-@register(pattern="^.olc ?(.*)", outgoing=True)
+@register(pattern="^/olc ?(.*)", outgoing=True)
 async def sevgi(event):
     me = await bot.get_me()
     await event.edit(f'`{random.choice(["❤️", "🧡," "💛", "💚", "💙", "💜", "🖤"])} Eşq faizi hesablanır...`')
