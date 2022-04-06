@@ -5,7 +5,7 @@ authors: "@HuseynH"
 
 # languages
 curr_chat_lang: "Hey. Cari diliniz {}-dir, aşağıdakı düymələrdən istədiyinizi seçin :)"
- set_chat_lang: "Əla, bundan sonra {} Dilindən istifadə olunur!"
+set_chat_lang: "Əla, bundan sonra {} Dilindən istifadə olunur!"
 
 # PM Text
 pm_start_text: |
