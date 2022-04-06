@@ -50,6 +50,3 @@ async def sevgi(event):
         await event.edit(f'{firstUser} `ile` {secondUser} `arasındaki eşq hesaplandı!`\n**Nəticə:** `%{yuzde}`')
 
 Help = CmdHelp('esqolc')
-Help.add_command('olc', None, '<birinci istifadəçi/cavab> <ikinci istifadəçi/siz>', 'Cavab verdiğiniz vəya nickini verdiğiniz kullanıcı ile sizin və ya ikinci istifadəçinin arasındaki sevgini ölçün')
-Help.add_info('`@Tagiyeff_018 tərıfindən düzəldilmişdir`')
-Help.add()
