@@ -17,15 +17,15 @@ pm_start_text: |
    × `{}` *İstifadəçi,* `{}` *Qrup.*
   ┗━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┛
 
-   ✪ əmrlərimi görmək üçün /help düyməsini basın.
+   ✪ Əmrlərimi görmək üçün /help düyməsini basın.
    
 group_start_text: |
-  *👋🏻 Hi Darling, I'm Siesta Robot!*
+ *👋🏻 Salam, Mən Fidan Robotam!*
   
-  *Started active since :* `{}`
+  *Bu tarixdən aktiv olmağa başladı:* `{}`
 
 pm_about_text: |
-  ✺ Hey Darling I'm *Siesta Robot*, a powerful group management bot built to help you manage your group easily. ✺
+ ✺ Salam, mən *Fidan Robotam*, qrupunuzu asanlıqla idarə etməyə kömək etmək üçün yaradılmış güclü qrup idarəetmə botu.  ✺
 
   ✪ I can restrict users.
   ✪ I can greet users with customizable welcome messages and even set a group's rules.
@@ -62,7 +62,7 @@ pm_about_credit_text: |
 
   Here Developers Making And Give Inspiration For Made The Siesta Robot
 pm_help_text: |
-  *✺ Click on the button bellow to get description about specifics command. ✺*
+ *✺ Xüsusi əmrlər haqqında təsviri əldə etmək üçün aşağıdakı düyməyə klikləyin.  ✺*
 pm_help_module_text: "Here is the help for the *{}* module :\n\n"
 
 # Group Help Text
