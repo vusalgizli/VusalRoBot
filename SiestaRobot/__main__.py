@@ -381,8 +381,7 @@ def siesta_about_callback(update, context):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "notes_button"), callback_data="siesta_notes"),
+        
                     ],
                     [
                         InlineKeyboardButton(text="Credits", callback_data="siesta_credit"),
