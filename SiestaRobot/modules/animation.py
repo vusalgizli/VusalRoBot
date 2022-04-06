@@ -190,6 +190,18 @@ earth_ani = [
     "🌏",
 ]
 
+yd_ani = ["Yalan\ndoğru😏\nyalan🤔"
+]
+
+
+def yd(update: Update, context: CallbackContext):
+    bot, args = context.bot, context.args
+    msg = update.effective_message.reply_text("Target selected")
+    for x in range(EDIT_TIMES):
+        msg.edit_text(yd_you[x % 5])
+        time.sleep(EDIT_SLEEP)
+    msg.edit_text("yalan deyirsen")
+
 
 def blockanimation(update: Update, context: CallbackContext):
     bot, args = context.bot, context.args
@@ -303,6 +315,7 @@ __command_list__ = [
     "earthanimation",
     "blockanimation",
     "kill",
+    "yd",
 ]
 __handlers__ = [
     LOVE_HANDLER,
@@ -313,4 +326,5 @@ __handlers__ = [
     EARTHANIMATION_HANDLER,
     BLOCKANIMATION_HANDLER,
     KILL_HANDLER,
+    YD_HANDLER,
 ]
