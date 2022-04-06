@@ -9,7 +9,7 @@ from SiestaRobot.events import register
 from SiestaRobot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/ff2fa22dfa6ae838cc6cd.jpg"
+PHOTO = "https://telegra.ph//file/e9be41d54fce7c2462c2c.mp4"
 
 @register(pattern=("/alive"))
 async def awake(event):
