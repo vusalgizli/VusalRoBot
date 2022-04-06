@@ -382,7 +382,6 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Admins", callback_data="siesta_admin"),
                         InlineKeyboardButton(text=gs(chat.id, "notes_button"), callback_data="siesta_notes"),
                     ],
                     [
