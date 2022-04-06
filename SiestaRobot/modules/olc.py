@@ -26,5 +26,5 @@ __command_list__ = [
 ]
 __handlers__ = [
 
-    KILL_HANDLER,
+    OLC_HANDLER,
 ]
