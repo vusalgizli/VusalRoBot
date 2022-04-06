@@ -130,8 +130,6 @@ bomb_ettu = [
         "`Doğru👍`"
         "`Yalan🤥`"
         "`Doğru👍`"
-        f'`{random.choice(["Yalan söylüyorsun❌", "Doğru söylüyorsun✅"])}\n\n%{random.randint(0, 100)}`')
-        time.sleep(0.9)
 ]
 
 
