@@ -452,23 +452,6 @@ def siesta_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "siesta_support":
-        query.message.edit_text(
-            text=gs(chat.id, "pm_about_support_text"),
-            parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/machinaxupport"),
-                        InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="https://t.me/machinaxupdate"),
-                    ],
-                    [
-                        InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
-                    ]
-                ]
-            ),
-        )
-
 
     elif query.data == "siesta_credit":
         query.message.edit_text(
