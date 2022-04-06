@@ -119,10 +119,10 @@ hack_you = [
 
 bomb_ettu = [
 
-        "`Sana neden inanayım?! 🧐`"
-        "`Yalan mı doğru mu öğrenelim`"
-        "`Araştırılıyor...🔎`"
-        "`Yalan🤥`"
+        "`Sana neden inanayım?! 🧐`\n"
+        "\n`Yalan mı doğru mu öğrenelim`"
+        "`Araştırılıyor...🔎`\n"
+        "\n`Yalan🤥`"
         "`Doğru👍`"
         "`Yalan🤥`"
         "`Doğru👍`"
@@ -236,9 +236,9 @@ def moonanimation(update: Update, context: CallbackContext):
     msg.edit_text("🌙")
 
 
-def bombs(update: Update, context: CallbackContext):
+def yd(update: Update, context: CallbackContext):
     bot, args = context.bot, context.args
-    msg = update.effective_message.reply_text("💣")
+    msg = update.effective_message.reply_text("")
     for x in range(EDIT_TIMES):
         msg.edit_text(bomb_ettu[x % 9])
         time.sleep(EDIT_SLEEP)
