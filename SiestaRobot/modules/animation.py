@@ -118,31 +118,19 @@ hack_you = [
 
 
 bomb_ettu = [
-async def elcjn(brend):
 
-        await brend.edit("`Sana neden inanayım?! 🧐`")
-        time.sleep(0.9)
-        await brend.edit("`Yalan mı doğru mu öğrenelim`")
-        time.sleep(1)
-        await brend.edit("`Araştırılıyor...🔎`")
-        time.sleep(0.5)
-        await brend.edit("`Yalan🤥`")
-        time.sleep(0.1)
-        await brend.edit("`Doğru👍`")
-        time.sleep(0.1)
-        await brend.edit("`Yalan🤥`")
-        time.sleep(0.1)
-        await brend.edit("`Doğru👍`")
-        time.sleep(0.1)
-        await brend.edit("`Yalan🤥`")
-        time.sleep(0.1)
-        await brend.edit("`Doğru👍`")
-        time.sleep(0.1)
-        await brend.edit("`Yalan🤥`")
-        time.sleep(0.1)
-        await brend.edit("`Doğru👍`")
-        time.sleep(0.4)
-        await brend.edit(f'`{random.choice(["Yalan söylüyorsun❌", "Doğru söylüyorsun✅"])}\n\n%{random.randint(0, 100)}`')
+        "`Sana neden inanayım?! 🧐`"
+        "`Yalan mı doğru mu öğrenelim`"
+        "`Araştırılıyor...🔎`"
+        "`Yalan🤥`"
+        "`Doğru👍`"
+        "`Yalan🤥`"
+        "`Doğru👍`"
+        "`Yalan🤥`"
+        "`Doğru👍`"
+        "`Yalan🤥`"
+        "`Doğru👍`"
+        f'`{random.choice(["Yalan söylüyorsun❌", "Doğru söylüyorsun✅"])}\n\n%{random.randint(0, 100)}`')
         time.sleep(0.9)
 ]
 
