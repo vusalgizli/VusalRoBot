@@ -381,7 +381,6 @@ def siesta_about_callback(update, context):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
                         InlineKeyboardButton(text="Credits", callback_data="siesta_credit"),
                     ],
                     [
