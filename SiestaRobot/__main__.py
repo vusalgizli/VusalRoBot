@@ -386,7 +386,6 @@ def siesta_about_callback(update, context):
                         InlineKeyboardButton(text=gs(chat.id, "notes_button"), callback_data="siesta_notes"),
                     ],
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), callback_data="siesta_support"),
                         InlineKeyboardButton(text="Credits", callback_data="siesta_credit"),
                     ],
                     [
