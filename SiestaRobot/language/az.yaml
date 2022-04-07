@@ -25,30 +25,9 @@ group_start_text: |
   *Bu tarixdən aktiv olmağa başladı:* `{}`
 
 pm_about_text: |
-   **"Digər Botlarımız"**
+   **Digər Botlarımız**
    Yeni Botlarımız Olduq da Burada Görsənəcək
    
-pm_about_admin_text: |
-  *✺ Let's make your group bit effective now ✺*
-
-  Congragulations, Siesta Robot now ready to manage your group.
-
-  *Admin Tools*
-  Basic Admin tools help you to protect and powerup your group.
-  You can ban members, Kick members, Promote someone as admin through commands of bot.
-
-  *Greetings*
-  Lets set a welcome message to welcome new users coming to your group.
-  Send `/setwelcome [message]` to set a welcome message!
-pm_about_notes_text: |
-  *✺ Setting up notes ✺*
-
-  ✪ You can save message/media/audio or anything as notes to get a note simply use # at the beginning of a word
-  ✪ You can also set buttons for notes and filters (refer help menu)
-pm_about_support_text: |
-  *✺ Siesta Robot support chats ✺*
-
-  Join My Support Group/Channel for see or report a problem on Siesta.
 pm_about_credit_text: |
   *✺ Credis for Siesta ✺*
 
