@@ -190,8 +190,7 @@ earth_ani = [
     "🌏",
 ]
 
-yd_ani = ["Yalan\ndoğru😏\nyalan🤔"
-]
+yd_ani = ["Yalan\ndoğru😏\nyalan🤔"]
 
 
 def yd(update: Update, context: CallbackContext):
