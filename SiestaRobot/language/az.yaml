@@ -94,33 +94,33 @@ inline_button: "Try inline!​​"
 
 # MODULES
 admin_help: |
-    ──「 Admins 」──
+    ──「 Admin」──
 
-    *User Commands*:
-    ❂ /admins*:* list of admins in the chat
-    ❂ /pinned*:* to get the current pinned message.
+    *İstifadəçi Əmrləri*:
+    ❂ /admins*:* söhbətdəki adminlərin siyahısı
+    ❂ /pinned*:* cari bərkidilmiş mesajı əldə etmək üçün.
 
-    *The Following Commands are Admins only:* 
-    ❂ /pin*:* silently pins the message replied to - add `'loud'` or `'notify'` to give notifs to users
-    ❂ /unpin*:* unpins the currently pinned message
-    ❂ /invitelink*:* gets invitelink
-    ❂ /promote*:* promotes the user replied to
-    ❂ /fullpromote*:* promotes the user replied to with full rights
-    ❂ /demote*:* demotes the user replied to
-    ❂ /title <title here>*:* sets a custom title for an admin that the bot promoted
-    ❂ /admincache*:* force refresh the admins list
-    ❂ /del*:* deletes the message you replied to
-    ❂ /purge*:* deletes all messages between this and the replied to message.
-    ❂ /purge <integer X>*:* deletes the replied message, and X messages following it if replied to a message.
-    ❂ /setgtitle <text>*:* set group title
-    ❂ /setgpic*:* reply to an image to set as group photo
-    ❂ /setdesc*:* Set group description
-    ❂ /setsticker*:* Set group sticker
+    *Aşağıdakı əmrlər yalnız Adminlərdir:*
+    ❂ /pin*:* cavablandırılan mesajı səssizcə sabitləyir - istifadəçilərə bildiriş vermək üçün ''yüksək'' və ya ''bildiriş'' əlavə edin
+    ❂ /unpin*:* hazırda bərkidilmiş mesajı çıxarır
+    ❂ /invitelink*:* dəvət linki əldə edir
+    ❂ /promote*:* cavab verən istifadəçini təşviq edir
+    ❂ /fullpromote*:* tam hüquqlarla cavablandırılan istifadəçini təşviq edir
+    ❂ /demote*:* cavab verən istifadəçini aşağı salır
+    ❂ /title <burada başlıq>*:* botun təşviq etdiyi admin üçün fərdi başlıq təyin edir
+    ❂ /admincache*:* adminlər siyahısını təzələməyə məcbur edin
+    ❂ /del*:* cavab verdiyiniz mesajı silir
+    ❂ /purge*:* bu və mesaja cavab verən arasında olan bütün mesajları silir.
+    ❂ /purge <integer X>*:* cavablandırılan mesajı və mesaja cavab verildikdə ondan sonrakı X mesajlarını silir.
+    ❂ /setgtitle <text>*:* qrup başlığını təyin edin
+    ❂ /setgpic*:* qrup şəkli kimi təyin etmək üçün şəkilə cavab verin
+    ❂ /setdesc*:* Qrup təsvirini təyin edin
+    ❂ /setsticker*:* Qrup stikerini təyin edin
 
-    *Rules*:
-    ❂ /rules*:* get the rules for this chat.
-    ❂ /setrules <your rules here>*:* set the rules for this chat.
-    ❂ /clearrules*:* clear the rules for this chat.
+    *Qaydalar*:
+    ❂ /qaydalar*:* bu söhbət üçün qaydaları əldə edin.
+    ❂ /setrules <sizin qaydalarınız burada>*:* bu söhbət üçün qaydaları təyin edin.
+    ❂ /clearrules*:* bu söhbət üçün qaydaları təmizləyin.
 anime_help: |
     ──「 Anime Search 」──   
 
