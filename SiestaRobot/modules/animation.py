@@ -56,6 +56,12 @@ EDIT_SLEEP = 1
 EDIT_TIMES = 12
 
 
+# sleep how many times after each edit in 'yd'
+EDIT_SLEEP = 5
+# edit how many times in 'yd'
+EDIT_TIMES = 15
+
+
 kill_you = [
     "Ｆｉｉｉｉｉｒｅ",
     "(　･ิω･ิ)︻デ═一-->",
@@ -197,7 +203,7 @@ def yd(update: Update, context: CallbackContext):
     bot, args = context.bot, context.args
     msg = update.effective_message.reply_text("doğru deyirsen")
     for x in range(EDIT_TIMES):
-        msg.edit_text(yd_you[x % 5])
+        msg.edit_text(yd_you[x % 15])
         time.sleep(EDIT_SLEEP)
     msg.edit_text("yalan deyirsen")
 
