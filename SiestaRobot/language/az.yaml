@@ -40,7 +40,7 @@ pm_help_module_text: "Budur *{}* modulu üçün yardım:\n\n"
 group_help_text: "Mümkün əmrlərin siyahısını əldə etmək üçün PM-də mənimlə əlaqə saxlayın."
 group_help_modules_text: "*{}* yardımı almaq üçün PM-də mənimlə əlaqə saxlayın"
 # Group Help Button
-group_help_button: "Kömək"
+group_help_button: "💎 Kömək"
 # PM Settings
 pm_settings_personal_text: "Bunlar cari parametrlərinizdir:"
 pm_settings_group_text: "Hansı modul üçün {} parametrlərini yoxlamaq istərdiniz?"
@@ -56,7 +56,7 @@ group_settings_button: "Settings"
 add_bot_to_group_button: "🇦🇿Məni Qrupunuza Əlavə Et🇦🇿"
 support_chat_link_button: "Söhbət Qrupu"
 updates_channel_link_button: "Kanal"
-help_button: "Get Help"
+help_button: "📚 Əmrlər (Help)"
 back_button: "Geri Qayıt"
 about_button: "Kanal Və Söhbət Qrupumuz"
 inline_button: "Try inline!​​"
@@ -91,7 +91,7 @@ admin_help: |
     ❂ /setrules <sizin qaydalarınız burada>*:* bu söhbət üçün qaydaları təyin edin.
     ❂ /clearrules*:* bu söhbət üçün qaydaları təmizləyin.
 anime_help: |
-    ──「 Anime Search 」──   
+    ──「 Əlavələr」──   
 
     ❂ /anime <anime>: returns information about the anime.
     ❂ /whatanime: returns source of anime when replied to photo or gif.                                                          
