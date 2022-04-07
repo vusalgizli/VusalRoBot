@@ -83,13 +83,11 @@ group_settings_button: "Settings"
 
 # PM Button
 add_bot_to_group_button: "🇦🇿Məni Qrupunuza Əlavə Et🇦🇿"
-support_chat_link_button: "Support"
-updates_channel_link_button: "Update"
-notes_button: "Notes"
-source_button: "Source Code"
+support_chat_link_button: "Söhbət Qrupu"
+updates_channel_link_button: "Kanal"
 help_button: "Get Help"
-back_button: "Go back"
-about_button: "About Siesta Robot"
+back_button: "Geri Qayıt"
+about_button: "Kanal Və Söhbət Qrupumuz"
 inline_button: "Try inline!​​"
 
 # MODULES
