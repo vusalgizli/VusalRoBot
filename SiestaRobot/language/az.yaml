@@ -94,28 +94,28 @@ admin_help: |
 antichannel_help: |
     ──「 Anti-Channels 」──
 
-        ⚠️ WARNING ⚠️
+    ⚠️ XƏBƏRDARLIQ ⚠️
 
-    *IF YOU USE THIS MODE, THE RESULT IS IN THE GROUP FOREVER YOU CAN'T CHAT USING THE CHANNEL*
+    *ƏGƏR BU REJİMDƏN İSTİFADƏ EDİRSƏNİZƏN, NƏTİCƏ ƏMƏLİ QRUPDA OLACAQ, KANALDAN İSTİFADƏ EDƏ BİLMƏZSİNİZ*
 
-    Anti Channel Mode is a mode to automatically ban users who chat using Channels. 
-    This command can only be used by *Admins*.
+    Anti-kanal rejimi Kanallardan istifadə edərək söhbət edən istifadəçiləri avtomatik olaraq qadağan edən rejimdir.
+    Bu əmrdən yalnız *Adminlər* istifadə edə bilər.
 
-    ❂ /antichannelmode <'on'/'yes'> *:* enables anti-channel-mode
-    ❂ /antichannelmode <'off'/'no'> *:* disabled anti-channel-mode
+    ❂ /antichannelmode <'on'/'yes'> *:* antikanal rejimini aktivləşdirir
+    ❂ /antichannelmode <'off'/'no'> *:* antikanal rejimi deaktiv edilib
 antiflood_help: |
     ──「 Anti-Flood 」──
 
-    Antiflood allows you to take action on users that send more than x messages in a row. Exceeding the set flood \
-    will result in restricting that user.
-    This will mute users if they send more than 10 messages in a row, bots are ignored.
-    ❂ `/flood`*:* Get the current flood control setting
+    Antiflood sizə ardıcıl olaraq x-dən çox mesaj göndərən istifadəçilərə qarşı tədbir görməyə imkan verir.  Müəyyən edilmiş daşqını aşmaq \
+    həmin istifadəçinin məhdudlaşdırılması ilə nəticələnəcək.
+    Bu, ardıcıl 10-dan çox mesaj göndərən istifadəçilərin səsini kəsəcək, botlar nəzərə alınmayacaq.
+    ❂ `/flood`*:* Cari daşqına nəzarət parametrini əldə edin
 
-    *Admins only:*
+     *Yalnız adminlər:*
 
-    ❂ `/setflood <int/'no'/'off'>`*:* enables or disables flood control
-    *Example:* `/setflood 10`
-    ❂ `/setfloodmode <ban/kick/mute/tban/tmute> <value>`*:* Action to perform when user have exceeded flood limit. ban/kick/mute/tmute/tban
+    ❂ `/setflood <int/'no'/'off'>`*:* daşqına nəzarəti aktivləşdirir və ya söndürür
+     *Misal:* `/setflood 10`
+    ❂ `/setfloodmode <ban/kick/mute/tban/tmute> <value>`*:* İstifadəçi daşqın limitini keçdikdə yerinə yetiriləcək əməliyyat.  ban/kick/mute/tmute/tban
 
     *Note:*
     Value must be filled for tban and tmute!!
