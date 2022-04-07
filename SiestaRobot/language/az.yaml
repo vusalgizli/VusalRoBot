@@ -27,15 +27,15 @@ group_start_text: |
 pm_about_text: |
  ✺ Salam, mən *Fidan Robotam*, qrupunuzu asanlıqla idarə etməyə kömək etmək üçün yaradılmış güclü qrup idarəetmə botu.  ✺
 
-  ✪ I can restrict users.
-  ✪ I can greet users with customizable welcome messages and even set a group's rules.
-  ✪ I have an advanced anti-flood system.
-  ✪ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-  ✪ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-  ✪ I check for admins' permissions before executing any command and more stuffs
+ ✪ İstifadəçiləri məhdudlaşdıra bilərəm.
+   ✪ Mən istifadəçiləri fərdiləşdirilə bilən salamlama mesajları ilə salamlaya və hətta qrup qaydalarını təyin edə bilərəm.
+   ✪ Mənim təkmil anti-daşqın sistemim var.
+   ✪ Qadağa, səssiz, təpik və s. kimi əvvəlcədən təyin edilmiş hər bir hərəkətlə maksimum xəbərdarlıqlara çatana qədər istifadəçiləri xəbərdar edə bilərəm.
+   ✪ Qeyd saxlamaq sistemim, qara siyahılarım və hətta müəyyən açar sözlər üzrə əvvəlcədən müəyyən edilmiş cavablarım var.
+   ✪ Hər hansı bir əmri və daha çox şeyi yerinə yetirməzdən əvvəl adminlərin icazələrini yoxlayıram
 
-  _Siesta's licensed under the GNU General Public License v3.0_
-  Click on button bellow to get basic help for Siesta Robot.
+   _Siesta GNU General Public License v3.0_ altında lisenziyalıdır
+   Siesta Robot üçün əsas yardım almaq üçün aşağıdakı düyməni basın.
 pm_about_admin_text: |
   *✺ Let's make your group bit effective now ✺*
 
@@ -63,11 +63,11 @@ pm_about_credit_text: |
   Here Developers Making And Give Inspiration For Made The Siesta Robot
 pm_help_text: |
  *✺ Xüsusi əmrlər haqqında təsviri əldə etmək üçün aşağıdakı düyməyə klikləyin.  ✺*
-pm_help_module_text: "Here is the help for the *{}* module :\n\n"
+pm_help_module_text: "Budur *{}* modulu üçün yardım:\n\n"
 
 # Group Help Text
-group_help_text: "Contact me in PM to get the list of possible commands."
-group_help_modules_text: "Contact me in PM to get help of *{}*"
+group_help_text: "Mümkün əmrlərin siyahısını əldə etmək üçün PM-də mənimlə əlaqə saxlayın."
+group_help_modules_text: "*{}* yardımı almaq üçün PM-də mənimlə əlaqə saxlayın"
 # Group Help Button
 group_help_button: "Help"
 # PM Settings
