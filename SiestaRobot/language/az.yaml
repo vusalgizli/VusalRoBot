@@ -69,20 +69,20 @@ pm_help_module_text: "Budur *{}* modulu üçün yardım:\n\n"
 group_help_text: "Mümkün əmrlərin siyahısını əldə etmək üçün PM-də mənimlə əlaqə saxlayın."
 group_help_modules_text: "*{}* yardımı almaq üçün PM-də mənimlə əlaqə saxlayın"
 # Group Help Button
-group_help_button: "Help"
+group_help_button: "Kömək"
 # PM Settings
-pm_settings_personal_text: "These are your current settings: "
-pm_settings_group_text: "Which module would you like to check {}'s settings for?"
-pm_settings_groups_text: "*{}* has the following settings for the *{}* module:\n\n"
+pm_settings_personal_text: "Bunlar cari parametrlərinizdir:"
+ pm_settings_group_text: "Hansı modul üçün {} parametrlərini yoxlamaq istərdiniz?"
+pm_settings_groups_text: "*{}* *{}* modulu üçün aşağıdakı parametrlərə malikdir:\n\n"
 pm_settings_groupss_text: |
-    Hi there! There are quite a few settings for {} - go ahead and pick what you're interested in.
+    salam!  {} üçün kifayət qədər bir neçə parametr var - davam edin və maraqlandığınızı seçin.
 # Group Settings Text
-group_settings_text: "Click here to get this chat's settings, as well as yours."
+group_settings_text: "Bu söhbətin, eləcə də sizin parametrlərinizi əldə etmək üçün bura klikləyin."
 # Group Settings Button
 group_settings_button: "Settings"
 
 # PM Button
-add_bot_to_group_button: "♕ Add Me To Your Group ♕"
+add_bot_to_group_button: "🇦🇿Məni Qrupunuza Əlavə Et🇦🇿"
 support_chat_link_button: "Support"
 updates_channel_link_button: "Update"
 notes_button: "Notes"
