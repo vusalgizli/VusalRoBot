@@ -72,7 +72,7 @@ group_help_modules_text: "*{}* yardımı almaq üçün PM-də mənimlə əlaqə 
 group_help_button: "Kömək"
 # PM Settings
 pm_settings_personal_text: "Bunlar cari parametrlərinizdir:"
- pm_settings_group_text: "Hansı modul üçün {} parametrlərini yoxlamaq istərdiniz?"
+pm_settings_group_text: "Hansı modul üçün {} parametrlərini yoxlamaq istərdiniz?"
 pm_settings_groups_text: "*{}* *{}* modulu üçün aşağıdakı parametrlərə malikdir:\n\n"
 pm_settings_groupss_text: |
     salam!  {} üçün kifayət qədər bir neçə parametr var - davam edin və maraqlandığınızı seçin.
