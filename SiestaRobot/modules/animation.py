@@ -282,7 +282,7 @@ def kill(update: Update, context: CallbackContext):
 
 
 
-KILL_HANDLER = DisableAbleCommandHandler("yd", kill, run_async=True)
+YD_HANDLER = DisableAbleCommandHandler("yd", yd, run_async=True)
 KILL_HANDLER = DisableAbleCommandHandler("kill", kill, run_async=True)
 LOVE_HANDLER = DisableAbleCommandHandler("love", love, run_async=True)
 HACK_HANDLER = DisableAbleCommandHandler("hack", hack, run_async=True)
