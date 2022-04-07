@@ -196,7 +196,7 @@ yd_ani = ["Yalan\ndoğru😏\nyalan🤔"
 
 def yd(update: Update, context: CallbackContext):
     bot, args = context.bot, context.args
-    msg = update.effective_message.reply_text("Target selected")
+    msg = update.effective_message.reply_text("doğru deyirsen")
     for x in range(EDIT_TIMES):
         msg.edit_text(yd_you[x % 5])
         time.sleep(EDIT_SLEEP)
