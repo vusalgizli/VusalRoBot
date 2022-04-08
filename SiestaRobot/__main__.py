@@ -462,7 +462,7 @@ def siesta_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(text="Söhbət Qrupu", url="https://t.me/FidaninDunyasi"),
-                        InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
+                        InlineKeyboardButton(text="Sahib", url="https:/t.me/HuseynH"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
