@@ -509,7 +509,7 @@ def Source_about_callback(update, context):
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/MedineMusicBot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/FidanRobot?startgroup=new"),
                         ]
                     ]
                 ),
