@@ -458,10 +458,10 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Vain", url="https://github.com/shiinobu"),
+                        InlineKeyboardButton(text="Kanal", url="https://t.me/EtirafAzeChannel"),
                     ],
                     [
-                        InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
+                        InlineKeyboardButton(text="Söhbət Qrupu", url="https://t.me/FidaninDunyasi"),
                         InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
                     ],
                     [
