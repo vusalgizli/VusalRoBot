@@ -385,7 +385,7 @@ def siesta_about_callback(update, context):
               
                     ],
                     [
-                        InlineKeyboardButton(text="Credits", callback_data="siesta_credit"),
+                        InlineKeyboardButton(text="🥰Söhbət Qrupumu Və Kanalımız ", callback_data="siesta_credit"),
                     ],
                     [
                         
