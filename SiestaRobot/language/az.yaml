@@ -428,42 +428,47 @@ WELCOME_HELP_TEXT: |
 WELCOME_MUTE_HELP_TEXT: |
     ──「 Greetings Mute Format Help 」──
 
-   "Bu bot qrupa qoşulanları avtomatik sudura da bilir Doğrulama testini etdikdən sonra səsləri avtomatik açılır. Mövcud əmrlər:",
-   • "'/welcomemute soft: yeni qoşulanlar 24 saatlığına media höndərə bilmirlər."
-   • "'/welcomemute strong: qrupa yeni qoşulanlar buttona basana qədər səssizləşdirilir."
-   • "'/welcomemute off: səssizə almanı deaktiv edir."
-   "Qeyd: Strong odu aktiv olduğunda qrupa yeni qoşulanlar 120 saniyə ərzində butona basmasalar qrupdan atılır. Həmin İstifadəçi İstənilən vaxt yenidən qoşula bilər"
+    "You can get the bot to mute new people who join your group and hence prevent spambots from flooding your group. "
+    "The following options are possible:\n"
+    "  ❂ `/welcomemute soft`*:* restricts new members from sending media for 24 hours.\n"
+    "  ❂ `/welcomemute strong`*:* mutes new members till they tap on a button thereby verifying they're human.\n"
+    "  ❂ `/welcomemute captcha`*:*  mutes new members till they solve a button captcha thereby verifying they're human.\n"
+    "  ❂ `/welcomemute off`*:* turns off welcomemute.\n"
+    "*Note:* Strong mode kicks a user from the chat if they dont verify in 120seconds. They can always rejoin though"
 info_and_afk_help: |
     ──「 Info and AFK 」──
 
-     *ID:*
-    ❂ /id*:* cari qrup identifikatorunu əldə edin.  Mesaja cavab verməklə istifadə edilərsə, həmin istifadəçinin id-sini alır.
-    ❂ /gifid*:* sizə gif identifikatorunu bildirmək üçün mənə gif-ə cavab verin.
+    *ID:*
+    ❂ /id*:* get the current group id. If used by replying to a message, gets that user's id.
+    ❂ /gifid*:* reply to a gif to me to tell you its file ID.
     
-     *Özü əlavə edilən məlumat:*
-    ❂ /setme <text>*:* məlumatlarınızı təyin edəcək
-    ❂ /me*:* sizin və ya başqa istifadəçinin məlumatını alacaq.
-     Nümunələr:
-    ❂ /setme Mən canavaram.
-    ❂ /me @username(heç bir istifadəçi göstərilməyibsə, defolt sizinkidir)
+    *Self addded information:* 
+    ❂ /setme <text>*:* will set your info
+    ❂ /me*:* will get your or another user's info.
+    Examples:
+    ❂ /setme I am a wolf.
+    ❂ /me @username(defaults to yours if no user specified)
     
-     *Başqalarının sizə əlavə etdiyi məlumatlar:*
-    ❂ /bio*:* sizin və ya başqa istifadəçinin bio-nu əldə edəcək.  Bunu özünüz təyin etmək olmaz.
-    ❂ /setbio <text>*:* cavab verərkən başqa istifadəçinin bio-nu saxlayacaq
-     Nümunələr:
-    ❂ /bio @username (göstərilməyibsə, defolt sizinkidir).
-    ❂ /setbio Bu istifadəçi canavardır (istifadəçiyə cavab)
+    *Information others add on you:* 
+    ❂ /bio*:* will get your or another user's bio. This cannot be set by yourself.
+    ❂ /setbio <text>*:* while replying, will save another user's bio 
+    Examples:
+    ❂ /bio @username(defaults to yours if not specified).
+    ❂ /setbio This user is a wolf (reply to the user)
     
-     *Sizin haqqınızda ümumi məlumat:*
-    ❂ /info*:* istifadəçi haqqında məlumat əldə edin.
+    *Overall Information about you:*
+    ❂ /info*:* get information about a user. 
     
-     *json Ətraflı məlumat:*
-    ❂ /json*:* İstənilən mesaj haqqında ətraflı məlumat əldə edin.
+    *json Detailed info:*
+    ❂ /json*:* Get Detailed info about any message.
     
-     *AFk:*
-    AFK kimi qeyd edildikdə, hər hansı qeydlərə əlçatan olmadığınızı bildirən mesajla cavab veriləcək!
-    ❂ /afk <səbəb>*:* Özünüzü AFK kimi qeyd edin.
-       - brb <səbəb>: afk əmri ilə eynidir, lakin əmr deyil.
+    *AFk:*
+    When marked as AFK, any mentions will be replied to with a message stating that you're not available!
+    ❂ /afk <reason>*:* Mark yourself as AFK.
+      - brb <reason>: Same as the afk command, but not a command. 
+      
+    *What is that health thingy?*
+    Come and see [HP System explained](https://t.me/KennedyProject/44)
 locks_help: |
     ──「 Locks 」──
 
