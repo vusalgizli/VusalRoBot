@@ -415,8 +415,8 @@ greetings_help: |
 WELCOME_HELP_TEXT: |
     ──「 Greetings Format Help 」──
 
-   "Qrupunuzun salamlama/goodbye mesajları müxtəlif üsullarla fərdiləşdirilə bilər. Mesajları istəyirsinizsə"
-    " defolt salamlama mesajı kimi fərdi olaraq yaradılmaq üçün *bu* dəyişənlərdən istifadə edə bilərsiniz:\n"
+    "Qrupunuzun salamlama /goodbye mesajları müxtəlif üsullarla fərdiləşdirilə bilər. Mesajları istəyirsinizsə
+    defolt salamlama mesajı kimi fərdi olaraq yaradılmaq üçün *bu* dəyişənlərdən istifadə edə bilərsiniz:\n"
     " ❂ `{first}`*:* bu istifadəçinin *ad* adını təmsil edir\n"
     " ❂ `{last}`*:* bu istifadəçinin *soyadını* ifadə edir. Əgər istifadəçi yoxdursa, defolt olaraq *ad* təyin edilir.soyad.\n"
     " ❂ `{fullname}`*:* bu istifadəçinin *tam* adını təmsil edir. Əgər istifadəçi yoxdursa, defolt olaraq *ad* təyin edilir.soyad.\n"
