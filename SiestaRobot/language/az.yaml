@@ -290,36 +290,36 @@ MARKDOWN_HELP_TEXT_2: |
 fsub_feds_help: |
     ──「 F-Subs / Feds 」──
 
-    *Force Subscribe:*
+    *Məcburi Abunə olun:*
 
-    Siesta can mute members who are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
+    Siesta kanalınıza abunə olmayan üzvləri abunə olana qədər susdura bilər Aktivləşdirildikdə, mən abunə olmayan üzvlərin səsini söndürəcəm və onlara səsi açma düyməsini göstərəcəyəm.  Düyməni basanda mən onların səsini açacağam
 
-    *Setup* *:* *Only creator*
-    ❂ Add me in your group as admin
-    ❂ Add me in your channel as admin 
+    *Quraşdırma* *:* *Yalnız yaradıcı*
+    ❂ Məni qrupunuza admin kimi əlavə edin
+    ❂ Məni kanalınıza admin kimi əlavə edin
     
-    *Commmands*
-    ❂ /fsub {channel username} - To turn on and setup the channel.
+     *Əmrlər*
+    ❂ /fsub {kanal istifadəçi adı} - Kanalı yandırmaq və quraşdırmaq üçün.
 
-      💡Do this first...
+       💡Əvvəlcə bunu edin...
 
-    ❂ /fsub - To get the current settings.
-    ❂ /fsub disable - To turn of ForceSubscribe..
+    ❂ /fsub - Cari parametrləri əldə etmək üçün.
+    ❂ /fsub disable - ForceSubscribe-ı açmaq üçün..
 
-      💡If you disable fsub, you need to set again for working.. /fsub {channel username} 
+       💡Fsub-u deaktiv etsəniz, işləmək üçün yenidən təyin etməlisiniz.. /fsub {kanal istifadəçi adı}
 
-    ❂ /fsub clear - To unmute all members who muted by me.
+    ❂ /fsub clear - Mənim tərəfimdən səsi söndürən bütün üzvlərin səsini açmaq üçün.
 
-    *Federation*
-    Everything is fun, until a spammer starts entering your group, and you have to block it. Then you need to start banning more, and more, and it hurts.
-    But then you have many groups, and you don't want this spammer to be in one of your groups - how can you deal? Do you have to manually block it, in all your groups?\n
-    *No longer!* With Federation, you can make a ban in one chat overlap with all other chats.\n
-    You can even designate federation admins, so your trusted admin can ban all the spammers from chats you want to protect.\n
-    *Commands:*\n
-    Feds are now divided into 3 sections for your ease.
-    ❂ `/fedownerhelp`*:* Provides help for fed creation and owner only commands
-    ❂ `/fedadminhelp`*:* Provides help for fed administration commands
-    ❂ `/feduserhelp`*:* Provides help for commands anyone can use
+     *Federasiya*
+    Bir spamçı qrupunuza daxil olmağa başlayana qədər hər şey əyləncəlidir və siz onu bloklamalı olacaqsınız.  Sonra daha çox və daha çox qadağan etməyə başlamaq lazımdır və bu, acıyor.
+    Amma sonra sizin çoxlu qruplarınız var və siz bu spamerin qruplarınızdan birində olmasını istəmirsiniz - bununla necə məşğul ola bilərsiniz?  Onu bütün qruplarınızda əl ilə bloklamalısınız?\n
+    *Artıq deyil!* Federasiya ilə siz bütün digər çatlarla üst-üstə düşən bir söhbətdə qadağa qoya bilərsiniz.\n
+    Siz hətta federasiya adminlərini təyin edə bilərsiniz, beləliklə, etibarlı admininiz qorumaq istədiyiniz söhbətlərdən bütün spam göndərənləri qadağan edə bilər.\n
+     *Əmrlər:*\n
+    Fedlər sizin rahatlığınız üçün indi 3 hissəyə bölünür.
+    ❂ `/fedownerhelp`*:* Fed yaradılması və yalnız sahib əmrləri üçün yardım təmin edir
+    ❂ `/fedadminhelp`*:* Qidalanan idarəetmə əmrləri üçün yardım təmin edir
+    ❂ `/feduserhelp`*:* Hər kəsin istifadə edə biləcəyi əmrlər üçün yardım təmin edir
 FED_OWNER_HELP: | 
     ──「 Feds 」──
 
