@@ -123,12 +123,12 @@ antiflood_help: |
 antispam_help: |
     ──「 Anti-Spam 」──
 
-    *Admins only:*
-    ❂ `/antispam <on/off/yes/no>`*:* Will toggle our antispam tech or return your current settings.
+    *Yalnız adminlər:*
+    ❂ `/antispam <on/off/yes/no>`*:* Antispam texnologiyamızı dəyişəcək və ya cari parametrlərinizi qaytaracaq.
 
-    Anti-Spam, used by bot devs to ban spammers across all groups. This helps protect \
-    you and your groups by removing spam flooders as quickly as possible.
-    *Note:* Users can appeal gbans or report spammers at @{SUPPORT_CHAT}
+    Anti-Spam, bot tərtibatçıları tərəfindən bütün qruplarda spam göndərənləri qadağan etmək üçün istifadə olunur.  Bu, \
+    spam daşqınlarını mümkün qədər tez silməklə siz və qruplarınız.
+    *Qeyd:* İstifadəçilər @{SUPPORT_CHAT} ünvanında gbanlara müraciət edə və ya spam göndərənləri bildirə bilər.
 
     This also integrates @Spamwatch API to remove Spammers as much as possible from your chatroom!
     *What is SpamWatch?*
@@ -138,17 +138,17 @@ antispam_help: |
 approve_help: |
     ──「 Aprroved 」──
 
-    Sometimes, you might trust a user not to send unwanted content.
-    Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
+    Bəzən istifadəçiyə arzuolunmaz məzmun göndərməməsinə etibar edə bilərsiniz.
+    Bəlkə də onları admin etmək üçün kifayət deyil, ancaq kilidlər, qara siyahılar və antiflood onlara tətbiq edilmir.
 
-    That's what approvals are for - approve of trustworthy users to allow them to send
+    Təsdiqlərin məqsədi budur - etibarlı istifadəçilərin göndərilməsinə icazə vermək üçün onları təsdiqləyin
 
-    *Admin commands:*
-    ❂ /approval*:* Check a user's approval status in this chat.
-    ❂ /approve*:* Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.
-    ❂ /unapprove*:* Unapprove of a user. They will now be subject to locks, blacklists, and antiflood again.
-    ❂ /approved*:* List all approved users.
-    ❂ /unapproveall*:* Unapprove *ALL* users in a chat. This cannot be undone.
+    *Admin əmrləri:*
+    ❂ /approval*:* Bu söhbətdə istifadəçinin təsdiq statusunu yoxlayın.
+    ❂ /approve*:* İstifadəçini təsdiqləyin.  Kilidlər, qara siyahılar və daşqın əleyhinə daha onlara şamil edilməyəcək.
+     ❂ /unapprove*:* İstifadəçinin təsdiqindən imtina edin.  İndi onlar yenidən kilidlərə, qara siyahılara və antifloodlara məruz qalacaqlar.
+    ❂ /approved*:* Bütün təsdiq edilmiş istifadəçiləri siyahıya salın.
+    ❂ /unapproveall*:* Çatda *BÜTÜN* istifadəçiləri təsdiqdən çıxarın.  Bu geri qaytarıla bilməz.
 bansmutes_help: |
     ──「 Bans / Mutes 」──
 
