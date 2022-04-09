@@ -271,22 +271,22 @@ MARKDOWN_HELP: |
     və üzərinə toxunmaq <code>someURL</code> ünvanında səhifəni açacaq.
     <b>Nümunə:</b><code>[test](example.com)</code>
 
-    ❂ <code>[buttontext](buttonurl:someURL)</code>: this is a special enhancement to allow users to have telegram \
-    buttons in their markdown. <code>buttontext</code> will be what is displayed on the button, and <code>someurl</code> \
-    will be the url which is opened.
-    <b>Example:</b> <code>[This is a button](buttonurl:example.com)</code>
+    ❂ <code>[buttontext](buttonurl:someURL)</code>: bu, istifadəçilərə teleqrama sahib olmaq üçün xüsusi təkmilləşdirmədir \
+    onların işarələməsindəki düymələr.  <code>buttontext</code> düymədə göstəriləcək və <code>someurl</code> \
+    açılan url olacaq.
+    <b>Nümunə:</b> <code>[Bu bir düymədir](buttonurl:example.com)</code>
 
-    If you want multiple buttons on the same line, use :same, as such:
-     <code>[one](buttonurl://example.com)
-    [two](buttonurl://google.com:same)</code>
-    This will create two buttons on a single line, instead of one button per line.
+    Eyni sətirdə bir neçə düyməni istəyirsinizsə, :same istifadə edin, belə ki:
+    <kod>[bir](buttonurl://example.com)
+    [iki](buttonurl://google.com:same)</code>
+    Bu, hər sətirdə bir düymə əvəzinə, bir sətirdə iki düymə yaradacaqdır.
 
-    Keep in mind that your message <b>MUST</b> contain some text other than just a button!
-MARKDOWN_HELP_TEXT_1: "Try forwarding the following message to me, and you'll see, and Use #test!"
+    Nəzərə alın ki, mesajınızda sadəcə düymədən başqa bəzi mətnlər <b>MÜTLƏQ</b> olmalıdır!
+MARKDOWN_HELP_TEXT_1: "Aşağıdakı mesajı mənə yönləndirməyə cəhd edin və siz görəcəksiniz və #testdən istifadə edin!"
 MARKDOWN_HELP_TEXT_2: |
-    /save test This is a markdown test. _italics_, *bold*, code, 
-    [URL](example.com) [button](buttonurl:github.com)
-    [button2](buttonurl://google.com:same)
+     /save testi Bu, işarələmə testidir.  _kursiv_, *qalın*, kod,
+     [URL](example.com) [button](buttonurl:github.com)
+     [button2](buttonurl://google.com:same)
 fsub_feds_help: |
     ──「 F-Subs / Feds 」──
 
