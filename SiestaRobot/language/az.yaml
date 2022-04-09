@@ -231,45 +231,45 @@ connection_help: |
 disabling_help: |
     ──「 Disabling 」──
 
-    ❂ /cmds*:* check the current status of disabled commands
+    ❂ /cmds*:* deaktiv edilmiş əmrlərin cari vəziyyətini yoxlayın
 
-    *Admins only:*
+    *Yalnız adminlər:*
 
-    ❂ /enable <cmd name>*:* enable that command
-    ❂ /disable <cmd name>*:* disable that command
-    ❂ /enablemodule <module name>*:* enable all commands in that module
-    ❂ /disablemodule <module name>*:* disable all commands in that module
-    ❂ /listcmds*:* list all possible toggleable commands
+    ❂ /enable <cmd name>*:* həmin əmri aktivləşdirin
+    ❂ /disable <cmd name>*:* həmin əmri deaktiv edin
+    ❂ /enablemodule <modul adı>*:* həmin moduldakı bütün əmrləri aktivləşdirin
+    ❂ /disablemodule <modul adı>*:* həmin moduldakı bütün əmrləri deaktiv edin
+    ❂ /listcmds*:* bütün mümkün dəyişdirilə bilən əmrləri sadalayın
 extras_help: |
     ──「 Extras 」──
 
-    ❂ /markdownhelp*:* quick summary of how markdown works in telegram - can only be called in private chats
-    ❂ /paste*:* Saves replied content to `nekobin.com` and replies with a url
-    ❂ /spaste*:* Saves replied content to `spaceb.in` and replies with a url
-    ❂ /react*:* Reacts with a random reaction 
-    ❂ /ud <word>*:* Type the word or expression you want to search use
-    ❂ /reverse*:* Does a reverse image search of the media which it was replied to.
-    ❂ /wiki <query>*:* wikipedia your query
-    ❂ /wall <query>*:* get a wallpaper from wall.alphacoders.com
-    ❂ /cash*:* currency converter
+    ❂ /markdownhelp*:* teleqramda markdown necə işlədiyinə dair qısa xülasə - yalnız şəxsi söhbətlərdə zəng etmək olar
+    ❂ /paste*:* Cavab verilmiş məzmunu `nekobin.com` saytında saxlayır və url ilə cavab verir
+    ❂ /spaste*:* Cavab verilmiş məzmunu `spaceb.in` ünvanında saxlayır və url ilə cavab verir
+    ❂ /react*:* Təsadüfi reaksiya ilə reaksiya verir
+    ❂ /ud <söz>*:* Axtarmaq istədiyiniz sözü və ya ifadəni yazın
+    ❂ /reverse*:* Cavab verildiyi medianın əks təsvirini axtarır.
+    ❂ /wiki <query>*:* vikipediya sorğunuzu
+    ❂ /wall <query>*:* wall.alphacoders.com saytından divar kağızı əldə edin
+    ❂ /cash*:* valyuta çeviricisi
 
-      Example:
-      ➩ `/cash 1 USD INR`  
-            _OR_
-      ➩ `/cash 1 usd inr`
-         Output: `1.0 USD = 75.505 INR`
+       Misal:
+       ➩ `/cash 1 USD INR`
+             _OR_
+       ➩ `/cash 1 usd inr`
+          Nəticə: `1,0 USD = 75,505 INR`
 MARKDOWN_HELP: |
-    ──「 Markdown Help 」──
+    ──「 Markdown Yardımı 」──
 
-    Markdown is a very powerful formatting tool supported by telegram. {dispatcher.bot.first_name} has some enhancements, to make sure that \
-    saved messages are correctly parsed, and to allow you to create buttons.
+    Markdown telegram tərəfindən dəstəklənən çox güclü formatlama vasitəsidir.  {dispatcher.bot.first_name} bəzi təkmilləşdirmələrə malikdir, buna əmin olmaq üçün \
+     saxlanmış mesajlar düzgün təhlil edilir və düymələr yaratmağa imkan verir.
 
-    ❂ <code>_italic_</code>: wrapping text with '_' will produce italic text
-    ❂ <code>*bold*</code>: wrapping text with '*' will produce bold text
-    ❂ <code>`code`</code>: wrapping text with '`' will produce monospaced text, also known as 'code'
-    ❂ <code>[sometext](someURL)</code>: this will create a link - the message will just show <code>sometext</code>, \
-    and tapping on it will open the page at <code>someURL</code>.
-    <b>Example:</b><code>[test](example.com)</code>
+    ❂ <code>_italic_</code>: mətni '_' ilə bükmək kursiv mətn yaradacaq
+    ❂ <code>*bold*</code>: mətni '*' ilə bükmək qalın mətn yaradacaq
+    ❂ <code>`code`</code>: mətni ''' ilə bükmək 'kod' kimi də tanınan monoboşluqlu mətn yaradacaq
+    ❂ <code>[sometext](someURL)</code>: bu keçid yaradacaq - mesaj sadəcə <code>bir mətn</code> göstərəcək, \
+    və üzərinə toxunmaq <code>someURL</code> ünvanında səhifəni açacaq.
+    <b>Nümunə:</b><code>[test](example.com)</code>
 
     ❂ <code>[buttontext](buttonurl:someURL)</code>: this is a special enhancement to allow users to have telegram \
     buttons in their markdown. <code>buttontext</code> will be what is displayed on the button, and <code>someurl</code> \
@@ -277,7 +277,7 @@ MARKDOWN_HELP: |
     <b>Example:</b> <code>[This is a button](buttonurl:example.com)</code>
 
     If you want multiple buttons on the same line, use :same, as such:
-    <code>[one](buttonurl://example.com)
+     <code>[one](buttonurl://example.com)
     [two](buttonurl://google.com:same)</code>
     This will create two buttons on a single line, instead of one button per line.
 
