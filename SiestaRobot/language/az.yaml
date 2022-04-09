@@ -424,7 +424,7 @@ WELCOME_HELP_TEXT: |
     "❂ {id}: istifadəçinin id göstərir"
     "❂ {count}: istifadəçinin üzv nömrəsini göstərir."
     "❂ {chatname}: qrup adını göstərir
-    Linkli button da əlavə etmək olar." "Məsələn: '[Qaydalar](buttonurl://t.me/FidanRobot?start=group_id). group_id yerinə öz qrupunuzun id yazın,"  Qrup id - ilə başlamalıdır.
+    Linkli button da əlavə etmək olar." "Məsələn: f"[Qaydalar](buttonurl://t.me/FidanRobot?start=group_id). group_id yerinə öz qrupunuzun id yazın,"  Qrup id - ilə başlamalıdır.
 WELCOME_MUTE_HELP_TEXT: |
     ──「 Greetings Mute Format Help 」──
 
