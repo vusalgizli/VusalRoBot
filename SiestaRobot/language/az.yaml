@@ -408,7 +408,7 @@ greetings_help: |
     ❂ /cleanwelcome <on/off>*:* Yeni üzvdə söhbətə spam göndərməmək üçün əvvəlki salamlama mesajını silməyə çalışın.
     ❂ /welcomemutehelp*:* qarşılama səssizləri haqqında məlumat verir.
     ❂ /cleanservice <on/off*:* teleqramların salamlama/sol xidmət mesajlarını silir.
-     *Məsələn:*
+    *Məsələn:*
     istifadəçi söhbətə qoşuldu, istifadəçi söhbəti tərk etdi.
      *Xoş gəldiniz qeydi:*
     ❂ /welcomehelp*:* xüsusi salamlama/goodbye mesajları üçün daha çox formatlama məlumatına baxın.
@@ -418,9 +418,9 @@ WELCOME_HELP_TEXT: |
    "Qrupunuzun salamlama/goodbye mesajları müxtəlif üsullarla fərdiləşdirilə bilər. Mesajları istəyirsinizsə"
     " defolt salamlama mesajı kimi fərdi olaraq yaradılmaq üçün *bu* dəyişənlərdən istifadə edə bilərsiniz:\n"
     " ❂ `{first}`*:* bu istifadəçinin *ad* adını təmsil edir\n"
-    " ❂ `{last}`*:* bu istifadəçinin *soyadını* ifadə edir. Əgər istifadəçi yoxdursa, defolt olaraq *ad* təyin edilir."
+    " ❂ `{last}`*:* bu istifadəçinin *soyadını* ifadə edir. Əgər istifadəçi yoxdursa, defolt olaraq *ad* təyin edilir.
     "soyad.\n"
-    " ❂ `{fullname}`*:* bu istifadəçinin *tam* adını təmsil edir. Əgər istifadəçi yoxdursa, defolt olaraq *ad* təyin edilir."
+    " ❂ `{fullname}`*:* bu istifadəçinin *tam* adını təmsil edir. Əgər istifadəçi yoxdursa, defolt olaraq *ad* təyin edilir.
      "soyad.\n"
     "  ❂ `{username}`*:* this represents the user's *username*. Defaults to a *mention* of the user's "
     "first name if has no username.\n"
