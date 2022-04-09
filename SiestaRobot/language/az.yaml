@@ -415,27 +415,27 @@ greetings_help: |
 WELCOME_HELP_TEXT: |
     ──「 Greetings Format Help 」──
 
-    "Qrupunuzun salamlama /goodbye mesajları müxtəlif üsullarla fərdiləşdirilə bilər. Mesajları istəyirsinizsə
+    "Qrupunuzun salamlama/goodbye mesajları müxtəlif üsullarla fərdiləşdirilə bilər. Mesajları istəyirsinizsə
     defolt salamlama mesajı kimi fərdi olaraq yaradılmaq üçün *bu* dəyişənlərdən istifadə edə bilərsiniz:\n"
     " ❂ `{first}`*:* bu istifadəçinin *ad* adını təmsil edir\n"
     " ❂ `{last}`*:* bu istifadəçinin *soyadını* ifadə edir. Əgər istifadəçi yoxdursa, defolt olaraq *ad* təyin edilir.soyad.\n"
     " ❂ `{fullname}`*:* bu istifadəçinin *tam* adını təmsil edir. Əgər istifadəçi yoxdursa, defolt olaraq *ad* təyin edilir.soyad.\n"
-    "  ❂ `{username}`*:* this represents the user's *username*. Defaults to a *mention* of the user's "
-    "first name if has no username.\n"
-    "  ❂ `{mention}`*:* this simply *mentions* a user - tagging them with their first name.\n"
-    "  ❂ `{id}`*:* this represents the user's *id*\n"
-    "  ❂ `{count}`*:* this represents the user's *member number*.\n"
-    "  ❂ `{chatname}`*:* this represents the *current chat name*.\n"
-    "\nEach variable MUST be surrounded by `{}` to be replaced.\n"
-    "Welcome messages also support markdown, so you can make any elements bold/italic/code/links. "
-    "Buttons are also supported, so you can make your welcomes look awesome with some nice intro "
-    "buttons.\n"
-    f"To create a button linking to your rules, use this: `[Rules](buttonurl://t.me/{dispatcher.bot.username}?start=group_id)`. "
-    "Simply replace `group_id` with your group's id, which can be obtained via /id, and you're good to "
-    "go. Note that group ids are usually preceded by a `-` sign; this is required, so please don't "
-    "remove it.\n"
-    "You can even set images/gifs/videos/voice messages as the welcome message by "
-    "replying to the desired media, and calling `/setwelcome`."
+   " ❂ `{username}`*:* bu istifadəçinin *istifadəçi adını* təmsil edir. Defolt olaraq istifadəçinin "
+    "istifadəçi adı yoxdursa ad.\n"
+    " ❂ `{mention}`*:* bu sadəcə olaraq istifadəçini *qeyd edir* - onu öz adı ilə işarələyir.\n"
+    " ❂ `{id}`*:* bu istifadəçinin *id*sini təmsil edir\n"
+    " ❂ `{count}`*:* bu istifadəçinin *üzv nömrəsini* təmsil edir.\n"
+   " ❂ `{chatname}`*:* bu *cari söhbət adını* təmsil edir.\n"
+    "\nƏvəz edilmək üçün hər dəyişən `{}` ilə əhatə olunmalıdır.\n"
+    "Xoş gəlmisiniz mesajları həmçinin işarələməni dəstəkləyir, beləliklə siz istənilən elementi qalın/italik/kod/linklər edə bilərsiniz."
+    "Düymələr də dəstəklənir, beləliklə siz xoş intro ilə qarşılamalarınızı möhtəşəm göstərə bilərsiniz"
+    "düymələr.\n"
+   f"Qaydalarınızla əlaqələndirən düymə yaratmaq üçün bundan istifadə edin: `[Rules](buttonurl://t.me/{dispatcher.bot.username}?start=group_id)`."
+    "Sadəcə `group_id`-ni qrupunuzun identifikatoru ilə əvəz edin, onu /id vasitəsilə əldə edə bilərsiniz.
+     "get. Qeyd edək ki, qrup identifikatorlarından əvvəl adətən `-` işarəsi qoyulur; bu tələb olunur, ona görə də lütfən bunu etməyin "
+     "çıxarın.\n"
+     "Siz hətta şəkilləri/gifləri/videoları/səsli mesajları salamlama mesajı kimi təyin edə bilərsiniz"
+     "istənilən mediaya cavab vermək və `/setwelcome` zəng etmək."
 WELCOME_MUTE_HELP_TEXT: |
     ──「 Greetings Mute Format Help 」──
 
