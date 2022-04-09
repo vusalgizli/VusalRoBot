@@ -428,7 +428,7 @@ WELCOME_HELP_TEXT: |
 WELCOME_MUTE_HELP_TEXT: |
     ──「 Greetings Mute Format Help 」──
 
-   "Bu bot qrupa qoşulanları avtomatik sudura da bilir. Doğrulama testini etdikdən sonra səsləri avtomatik açılır. Mövcud əmrlər:,"
+   "Bu bot qrupa qoşulanları avtomatik sudura da bilir Doğrulama testini etdikdən sonra səsləri avtomatik açılır. Mövcud əmrlər:",
    • "'/welcomemute soft: yeni qoşulanlar 24 saatlığına media höndərə bilmirlər."
    • "'/welcomemute strong: qrupa yeni qoşulanlar buttona basana qədər səssizləşdirilir."
    • "'/welcomemute off: səssizə almanı deaktiv edir."
