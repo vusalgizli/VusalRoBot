@@ -196,21 +196,21 @@ blacklist_help: |
 chatbot_help: |
     ──「 Chatbot AI 」──
 
-    Siesta AI is the only ai system which can detect & reply upto 200 language's
+    FidanRobot 200-ə qədər dili aşkarlaya və cavab verə bilən yeganə AI sistemidir
 
-    ❂ /chatbot [ON/OFF]: Enables and disables AI Chat mode.
-    ❂ /chatbot EN : Enables English only chatbot.
+    ❂ /chatbot [ON/OFF]: AI Chat rejimini aktivləşdirir və söndürür.
+    ❂ /chatbot EN : Yalnız İngilis chatbotunu aktivləşdirir.
 cleaner_help: |
     ──「 Cleaner 」──
 
-    Blue text cleaner removed any made up commands that people send in your chat.
+    Mavi mətn təmizləyicisi insanların söhbətinizdə göndərdiyi hər hansı uydurma əmrləri sildi.
 
-    ❂ /cleanblue <on/off/yes/no>*:* clean commands after sending
-    ❂ /ignoreblue <word>*:* prevent auto cleaning of the command
-    ❂ /unignoreblue <word>*:* remove prevent auto cleaning of the command
-    ❂ /listblue*:* list currently whitelisted commands
+    ❂ /cleanblue <on/off/yes/no>*:* göndərdikdən sonra əmrləri təmizləyin
+    ❂ /ignoreblue <word>*:* əmrin avtomatik təmizlənməsinin qarşısını alır
+    ❂ /unignoreblue <word>*:* komandanın avtomatik təmizlənməsinin qarşısını alın
+    ❂ /listblue*:* hazırda ağ siyahıda olan əmrləri siyahıya salın
 
-    *Following are Disasters only commands, admins cannot use these:*
+    *Aşağıdakılar yalnız Fəlakət əmrləridir, adminlər bunlardan istifadə edə bilməz:*
 
     ❂ /gignoreblue <word>*:* globally ignorea bluetext cleaning of saved word across Saitama.
     ❂ /ungignoreblue <word>*:* remove said command from global cleaning list
