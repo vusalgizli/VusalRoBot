@@ -18,7 +18,7 @@ from SiestaRobot.modules.language import gs
 def helps(chat):
     return gs(chat, "translator_help")
 
-__mod_name__ = "Translator"
+__mod_name__ = "💭Tərcüməçi"
 
 
 trans = Translator()
