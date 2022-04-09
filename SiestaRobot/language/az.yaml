@@ -418,10 +418,8 @@ WELCOME_HELP_TEXT: |
    "Qrupunuzun salamlama/goodbye mesajları müxtəlif üsullarla fərdiləşdirilə bilər. Mesajları istəyirsinizsə"
     " defolt salamlama mesajı kimi fərdi olaraq yaradılmaq üçün *bu* dəyişənlərdən istifadə edə bilərsiniz:\n"
     " ❂ `{first}`*:* bu istifadəçinin *ad* adını təmsil edir\n"
-    " ❂ `{last}`*:* bu istifadəçinin *soyadını* ifadə edir. Əgər istifadəçi yoxdursa, defolt olaraq *ad* təyin edilir.
-    "soyad.\n"
-    " ❂ `{fullname}`*:* bu istifadəçinin *tam* adını təmsil edir. Əgər istifadəçi yoxdursa, defolt olaraq *ad* təyin edilir.
-     "soyad.\n"
+    " ❂ `{last}`*:* bu istifadəçinin *soyadını* ifadə edir. Əgər istifadəçi yoxdursa, defolt olaraq *ad* təyin edilir.soyad.\n"
+    " ❂ `{fullname}`*:* bu istifadəçinin *tam* adını təmsil edir. Əgər istifadəçi yoxdursa, defolt olaraq *ad* təyin edilir.soyad.\n"
     "  ❂ `{username}`*:* this represents the user's *username*. Defaults to a *mention* of the user's "
     "first name if has no username.\n"
     "  ❂ `{mention}`*:* this simply *mentions* a user - tagging them with their first name.\n"
