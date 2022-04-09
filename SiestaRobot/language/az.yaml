@@ -212,8 +212,8 @@ cleaner_help: |
 
     *Aşağıdakılar yalnız Fəlakət əmrləridir, adminlər bunlardan istifadə edə bilməz:*
 
-    ❂ /gignoreblue <word>*:* globally ignorea bluetext cleaning of saved word across Saitama.
-    ❂ /ungignoreblue <word>*:* remove said command from global cleaning list
+    ❂ /gignoreblue <word>*:* qlobal miqyasda Saitamada saxlanan sözün bluetext təmizlənməsinə məhəl qoymur.
+    ❂ /ungignoreblue <word>*:* sözügedən əmri qlobal təmizləmə siyahısından çıxarın
 connection_help: |
     ──「 Connection 」──
 
