@@ -217,17 +217,17 @@ cleaner_help: |
 connection_help: |
     ──「 Connection 」──
 
-    Sometimes, you just want to add some notes and filters to a group chat, but you don't want everyone to see; This is where connections come in...
-    This allows you to connect to a chat's database, and add things to it without the commands appearing in chat! For obvious reasons, you need to be an admin to add things; but any member in the group can view your data.
+    Bəzən siz qrup söhbətinə bəzi qeydlər və filtrlər əlavə etmək istəyirsiniz, lakin hamının görməsini istəmirsiniz;  Əlaqələr buradan gəlir...
+    Bu, söhbətdə görünən əmrlər olmadan söhbətin verilənlər bazasına qoşulmağa və ona hər hansı bir şey əlavə etməyə imkan verir!  Aşkar səbəblərə görə şeylər əlavə etmək üçün admin olmalısınız;  lakin qrupdakı hər hansı üzv məlumatlarınızı görə bilər.
 
-    ❂ /connect: Connects to chat (Can be done in a group by /connect or /connect <chat id> in PM)
-    ❂ /connection: List connected chats
-    ❂ /disconnect: Disconnect from a chat
-    ❂ /helpconnect: List available commands that can be used remotely
+    ❂ /connect: Söhbətə qoşulur (Qrupda PM-də /connect və ya /connect <chat id> vasitəsilə edilə bilər)
+    ❂ /connection: Qoşulmuş söhbətləri siyahıya salın
+    ❂ /disconnect: Söhbətlə əlaqəni kəsin
+    ❂ /helpconnect: Uzaqdan istifadə edilə bilən mövcud əmrləri sadalayın
 
-    *Admin only:*
+     *Yalnız admin:*
 
-    ❂ /allowconnect <yes/no>: allow a user to connect to a chat
+    ❂ /allowconnect <yes/no>: istifadəçiyə söhbətə qoşulmağa icazə verin
 disabling_help: |
     ──「 Disabling 」──
 
