@@ -415,13 +415,13 @@ greetings_help: |
 WELCOME_HELP_TEXT: |
     ──「 Greetings Format Help 」──
 
-    "Your group's welcome/goodbye messages can be personalised in multiple ways. If you want the messages"
-    " to be individually generated, like the default welcome message is, you can use *these* variables:\n"
-    "  ❂ `{first}`*:* this represents the user's *first* name\n"
-    "  ❂ `{last}`*:* this represents the user's *last* name. Defaults to *first name* if user has no "
-    "last name.\n"
-    "  ❂ `{fullname}`*:* this represents the user's *full* name. Defaults to *first name* if user has no "
-    "last name.\n"
+   "Qrupunuzun salamlama/goodbye mesajları müxtəlif üsullarla fərdiləşdirilə bilər. Mesajları istəyirsinizsə"
+    " defolt salamlama mesajı kimi fərdi olaraq yaradılmaq üçün *bu* dəyişənlərdən istifadə edə bilərsiniz:\n"
+    " ❂ `{first}`*:* bu istifadəçinin *ad* adını təmsil edir\n"
+    " ❂ `{last}`*:* bu istifadəçinin *soyadını* ifadə edir. Əgər istifadəçi yoxdursa, defolt olaraq *ad* təyin edilir."
+    "soyad.\n"
+    " ❂ `{fullname}`*:* bu istifadəçinin *tam* adını təmsil edir. Əgər istifadəçi yoxdursa, defolt olaraq *ad* təyin edilir."
+     "soyad.\n"
     "  ❂ `{username}`*:* this represents the user's *username*. Defaults to a *mention* of the user's "
     "first name if has no username.\n"
     "  ❂ `{mention}`*:* this simply *mentions* a user - tagging them with their first name.\n"
