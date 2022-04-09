@@ -158,14 +158,14 @@ bansmutes_help: |
 
     *Yalnız adminlər:*
 
-    ❂ /ban <userhandle>*:* istifadəçini qadağan edir.  (sap və ya cavab vasitəsilə)
-    ❂ /sban <userhandle>*:* İstifadəçini səssizcə qadağan edin.  Komandanı, Cavablı mesajı silir və cavab vermir.  (sap və ya cavab vasitəsilə)
-    ❂ /tban <userhandle> x(m/h/d)*:* istifadəçiyə x dəfə qadağa qoyur.  (sap və ya cavab vasitəsilə).  m = dəqiqə, h = saat, d = gün.
-    ❂ /unban <userhandle>*:* istifadəçinin qadağasını ləğv edir.  (sap və ya cavab vasitəsilə)
-    ❂ /kick <userhandle>*:* istifadəçini qrupdan çıxarır, (dəlil və ya cavab vasitəsilə)
-    ❂ /mute <userhandle>*:* istifadəçini susdurur.  Cavab kimi də istifadə edilə bilər, istifadəçiyə verilən cavabı susdurmaq olar.
-    ❂ /tmute <userhandle> x(m/h/d)*:* istifadəçini x dəfə səssizləşdirir.  (sap və ya cavab vasitəsilə).  m = dəqiqə, h = saat, d = gün.
-    ❂ /unmute <userhandle>*:* istifadəçinin səsini açır.  Cavab kimi də istifadə edilə bilər, istifadəçiyə verilən cavabı susdurmaq olar.
+    ❂ /ban <İstifadəçi>*:* istifadəçini qadağan edir.
+    ❂ /sban <İstifadəçi>*:* İstifadəçini səssizcə qadağan edin.  Komandanı, Cavablı mesajı silir və cavab vermir.
+    ❂ /tban <İstifadəçi> x(m/h/d)*:* istifadəçiyə x müddətlik qadağa qoyur.  m = minutes, h = hours, d = days.
+    ❂ /unban <İstifadəçi>*:* istifadəçinin qadağasını ləğv edir.
+    ❂ /kick <İstifadəçi>*:* istifadəçini qrupdan çıxarır.
+    ❂ /mute <İstifadəçi>*:* istifadəçini susdurur.
+    ❂ /tmute <İstifadəçiadı> x(m/h/d)*:* istifadəçini x dəfə səssizləşdirir.  m = dəqiqə, h = saat, d = gün.
+    ❂ /unmute <İstifadəçi>*:* istifadəçinin səsini açır.
     ❂ /zombies*:* silinmiş hesabları axtarır
     ❂ /zombies clean*:* qrupdan silinmiş hesabları silir.
     ❂ /snipe <chatid> <string>*:* Məni xüsusi söhbətə mesaj göndərməyə məcbur edin.
