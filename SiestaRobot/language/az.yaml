@@ -426,8 +426,7 @@ WELCOME_HELP_TEXT: |
     "Xoş gəlmisiniz mesajları həmçinin işarələməni dəstəkləyir, beləliklə siz istənilən elementi qalın/italik/kod/linklər edə bilərsiniz."
     "Düymələr də dəstəklənir, beləliklə siz xoş intro ilə qarşılamalarınızı möhtəşəm göstərə bilərsiniz"
     "düymələr.\n"
-   f"Qaydalarınızla əlaqələndirən düymə yaratmaq üçün bundan istifadə edin: `[Rules](buttonurl://t.me/{dispatcher.bot.username}?start=group_id)`."
-    "Sadəcə `group_id`-ni qrupunuzun identifikatoru ilə əvəz edin, onu /id vasitəsilə əldə edə bilərsiniz.
+   f"Qaydalarınızla əlaqələndirən düymə yaratmaq üçün bundan istifadə edi: "`[Rules](buttonurl://t.me/{dispatcher.bot.username}?start=group_id)`.Sadəcə `group_id`-ni qrupunuzun identifikatoru ilə əvəz edin, onu /id vasitəsilə əldə edə bilərsiniz."
      "get. Qeyd edək ki, qrup identifikatorlarından əvvəl adətən `-` işarəsi qoyulur; bu tələb olunur, ona görə də lütfən bunu etməyin "
      "çıxarın.\n"
      "Siz hətta şəkilləri/gifləri/videoları/səsli mesajları salamlama mesajı kimi təyin edə bilərsiniz"
