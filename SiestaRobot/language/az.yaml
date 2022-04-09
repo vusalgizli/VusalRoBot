@@ -160,7 +160,7 @@ bansmutes_help: |
 
     ❂ /ban <İstifadəçi>*:* istifadəçini qadağan edir.
     ❂ /sban <İstifadəçi>*:* İstifadəçini səssizcə qadağan edin.
-    ❂ /tban <İstifadəçi> x(m/h/d)*:* istifadəçiyə x müddətlik qadağa qoyur.  m = minutes, h = hours, d = days.
+    ❂ /tban <İstifadəçi> x(m/h/d)*:* istifadəçiyə x müddətlik qadağa qoyur. Nümunə  4m = minutes, 3h = hours, 6d = days.
     ❂ /unban <İstifadəçi>*:* istifadəçinin qadağasını ləğv edir.
     ❂ /kick <İstifadəçi>*:* istifadəçini qrupdan çıxarır.
     ❂ /mute <İstifadəçi>*:* istifadəçini susdurur.
