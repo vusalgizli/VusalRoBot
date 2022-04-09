@@ -428,7 +428,7 @@ WELCOME_HELP_TEXT: |
 WELCOME_MUTE_HELP_TEXT: |
     ──「 Greetings Mute Format Help 」──
 
-   "Qrupunuza qoşulan yeni insanların səsini söndürmək üçün botu əldə edə bilərsiniz və bununla da spambotların qrupunuzu doldurmasının qarşısını ala bilərsiniz."
+   "Bu bot qrupa qoşulanları avtomatik sudura da bilir. Doğrulama testini etdikdən sonra səsləri avtomatik açılır. Mövcud əmrlər:."
     "Aşağıdakı seçimlər mümkündür:\n"
     " ❂ `/welcomemute soft`*:* 24 saat ərzində yeni üzvlərin media göndərməsini məhdudlaşdırır.\n"
     " ❂ `/welcomemute strong`*:* yeni üzvlərin insan olduqlarını təsdiqləmək üçün düyməyə toxunana qədər səsini söndürür.\n"
