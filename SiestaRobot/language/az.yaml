@@ -292,7 +292,7 @@ fsub_feds_help: |
 
     *Məcburi Abunə olun:*
 
-    Siesta kanalınıza abunə olmayan üzvləri abunə olana qədər susdura bilər Aktivləşdirildikdə, mən abunə olmayan üzvlərin səsini söndürəcəm və onlara səsi açma düyməsini göstərəcəyəm.  Düyməni basanda mən onların səsini açacağam
+    Fidan kanalınıza abunə olmayan üzvləri abunə olana qədər susdura bilər Aktivləşdirildikdə, mən abunə olmayan üzvlərin səsini söndürəcəm və onlara səsi açma düyməsini göstərəcəyəm.  Düyməni basanda mən onların səsini açacağam
 
     *Quraşdırma* *:* *Yalnız yaradıcı*
     ❂ Məni qrupunuza admin kimi əlavə edin
@@ -359,28 +359,28 @@ FED_USER_HELP: |
 filters_help: |
     ──「 Filters 」──
 
-    ❂ /filters*:* List all active filters saved in the chat.
-    *Admin only:*
-    ❂ /filter <keyword> <reply message>*:* Add a filter to this chat. The bot will now reply that message whenever 'keyword'\
-    is mentioned. If you reply to a sticker with a keyword, the bot will reply with that sticker. NOTE: all filter \
-    keywords are in lowercase. If you want your keyword to be a sentence, use quotes. eg: /filter "hey there" How you \
-    doin?
-    Separate diff replies by `%%%` to get random replies
-      *Example:* 
-      ➩ `/filter "filtername"
-         Reply 1
-         %%%
-         Reply 2
-         %%%
-         Reply 3`
+    ❂ /filters*:* Söhbətdə saxlanan bütün aktiv filtrləri sadalayın.
+    *Yalnız admin:*
+    ❂ /filter <açar söz> <cavab mesajı>*:* Bu söhbətə filtr əlavə edin.  Bot indi bu mesaja hər 'açar söz' olduqda cavab verəcəkdir\
+    qeyd edilir.  Əgər stikerə açar sözlə cavab versəniz, bot həmin stikerlə cavab verəcək.  QEYD: bütün filtr \
+    açar sözlər kiçik hərflərlə yazılır.  Açar sözünüzün cümlə olmasını istəyirsinizsə, sitatlardan istifadə edin.  məsələn: /filtr "hey orada" Necəsən \
+    edir?
+    Təsadüfi cavablar əldə etmək üçün fərqli cavabları `%%%` ilə ayırın
+       *Məsələn:*
+       ➩ `/filtr "filtername"
+          Cavab 1
+          %%%
+          Cavab 2
+          %%%
+          Cavab verin 3`
 
-    ❂ /stop <filter keyword>*:* Stop that filter.
+    ❂ /stop <filter açar sözü>*:* Həmin filtri dayandırın.
 
-    *Chat creator only:*
+     *Yalnız söhbət yaradıcısı:*
 
-    ❂ /removeallfilters*:* Remove all chat filters at once.
-    *Note*: Filters also support markdown formatters like: {first}, {last} etc.. and buttons.
-    Check /markdownhelp to know more!
+    ❂ /removeallfilters*:* Bütün söhbət filtrlərini bir anda silin.
+    *Qeyd*: Filtrlər həmçinin işarələmə formatlarını dəstəkləyir: {first}, {last} və s. və düymələr.
+    Ətraflı məlumat üçün /markdownhelp-i yoxlayın!
 fun_help: |
     ──「 Fun 」──
 
