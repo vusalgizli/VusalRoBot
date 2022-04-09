@@ -428,13 +428,11 @@ WELCOME_HELP_TEXT: |
 WELCOME_MUTE_HELP_TEXT: |
     ──「 Greetings Mute Format Help 」──
 
-   "Bu bot qrupa qoşulanları avtomatik sudura da bilir. Doğrulama testini etdikdən sonra səsləri avtomatik açılır. Mövcud əmrlər:."
-    "Aşağıdakı seçimlər mümkündür:\n"
-    " ❂ `/welcomemute soft`*:* 24 saat ərzində yeni üzvlərin media göndərməsini məhdudlaşdırır.\n"
-    " ❂ `/welcomemute strong`*:* yeni üzvlərin insan olduqlarını təsdiqləmək üçün düyməyə toxunana qədər səsini söndürür.\n"
-    " ❂ `/welcomemute captcha`*:* yeni üzvlərin insan olduqlarını təsdiqləmək üçün captcha düyməsini həll edənə qədər səsini söndürür.\n"
-    " ❂ `/welcomemute off`*:* salamlama səsini söndürür.\n"
-    "*Qeyd:* Güclü rejim istifadəçini 120 saniyə ərzində doğrulamasa, söhbətdən kənarlaşdırır. Bununla belə, onlar həmişə yenidən qoşula bilərlər"
+   "Bu bot qrupa qoşulanları avtomatik sudura da bilir. Doğrulama testini etdikdən sonra səsləri avtomatik açılır. Mövcud əmrlər:"
+   • "'/welcomemute soft: yeni qoşulanlar 24 saatlığına media höndərə bilmirlər."
+   • "'/welcomemute strong: qrupa yeni qoşulanlar buttona basana qədər səssizləşdirilir."
+   • "'/welcomemute off: səssizə almanı deaktiv edir."
+   "Qeyd: Strong odu aktiv olduğunda qrupa yeni qoşulanlar 120 saniyə ərzində butona basmasalar qtupdan atılır. İstənilən vaxt yenidən qoşula bilər"
 info_and_afk_help: |
     ──「 Info and AFK 」──
 
