@@ -323,32 +323,32 @@ fsub_feds_help: |
 FED_OWNER_HELP: | 
     ──「 Feds 」──
 
-    *👑 Fed Owner Only:*
-    ❂ `/newfed <fed_name>`*:* Creates a Federation, One allowed per user
-    ❂ `/renamefed <fed_id> <new_fed_name>`*:* Renames the fed id to a new name
-    ❂ `/delfed <fed_id>`*:* Delete a Federation, and any information related to it. Will not cancel blocked users
-    ❂ `/fpromote <user>`*:* Assigns the user as a federation admin. Enables all commands for the user under `Fed Admins`
-    ❂ `/fdemote <user>`*:* Drops the User from the admin Federation to a normal User
-    ❂ `/subfed <fed_id>`*:* Subscribes to a given fed ID, bans from that subscribed fed will also happen in your fed
-    ❂ `/unsubfed <fed_id>`*:* Unsubscribes to a given fed ID
-    ❂ `/setfedlog <fed_id>`*:* Sets the group as a fed log report base for the federation
-    ❂ `/unsetfedlog <fed_id>`*:* Removed the group as a fed log report base for the federation
-    ❂ `/fbroadcast <message>`*:* Broadcasts a messages to all groups that have joined your fed
-    ❂ `/fedsubs`*:* Shows the feds your group is subscribed to `(broken rn)`
+    *👑 Yalnız Fed Sahibi:*
+    ❂ `/newfed <fed_name>`*:* Federasiya yaradır, hər istifadəçiyə icazə verilir
+    ❂ `/renamefed <fed_id> <new_fed_name>`*:* Fed id-nin adını yeni ada dəyişdirir
+    ❂ `/delfed <fed_id>`*:* Federasiyanı və onunla əlaqəli hər hansı məlumatı silin.  Bloklanmış istifadəçiləri ləğv etməyəcək
+    ❂ `/fpromote <user>`*:* İstifadəçini federasiya admini kimi təyin edir.  `Fed Admins` altında istifadəçi üçün bütün əmrləri aktivləşdirir
+    ❂ `/fdemote <user>`*:* İstifadəçini admin Federasiyasından normal İstifadəçiyə endirir
+    ❂ `/subfed <fed_id>`*:* Verilmiş qidalanma identifikatoruna abunə olur, həmin abunə olunan feed-ə qadağalar sizin lentinizdə də olacaq
+    ❂ `/unsubfed <fed_id>`*:* Verilmiş qidalanan ID-yə abunəlikdən çıxır
+     ❂ `/setfedlog <fed_id>`*:* Qrupu federasiya üçün qidalanmış jurnal hesabat bazası kimi təyin edir
+    ❂ `/unsetfedlog <fed_id>`*:* Federasiya üçün qidalanmış jurnal hesabat bazası kimi qrupu silindi
+    ❂ `/fbroadcast <message>`*:* Fedinizə qoşulmuş bütün qruplara mesaj yayımlayır
+    ❂ `/fedsubs`*:* Qrupunuzun `(sınmış rn)` abunə olduğu fedləri göstərir
 FED_ADMIN_HELP: |
-    ──「 Feds 」──
+    ──「 Federallər 」──
 
-    *🔱 Fed Admins:*
-    ❂ `/fban <user> <reason>`*:* Fed bans a user
-    ❂ `/unfban <user> <reason>`*:* Removes a user from a fed ban
-    ❂ `/fedinfo <fed_id>`*:* Information about the specified Federation
-    ❂ `/joinfed <fed_id>`*:* Join the current chat to the Federation. Only chat owners can do this. Every chat can only be in one Federation
-    ❂ `/leavefed <fed_id>`*:* Leave the Federation given. Only chat owners can do this
-    ❂ `/setfrules <rules>`*:* Arrange Federation rules
-    ❂ `/fedadmins`*:* Show Federation admin
-    ❂ `/fbanlist`*:* Displays all users who are victimized at the Federation at this time
-    ❂ `/fedchats`*:* Get all the chats that are connected in the Federation
-    ❂ `/chatfed `*:* See the Federation in the current chat\n
+    *🔱 Fed Adminləri:*
+    ❂ `/fban <user> <səbəb>`*:* Fed istifadəçini qadağan edir
+    ❂ `/unfban <user> <səbəb>`*:* İstifadəçini qadağadan çıxarır
+    ❂ `/fedinfo <fed_id>`*:* Göstərilən Federasiya haqqında məlumat
+    ❂ `/joinfed <fed_id>`*:* Federasiya ilə cari söhbətə qoşulun.  Bunu yalnız söhbət sahibləri edə bilər.  Hər bir söhbət yalnız bir Federasiyada ola bilər
+    ❂ `/leaefed <fed_id>`*:* Verilmiş Federasiyanı tərk edin.  Bunu yalnız söhbət sahibləri edə bilər
+    ❂ `/setfrules <qaydalar>`*:* Federasiya qaydalarını təşkil edin
+    ❂ `/fedadmins`*:* Federasiya admini göstərin
+    ❂ `/fbanlist`*:* Hazırda Federasiyada zərər çəkmiş bütün istifadəçiləri göstərir
+    ❂ `/fedchats`*:* Federasiyaya qoşulmuş bütün söhbətləri əldə edin
+    ❂ `/chatfed `*:* Cari söhbətdə Federasiyaya baxın\n
 FED_USER_HELP: | 
     ──「 Feds 」──
 
