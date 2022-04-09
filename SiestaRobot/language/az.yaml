@@ -152,23 +152,23 @@ approve_help: |
 bansmutes_help: |
     ──「 Bans / Mutes 」──
 
-    *User Commands:*
+    *İstifadəçi Əmrləri:*
 
-    ❂ /kickme*:* kicks the user who issued the command
+    ❂ /kickme*:* əmri verən istifadəçini təpikləyir
 
-    *Admins only:*
+    *Yalnız adminlər:*
 
-    ❂ /ban <userhandle>*:* bans a user. (via handle, or reply)
-    ❂ /sban <userhandle>*:* Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
-    ❂ /tban <userhandle> x(m/h/d)*:* bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-    ❂ /unban <userhandle>*:* unbans a user. (via handle, or reply)
-    ❂ /kick <userhandle>*:* kicks a user out of the group, (via handle, or reply)
-    ❂ /mute <userhandle>*:* silences a user. Can also be used as a reply, muting the replied to user.
-    ❂ /tmute <userhandle> x(m/h/d)*:* mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-    ❂ /unmute <userhandle>*:* unmutes a user. Can also be used as a reply, muting the replied to user.
-    ❂ /zombies*:* searches deleted accounts
-    ❂ /zombies clean*:* removes deleted accounts from the group.
-    ❂ /snipe <chatid> <string>*:* Make me send a message to a specific chat.
+    ❂ /ban <userhandle>*:* istifadəçini qadağan edir.  (sap və ya cavab vasitəsilə)
+    ❂ /sban <userhandle>*:* İstifadəçini səssizcə qadağan edin.  Komandanı, Cavablı mesajı silir və cavab vermir.  (sap və ya cavab vasitəsilə)
+    ❂ /tban <userhandle> x(m/h/d)*:* istifadəçiyə x dəfə qadağa qoyur.  (sap və ya cavab vasitəsilə).  m = dəqiqə, h = saat, d = gün.
+    ❂ /unban <userhandle>*:* istifadəçinin qadağasını ləğv edir.  (sap və ya cavab vasitəsilə)
+    ❂ /kick <userhandle>*:* istifadəçini qrupdan çıxarır, (dəlil və ya cavab vasitəsilə)
+    ❂ /mute <userhandle>*:* istifadəçini susdurur.  Cavab kimi də istifadə edilə bilər, istifadəçiyə verilən cavabı susdurmaq olar.
+    ❂ /tmute <userhandle> x(m/h/d)*:* istifadəçini x dəfə səssizləşdirir.  (sap və ya cavab vasitəsilə).  m = dəqiqə, h = saat, d = gün.
+    ❂ /unmute <userhandle>*:* istifadəçinin səsini açır.  Cavab kimi də istifadə edilə bilər, istifadəçiyə verilən cavabı susdurmaq olar.
+    ❂ /zombies*:* silinmiş hesabları axtarır
+    ❂ /zombies clean*:* qrupdan silinmiş hesabları silir.
+    ❂ /snipe <chatid> <string>*:* Məni xüsusi söhbətə mesaj göndərməyə məcbur edin.
 blacklist_help: |
     ──「 Blacklist 」──
 
