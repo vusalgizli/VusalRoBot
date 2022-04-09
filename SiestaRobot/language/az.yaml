@@ -397,21 +397,21 @@ greetings_help: |
     ──「 Greetings 」──
 
     *Yalnız adminlər:*
-     ❂ /welcome <on/off>*:* salamlama mesajlarını aktivləşdir/deaktiv et.
-     ❂ /welcome*:* cari qarşılama parametrlərini göstərir.
-     ❂ /welcome noformat*:* formatlaşdırmadan cari salamlama parametrlərini göstərir - salamlama mesajlarınızı təkrar emal etmək üçün faydalıdır!
-     ❂ /goodbye*:* `/xoş gəldin` ilə eyni istifadə və arqumentlər.
-     ❂ /setwelcome <sometext>*:* fərdi salamlama mesajı təyin edin.  Mediaya cavab vermək üçün istifadə olunursa, həmin mediadan istifadə edir.
-     ❂ /setgoodbye <sometext>*:* fərdi vida mesajı təyin edin.  Mediaya cavab vermək üçün istifadə olunursa, həmin mediadan istifadə edir.
-     ❂ /resetwelcome*:* defolt salamlama mesajına sıfırlayın.
-     ❂ /resetgoodbye*:* defolt vida mesajına sıfırlayın.
-     ❂ /cleanwelcome <on/off>*:* Yeni üzvdə söhbətə spam göndərməmək üçün əvvəlki salamlama mesajını silməyə çalışın.
-     ❂ /welcomemutehelp*:* qarşılama səssizləri haqqında məlumat verir.
-     ❂ /cleanservice <on/off*:* teleqramların salamlama/sol xidmət mesajlarını silir.
+    ❂ /welcome <on/off>*:* salamlama mesajlarını aktivləşdir/deaktiv et.
+    ❂ /welcome*:* cari qarşılama parametrlərini göstərir.
+    ❂ /welcome noformat*:* formatlaşdırmadan cari salamlama parametrlərini göstərir - salamlama mesajlarınızı təkrar emal etmək üçün faydalıdır!
+    ❂ /goodbye*:* `/xoş gəldin` ilə eyni istifadə və arqumentlər.
+    ❂ /setwelcome <sometext>*:* fərdi salamlama mesajı təyin edin.  Mediaya cavab vermək üçün istifadə olunursa, həmin mediadan istifadə edir.
+    ❂ /setgoodbye <sometext>*:* fərdi vida mesajı təyin edin.  Mediaya cavab vermək üçün istifadə olunursa, həmin mediadan istifadə edir.
+    ❂ /resetwelcome*:* defolt salamlama mesajına sıfırlayın.
+    ❂ /resetgoodbye*:* defolt vida mesajına sıfırlayın.
+    ❂ /cleanwelcome <on/off>*:* Yeni üzvdə söhbətə spam göndərməmək üçün əvvəlki salamlama mesajını silməyə çalışın.
+    ❂ /welcomemutehelp*:* qarşılama səssizləri haqqında məlumat verir.
+    ❂ /cleanservice <on/off*:* teleqramların salamlama/sol xidmət mesajlarını silir.
      *Məsələn:*
-     istifadəçi söhbətə qoşuldu, istifadəçi söhbəti tərk etdi.
+    istifadəçi söhbətə qoşuldu, istifadəçi söhbəti tərk etdi.
      *Xoş gəldiniz qeydi:*
-     ❂ /welcomehelp*:* xüsusi salamlama/goodbye mesajları üçün daha çox formatlama məlumatına baxın.
+    ❂ /welcomehelp*:* xüsusi salamlama/goodbye mesajları üçün daha çox formatlama məlumatına baxın.
 WELCOME_HELP_TEXT: |
     ──「 Greetings Format Help 」──
 
