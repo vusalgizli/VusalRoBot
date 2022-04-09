@@ -159,7 +159,7 @@ bansmutes_help: |
     *Yalnız adminlər:*
 
     ❂ /ban <İstifadəçi>*:* istifadəçini qadağan edir.
-    ❂ /sban <İstifadəçi>*:* İstifadəçini səssizcə qadağan edin.  Komandanı, Cavablı mesajı silir və cavab vermir.
+    ❂ /sban <İstifadəçi>*:* İstifadəçini səssizcə qadağan edin.
     ❂ /tban <İstifadəçi> x(m/h/d)*:* istifadəçiyə x müddətlik qadağa qoyur.  m = minutes, h = hours, d = days.
     ❂ /unban <İstifadəçi>*:* istifadəçinin qadağasını ləğv edir.
     ❂ /kick <İstifadəçi>*:* istifadəçini qrupdan çıxarır.
