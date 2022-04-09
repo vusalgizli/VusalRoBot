@@ -20,5 +20,5 @@ async def awake(event):
   TEXT += f"💠 **Telethon Version :** `{tlhver}` \n\n"
   TEXT += f"💠 **Pyrogram Version :** `{pyrover}` \n\n"
   TEXT += "**Thanks For Adding Me Here ❤️**"
-  BUTTON = [[Button.url("Help", "https://t.me/Siestaxbot?start=help"), Button.url("Support", "https://t.me/machinaxsupport")]]
+  BUTTON = [[Button.url("Kanal", "https://t.me/Fidowunkanali"), Button.url("Qrupumuz", "https://t.me/FidaninDunyasi")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)
