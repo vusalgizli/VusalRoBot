@@ -352,10 +352,10 @@ FED_ADMIN_HELP: |
 FED_USER_HELP: | 
     ──「 Feds 」──
 
-    *🎩 Any user:*
-    ❂ /fbanstat*:* Shows if you/or the user you are replying to or their username is fbanned somewhere or not
-    ❂ /fednotif <on/off>*:* Federation settings not in PM when there are users who are fbaned/unfbanned
-    ❂ /frules*:* See Federation regulations\n
+    *🎩 İstənilən istifadəçi:*
+    ❂ /fbanstat*:* Sizin/yaxud cavab verdiyiniz istifadəçinin və ya istifadəçi adının haradasa bloklandığını və ya qadağan edildiyini göstərir
+    ❂ /fednotif <on/off>*:* Fbaned/qadağan edilməmiş istifadəçilər olduqda federasiya parametrləri PM-də deyil
+    ❂ /frules*:* Federasiya reqlamentinə baxın\n
 filters_help: |
     ──「 Filters 」──
 
