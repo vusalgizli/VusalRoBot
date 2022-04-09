@@ -146,7 +146,7 @@ approve_help: |
     *Admin əmrləri:*
     ❂ /approval*:* Bu söhbətdə istifadəçinin təsdiq statusunu yoxlayın.
     ❂ /approve*:* İstifadəçini təsdiqləyin.  Kilidlər, qara siyahılar və daşqın əleyhinə daha onlara şamil edilməyəcək.
-     ❂ /unapprove*:* İstifadəçinin təsdiqindən imtina edin.  İndi onlar yenidən kilidlərə, qara siyahılara və antifloodlara məruz qalacaqlar.
+    ❂ /unapprove*:* İstifadəçinin təsdiqindən imtina edin.  İndi onlar yenidən kilidlərə, qara siyahılara və antifloodlara məruz qalacaqlar.
     ❂ /approved*:* Bütün təsdiq edilmiş istifadəçiləri siyahıya salın.
     ❂ /unapproveall*:* Çatda *BÜTÜN* istifadəçiləri təsdiqdən çıxarın.  Bu geri qaytarıla bilməz.
 bansmutes_help: |
