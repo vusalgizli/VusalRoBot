@@ -21,7 +21,7 @@ def anime_quote():
         pass
     quote = dic["quote"]
     character = dic["character"]
-    anime = dic["anime"]
+    anime = dic["soxri"]
     return quote, character, anime
 def quotes(update: Update, context: CallbackContext):
     message = update.effective_message
