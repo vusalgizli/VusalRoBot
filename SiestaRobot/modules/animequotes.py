@@ -238,7 +238,7 @@ QUOTE_CHANGE = CallbackQueryHandler(
     change_quote, pattern=r"quote_.*")
 dispatcher.add_handler(CHANGE_QUOTE)
 dispatcher.add_handler(QUOTE_CHANGE)
-dispatcher.add_handler(ANIMEQUOTES_HANDLER)
+dispatcher.add_handler(SOXRI_HANDLER)
 dispatcher.add_handler(QUOTES_HANDLER)
 
 __command_list__ = [
