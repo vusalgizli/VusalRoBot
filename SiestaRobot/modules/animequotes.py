@@ -232,7 +232,7 @@ QUOTES_IMG = (
       
       )    
 
-ANIMEQUOTES_HANDLER = DisableAbleCommandHandler("animequotes", animequotes, run_async=True)
+ANIMEQUOTES_HANDLER = DisableAbleCommandHandler("soxri", animequotes, run_async=True)
 QUOTES_HANDLER = DisableAbleCommandHandler("quote", quotes, run_async=True)
 
 CHANGE_QUOTE = CallbackQueryHandler(
@@ -246,7 +246,7 @@ dispatcher.add_handler(QUOTES_HANDLER)
 
 __command_list__ = [
 
-    "animequotes",
+    "soxri",
     "quote"
 
 ]
