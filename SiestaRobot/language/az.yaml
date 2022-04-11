@@ -429,9 +429,9 @@ WELCOME_MUTE_HELP_TEXT: |
     ──「 Greetings Mute Format Help 」──
 
     Bu bot qrupa qoşulanları avtomatik sudura da bilir. Doğrulama testini etdikdən sonra səsləri avtomatik açılır. Mövcud əmrlər:
-    ❂ '/welcomemute soft: yeni qoşulanlar 24 saatlığına media höndərə bilmirlər.
-    ❂ '/welcomemute strong: qrupa yeni qoşulanlar buttona basana qədər səssizləşdirilir.
-    ❂ '/welcomemute off: səssizə almanı deaktiv edir.
+    ❂ /welcomemute soft: yeni qoşulanlar 24 saatlığına media höndərə bilmirlər.
+    ❂ /welcomemute strong: qrupa yeni qoşulanlar buttona basana qədər səssizləşdirilir.
+    ❂ /welcomemute off: səssizə almanı deaktiv edir.
     Qryd: Strong odu aktiv olduğunda qrupa yeni qoşulanlar 120 saniyə ərzində butona basmasalar qtupdan atılır. İstənilən vaxt yenidən qoşula bilər
 info_and_afk_help: |
     ──「 Info and AFK 」──
