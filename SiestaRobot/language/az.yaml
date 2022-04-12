@@ -506,29 +506,29 @@ logchannel_help: |
 logomarker_help: |
     ──「 Logo Marker 」──
     
-    This is help menu for logomaker
-    ❂ /logo <text/name> - Create a logo with random view.
-    ❂ /wlogo <text/name> - Create a logo with wide view only.
+    Bu loqomaker üçün yardım menyusudur
+    ❂ /logo <text/name> - Təsadüfi görünüşlə loqo yaradın.
+    ❂ /wlogo <text/name> - Yalnız geniş görünüşlü loqo yaradın.
 
-    *Image Editor : *
-    ❂  /edit <reply photo> - to edit image.
+     *Şəkil Redaktoru: *
+    ❂ /edit <cavab fotosu> - şəkli redaktə etmək üçün.
 musicplayer_help: |
     ──「 Musicplayer 」──
 
-    Help Music can access with different command and support dashboard help and setting.
-    ❂ /mhelp - for help music module
-    ❂ /msettings - for setting music module
+    Help Music müxtəlif əmr və dəstək tablosuna yardım və parametrlərlə daxil ola bilər.
+    ❂ /mhelp - yardım musiqi modulu üçün
+    ❂ /msettings - musiqi modulunun qurulması üçün
 
-    NOTE : DON'T SPAMMING AT REQUEST SONG OR VIDEO...
+    QEYD: MAHNI VƏ VİDEONU İSTƏYƏK ÜZRƏ SPAMM YAPMAYIN...
 notes_help: |
     ──「 Notes 」──
 
-    ❂ /get <notename>*:* get the note with this notename
-    ❂ #<notename>*:* same as /get
-    ❂ /notes or /saved*:* list all saved notes in this chat
-    ❂ /number *:* Will pull the note of that number in the list
-    If you would like to retrieve the contents of a note without any formatting, use `/get <notename> noformat`. This can \
-    be useful when updating a current note
+    ❂ /get <notname>*:* qeydi bu qeyd adı ilə əldə edin
+    ❂ #<notename>*:* /get ilə eynidir
+    ❂ /notes və ya /saved*:* bu söhbətdə bütün saxlanmış qeydləri sadalayın
+    ❂ /number *:* Siyahıda həmin nömrənin qeydini çəkəcək
+    Əgər qeydin məzmununu heç bir formatlaşdırmadan əldə etmək istəyirsinizsə, `/get <notename> noformat` istifadə edin.  Bu olar \
+    cari qeydi yeniləyərkən faydalı ola bilər
 
     *Admins only:*
     ❂ /save <notename> <notedata>*:* saves notedata as a note with name notename
