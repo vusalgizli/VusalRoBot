@@ -644,22 +644,22 @@ tools_help: |
        sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
        vi,xh,yi,yo,zh,zh_CN,zh_TW,zu`
  warns_help: |
-    ──「 Warns 」──
+    ──「 Xəbərdarlıq」──
 
-    ❂ /warns <userhandle>: get a user's number, and reason, of warns.
-    ❂ /warnlist: list of all current warning filters
-    ❂ /warn <userhandle>: warn a user. After 3 warns, the user will be banned from the group. Can also be used as a reply.
-    ❂ /dwarn <userhandle>: warn a user and delete the message. After 3 warns, the user will be banned from the group. Can also be used as a reply.
-    ❂ /resetwarn <userhandle>: reset the warns for a user. Can also be used as a reply.
-    ❂ /addwarn <keyword> <reply message>: set a warning filter on a certain keyword. If you want your keyword to be a sentence, encompass it with quotes, as such: /addwarn "very angry" This is an angry user.
-    ❂ /nowarn <keyword>: stop a warning filter
-    ❂ /warnlimit <num>: set the warning limit
-    ❂ /strongwarn <on/yes/off/no>: If set to on, exceeding the warn limit will result in a ban. Else, will just punch.
+    ❂ /warns <userhandle>: istifadəçinin nömrəsini və xəbərdarlıq səbəbini əldə edin.
+    ❂ /warnlist: bütün cari xəbərdarlıq filtrlərinin siyahısı
+    ❂ /warn <userhandle>: istifadəçini xəbərdar et.  3 xəbərdarlıqdan sonra istifadəçi qrupdan kənarlaşdırılacaq.  Cavab kimi də istifadə edilə bilər.
+    ❂ /dwarn <userhandle>: istifadəçiyə xəbərdarlıq edin və mesajı silin.  3 xəbərdarlıqdan sonra istifadəçi qrupdan kənarlaşdırılacaq.  Cavab kimi də istifadə edilə bilər.
+    ❂ /resetwarn <userhandle>: istifadəçi üçün xəbərdarlıqları sıfırlayın.  Cavab kimi də istifadə edilə bilər.
+    ❂ /addwarn <açar söz> <cavab mesajı>: müəyyən açar sözdə xəbərdarlıq filtri qurun.  Açar sözünüzün cümlə olmasını istəyirsinizsə, onu sitatlarla əhatə edin, məsələn: /addwarn "very angry" Bu qəzəbli istifadəçidir.
+    ❂ /nowarn <açar söz>: xəbərdarlıq filtrini dayandırın
+    ❂ /warnlimit <num>: xəbərdarlıq limitini təyin edin
+    ❂ /strongwarn <on/yes/off/no>: Aktiv olaraq təyin olunarsa, xəbərdarlıq limitini aşmaq qadağa ilə nəticələnəcək.  Əks halda, sadəcə yumruq atacaq.
 
 # Admin.py Variabel Text
-user_change_info: "You're missing rights to change chat info!"
-set_error: "Error! {}."
-set_sticker: "You need to reply to some sticker to set chat sticker set!"
+user_change_info: "Söhbət məlumatını dəyişdirmək hüququnuz yoxdur!"
+set_error: "Xəta! {}."
+set_sticker: "Söhbət stiker dəstini qurmaq üçün bəzi stikerə cavab verməlisiniz!"
 set_sticker_success: "Successfully set new group stickers in {}!"
 set_sticker_restrictions: "Sorry, due to telegram restrictions chat needs to have minimum 100 members before they can have group stickers!"
 set_chatpic: "You can only set some photo as chat pic!"
