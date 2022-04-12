@@ -437,37 +437,37 @@ info_and_afk_help: |
     ──「 Info and AFK 」──
 
     *ID:*
-    ❂ /id*:* get the current group id. If used by replying to a message, gets that user's id.
-    ❂ /gifid*:* reply to a gif to me to tell you its file ID.
+    ❂ /id*:* cari qrup identifikatorunu əldə edin.  Mesaja cavab verməklə istifadə edilərsə, həmin istifadəçinin id-sini alır.
+    ❂ /gifid*:* sizə gif identifikatorunu bildirmək üçün mənə gif-ə cavab verin.
     
-    *Self addded information:* 
-    ❂ /setme <text>*:* will set your info
-    ❂ /me*:* will get your or another user's info.
-    Examples:
-    ❂ /setme I am a wolf.
-    ❂ /me @username(defaults to yours if no user specified)
+     *Özü əlavə edilən məlumat:*
+    ❂ /setme <text>*:* məlumatlarınızı təyin edəcək
+    ❂ /me*:* sizin və ya başqa istifadəçinin məlumatını alacaq.
+     Nümunələr:
+    ❂ /setme Mən canavaram.
+    ❂ /me @username(heç bir istifadəçi göstərilməyibsə, defolt sizinkidir)
     
-    *Information others add on you:* 
-    ❂ /bio*:* will get your or another user's bio. This cannot be set by yourself.
-    ❂ /setbio <text>*:* while replying, will save another user's bio 
-    Examples:
-    ❂ /bio @username(defaults to yours if not specified).
-    ❂ /setbio This user is a wolf (reply to the user)
+     *Başqalarının sizə əlavə etdiyi məlumatlar:*
+    ❂ /bio*:* sizin və ya başqa istifadəçinin bio-nu əldə edəcək.  Bunu özünüz təyin etmək olmaz.
+    ❂ /setbio <text>*:* cavab verərkən başqa istifadəçinin bio-nu saxlayacaq
+     Nümunələr:
+    ❂ /bio @username (göstərilməyibsə, defolt sizinkidir).
+    ❂ /setbio Bu istifadəçi canavardır (istifadəçiyə cavab)
     
-    *Overall Information about you:*
-    ❂ /info*:* get information about a user. 
+     *Sizin haqqınızda ümumi məlumat:*
+    ❂ /info*:* istifadəçi haqqında məlumat əldə edin.
     
-    *json Detailed info:*
-    ❂ /json*:* Get Detailed info about any message.
+     *json Ətraflı məlumat:*
+    ❂ /json*:* İstənilən mesaj haqqında ətraflı məlumat əldə edin.
     
-    *AFk:*
-    When marked as AFK, any mentions will be replied to with a message stating that you're not available!
-    ❂ /afk <reason>*:* Mark yourself as AFK.
-      - brb <reason>: Same as the afk command, but not a command. 
-      
-    *What is that health thingy?*
-    Come and see [HP System explained](https://t.me/KennedyProject/44)
-locks_help: |
+     *AFk:*
+    AFK kimi qeyd edildikdə, hər hansı qeydlərə əlçatan olmadığınızı bildirən mesajla cavab veriləcək!
+    ❂ /afk <səbəb>*:* Özünüzü AFK kimi qeyd edin.
+      - brb <səbəb>: afk əmri ilə eynidir, lakin əmr deyil.
+    
+     *Bu nə sağlamlıq işidir?*
+    Gəlin və baxın [HP Sistemi izah olunur](https://t.me/KennedyProject/44)
+ locks_help: |
     ──「 Locks 」──
 
     Do stickers annoy you? or want to avoid people sharing links? or pictures? \
