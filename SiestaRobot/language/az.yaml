@@ -463,7 +463,7 @@ info_and_afk_help: |
      *AFk:*
     AFK kimi qeyd edildikdə, hər hansı qeydlərə əlçatan olmadığınızı bildirən mesajla cavab veriləcək!
     ❂ /afk <səbəb>*:* Özünüzü AFK kimi qeyd edin.
-      - brb <səbəb>: afk əmri ilə eynidir, lakin əmr deyil.
+    - brb <səbəb>: afk əmri ilə eynidir, lakin əmr deyil.
     
      *Bu nə sağlamlıq işidir?*
     Gəlin və baxın [HP Sistemi izah olunur](https://t.me/KennedyProject/44)
