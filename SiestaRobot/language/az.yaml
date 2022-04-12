@@ -470,39 +470,39 @@ info_and_afk_help: |
 locks_help: |
     ──「 Locks 」──
 
-    Do stickers annoy you? or want to avoid people sharing links? or pictures? \
-    You're in the right place!
-    The locks module allows you to lock away some common items in the \
-    telegram world; the bot will automatically delete them!
+    Stikerlər sizi qıcıqlandırır?  və ya insanların linkləri paylaşmasından qaçmaq istəyirsiniz?  yoxsa şəkillər?  \
+    Siz doğru yerdəsiniz!
+    Kilidlər modulu bəzi ümumi elementləri kilidləməyə imkan verir.
+    teleqram dünyası;  bot onları avtomatik siləcək!
 
-    ❂ /locktypes*:* Lists all possible locktypes
+    ❂ /locktypes*:* Bütün mümkün kilid tiplərini sadalayır
 
-    *Admins only:*
-    ❂ /lock <type>*:* Lock items of a certain type (not available in private)
-    ❂ /unlock <type>*:* Unlock items of a certain type (not available in private)
-    ❂ /locks*:* The current list of locks in this chat.
+     *Yalnız adminlər:*
+    ❂ /lock <type>*:* Müəyyən növ elementləri kilidləyin (şəxsi olaraq mövcud deyil)
+    ❂ /unlock <type>*:* Müəyyən növ elementlərin kilidini açın (şəxsi olaraq mövcud deyil)
+    ❂ /locks*:* Bu söhbətdəki kilidlərin cari siyahısı.
 
-    Locks can be used to restrict a group's users.
-    eg:
-    Locking urls will auto-delete all messages with urls, locking stickers will restrict all \
-    non-admin users from sending stickers, etc.
-    Locking bots will stop non-admins from adding bots to the chat.
+    Kilidlər qrupun istifadəçilərini məhdudlaşdırmaq üçün istifadə edilə bilər.
+     məsələn:
+    URL-lərin kilidlənməsi url-ləri olan bütün mesajları avtomatik siləcək, stikerlərin kilidlənməsi hamısını məhdudlaşdıracaq \
+    admin olmayan istifadəçilərə stiker göndərməkdən və s.
+    Botların kilidlənməsi admin olmayanların söhbətə bot əlavə etməsinə mane olacaq.
 
-    *Note:*
-    ❂ Unlocking permission *info* will allow members (non-admins) to change the group information, such as the description or the group name
-    ❂ Unlocking permission *pin* will allow members (non-admins) to pinned a message in a group
+     *Qeyd:*
+    ❂ Kilidin açılması icazəsi *info* üzvlərə (admin olmayanlara) təsvir və ya qrup adı kimi qrup məlumatını dəyişməyə imkan verəcək
+    ❂ Kilidin açılması icazəsi *pin* üzvlərə (admin olmayanlara) qrupda mesajı bərkitməyə imkan verəcək
 logchannel_help: |
     ──「 Log channel 」──
 
-    ❂ /logchannel*:* get log channel info
-    ❂ /setlog*:* set the log channel.
-    ❂ /unsetlog*:* unset the log channel.
+    ❂ /logchannel*:* log kanal məlumatını əldə edin
+    ❂ /setlog*:* jurnal kanalını təyin edin.
+    ❂ /unsetlog*:* jurnal kanalını ləğv edin.
 
-    *Setting the log channel is done by*:
+    *Giriş kanalının qurulması aşağıdakılarla həyata keçirilir*:
 
-    ➩ adding the bot to the desired channel (as an admin!)
-    ➩ sending /setlog in the channel
-    ➩ forwarding the /setlog to the group
+    ➩ botun istədiyiniz kanala əlavə edilməsi (admin olaraq!)
+    ➩ kanalda /setlog göndərmək
+    ➩ /setlog-un qrupa yönləndirilməsi
 logomarker_help: |
     ──「 Logo Marker 」──
     
