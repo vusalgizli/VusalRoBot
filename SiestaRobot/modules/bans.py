@@ -64,20 +64,20 @@ def ban(update: Update, context: CallbackContext) -> str:
     if message.reply_to_message and message.reply_to_message.sender_chat:
         r = bot.ban_chat_sender_chat(chat_id=chat.id, sender_chat_id=message.reply_to_message.sender_chat.id)
         if r:
-            message.reply_text("Channel {} was banned successfully from {}".format(
+            message.reply_text("Kanal {} {} kanalından uğurla qadağan edildi".format(
                 html.escape(message.reply_to_message.sender_chat.title),
                 html.escape(chat.title)
             ),
                 parse_mode="html"
             )
         else:
-            message.reply_text("Failed to ban channel")
+            message.reply_text("Kanalı qadağan etmək alınmadı")
         return
 
     user_id, reason = extract_user_and_text(message, args)
 
     if not user_id:
-        message.reply_text("⚠️ User not found.")
+        message.reply_text("⚠️ İstifadəçi tapılmadı.")
         return log_message
     try:
         member = chat.get_member(user_id)
