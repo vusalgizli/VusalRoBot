@@ -551,28 +551,26 @@ notes_help: |
 report_help: |
     ──「 Report 」──
 
-    ❂ /report <reason>*:* reply to a message to report it to admins.
-    ❂ @admin*:* reply to a message to report it to admins.
-    *NOTE:* Neither of these will get triggered if used by admins.
+    ❂ /report <reason>*:* adminlərə bildirmək üçün mesaja cavab verin.
+    ❂ @admin*:* adminlərə bildirmək üçün mesaja cavab verin.
+     *QEYD:* Adminlər tərəfindən istifadə edildikdə bunların heç biri işə salınmayacaq.
 
-    *Admins only:*
-    ❂ /reports <on/off>*:* change report setting, or view current status.
-    ❂ If done in pm, toggles your status.
-    ❂ If in group, toggles that groups's status.
+     *Yalnız adminlər:*
+    ❂ /reports <on/off>*:* hesabat parametrlərini dəyişdirin və ya cari vəziyyətə baxın.
+    ❂ Əgər pm-də edilirsə, statusunuzu dəyişdirir.
+    ❂ Qrupdadırsa, həmin qrupların statusunu dəyişdirir.
 search_help: |
     ──「 Search 」──
 
-    ❂ /google <query>*:* Perform a google search
-    ❂ /image <query>*:* Search Google for images and returns them\nFor greater no. of results specify lim, For eg: `/img hello lim=10`
-    ❂ /app <appname>*:* Searches for an app in Play Store and returns its details.
-    ❂ /reverse: Does a reverse image search of the media which it was replied to.
-    ❂ /gps <location>*:* Get gps location.
-    ❂ /github <username>*:* Get information about a GitHub user.
-    ❂ /country <country name>*:* Gathering info about given country
-    ❂ /imdb <Movie name>*:* Get full info about a movie with imdb.com
-    ❂ Siesta <query>*:* Siesta answers the query
+    ❂ /google <query>*:* Google-da axtarış aparın
+    ❂ /image <query>*:* Google-da şəkilləri axtarın və onları qaytarın\nDaha çox nömrə üçün.  nəticələrin limini təyin edin, Məsələn: `/img salam lim=10`
+    ❂ /app <appname>*:* Play Store-da proqramı axtarır və onun təfərrüatlarını qaytarır.
+    ❂ /reverse: Cavab verildiyi medianın əks təsvirini axtarır.
+    ❂ /gps <yer>*:* GPS məkanını əldə edin.
+    ❂ /github <istifadəçi adı>*:* GitHub istifadəçisi haqqında məlumat əldə edin.
+    ❂ /country <ölkə adı>*:* Verilmiş ölkə haqqında məlumatın toplanması
+    ❂ /imdb <Film adı>*:* imdb.com ilə film haqqında tam məlumat əldə edin
 
-    💡 Ex : `Siesta where is Japan?`
 stickers_help: |
     ──「 Stickers 」──
 
