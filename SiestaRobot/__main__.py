@@ -750,8 +750,8 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 945137470:
             update.effective_message.reply_text(
-                "I'm free for everyone ❤️ If you wanna make me smile, just join"
-                "[My Channel]({})".format(DONATION_LINK),
+                "Mən hamı üçün azadam ❤️ Əgər məni güldürmək istəyirsinizsə, sadəcə qoşulun"
+                 "[Kanalım]({})".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
             )
     else:
