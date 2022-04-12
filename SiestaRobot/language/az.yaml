@@ -574,76 +574,76 @@ search_help: |
 stickers_help: |
     ──「 Stickers 」──
 
-    *Help menu for stickers tools*
-    ❂ /stickerid*:* reply to a sticker to me to tell you its file ID.
-    ❂ /getsticker*:* reply to a sticker to me to upload its raw PNG file.
-    ❂ /kang*:* reply to a sticker to add it to your pack.
-    ❂ /delsticker*:* Reply to your anime exist sticker to your pack to delete it.
-    ❂ /stickers*:* Find stickers for given term on combot sticker catalogue
-    ❂ /tiny*:* To make small sticker
-    ❂ /kamuii <1-8> *:* To deepefying stiker
-    ❂ /mmf <reply with text>*:* To draw a text for sticker or pohots
+    *Stiker alətləri üçün yardım menyusu*
+    ❂ /stickerid*:* fayl ID-sini bildirmək üçün mənə stikerə cavab verin.
+    ❂ /getsticker*:* xam PNG faylını yükləmək üçün mənə stikerə cavab verin.
+    ❂ /kang*:* paketinizə əlavə etmək üçün stikerə cavab verin.
+    ❂ /delsticker*:* Silmək üçün anime mövcud stiker paketinizə cavab verin.
+    ❂ /stikerlər*:* Döyüş stikerləri kataloqunda verilmiş termin üçün stikerlər tapın
+    ❂ /kiçik*:* Kiçik stiker etmək üçün
+    ❂ /kamuii <1-8> *:* Dərinləşdirici stiker üçün
+    ❂ /mmf <mətnlə cavab verin>*:* Stiker və ya pohots üçün mətn çəkmək üçün
 tools_help: |
     ──「 Tools 」──
 
-    *Sangmata Info bot*
-    ❂ /sg <reply>*:* To check history name
+    *Sangmata Məlumat botu*
+    ❂ /sg <cavab>*:* Tarixçə adını yoxlamaq üçün
 
-    *Date-time-Weather*
-    ❂ /time <country code>*:* Gives information about a timezone.
-    ❂ /weather <city>*:* Get weather info in a particular place.
-    ❂ /wttr <city>*:* Advanced weather module, usage same as /weather
-    ❂ /wttr moon*:* Get the current status of moon
+    *Tarix-saat-Hava*
+    ❂ /time <ölkə kodu>*:* Saat qurşağı haqqında məlumat verir.
+    ❂ /weather <şəhər>*:* Müəyyən bir yerdə hava haqqında məlumat əldə edin.
+    ❂ /wttr <city>*:* Qabaqcıl hava modulu, /weather ilə eyni istifadə
+    ❂ /wttr ay*:* Ayın cari vəziyyətini əldə edin
 
-    *Converts*
-    ❂ /encrypt*:* Encrypts The Given Text
-    ❂ /decrypt*:* Decrypts Previously Ecrypted Text
-    ❂ /zip*:* reply to a telegram file to compress it in .zip format
-    ❂ /unzip*:* reply to a telegram file to decompress it from the .zip format
+     *Dönüştürür*
+    ❂ /encrypt*:* Verilmiş Mətni Şifrələyir
+    ❂ /decrypt*:* Əvvəllər Şifrələnmiş Mətni deşifrə edir
+    ❂ /zip*:* .zip formatında sıxışdırmaq üçün teleqram faylına cavab verin
+    ❂ /unzip*:* .zip formatından açmaq üçün teleqram faylına cavab verin
 
-    *Random API*
-    ❂ /ptl: get random video from Instagram timeline
-    ❂ /chika: get random video from chikakiku
-    ❂ /wibu:get random short anime video or photos
-    ❂ /truth: challenge 
-    ❂ /dare: challenge
-    Link To File:
-    ❂ /up: reply to a direct download link to upload it to telegram as files
+     *Təsadüfi API*
+    ❂ /ptl: Instagram qrafikindən təsadüfi video əldə edin
+    ❂ /chika: chikakiku-dan təsadüfi video əldə edin
+    ❂ /wibu:təsadüfi qısa anime videosu və ya fotoşəkilləri əldə edin
+    ❂ /truth: çağırış
+    ❂ /dare: meydan oxumaq
+     Fayla keçid:
+    ❂ /up: fayl kimi teleqrama yükləmək üçün birbaşa yükləmə linkinə cavab verin
     
-    File To Link:
-    ❂ /transfersh: reply to a telegram file to upload it on transfersh and get direct download link
-    ❂ /tmpninja: reply to a telegram file to upload it on tmpninja and get direct download link
-    File Or Text To Telegraph:
-    ❂ /tgm : Get Telegraph Link Of Replied Media
-    ❂ /tgt: Get Telegraph Link of Replied Text
+     Bağlantı üçün fayl:
+    ❂ /transfersh: teleqram faylını transfersh-ə yükləmək və birbaşa yükləmə linkini əldə etmək üçün ona cavab verin
+    ❂ /tmpninja: teleqram faylını tmpninja-ya yükləmək və birbaşa yükləmə linkini əldə etmək üçün ona cavab verin
+     Teleqrafa fayl və ya mətn:
+    ❂ /tgm : Cavab Verilən Medianın Teleqraf Linkini əldə edin
+    ❂ /tgt: Cavab verilmiş mətnin teleqraf linkini əldə edin
 
-    Tagger
-    ❂ /tagall : for tag everyone at least 100 member first.
-translator_help: |
-    ──「 Translator 」──
+     Tagger
+    ❂ /tagall : hər kəsə ilk olaraq ən azı 100 üzvü tag etmək üçün.
+    tərcüməçiyə_yardım: |
+     ──「 Tərcüməçi 」──
 
-    Use this module to translate stuff!
+    Mətnləri tərcümə etmək üçün bu moduldan istifadə edin!
 
-    *Commands:*
-    ❂ /tl (or /tr): as a reply to a message, translates it to English.
-    ❂ /tl <lang>: translates to <lang>
-       eg: /tl ja: translates to Japanese.
-    ❂ /tl <source>//<dest>: translates from <source> to <lang>.
-       eg:  /tl ja//en: translates from Japanese to English.
-    ❂ /langs: get a list of supported languages for translation.
+     *Əmrlər:*
+    ❂ /tl (və ya /tr): mesaja cavab olaraq onu ingilis dilinə tərcümə edir.
+    ❂ /tl <lang>: <lang>-a tərcümə edir
+      məsələn: /tl ja: Yapon dilinə tərcümə edir.
+    ❂ /tl <mənbə>//<dest>: <mənbə>-dən <lang>-a tərcümə edir.
+      məsələn: /tl ja//en: Yapon dilindən İngilis dilinə tərcümə edir.
+    ❂ /langs: tərcümə üçün dəstəklənən dillərin siyahısını əldə edin.
 
-    I can convert text to voice and voice to text..
-    ❂ /tts <lang code>*:* Reply to any message to get text to speech output
-    ❂ /stt*:* Type in reply to a voice message(support english only) to extract text from it.
+    Mətni səsə və səsi mətnə ​​çevirə bilirəm..
+    ❂ /tts <lang kodu>*:* Nitq çıxışına mətn əldə etmək üçün istənilən mesaja cavab verin
+    ❂ /stt*:* ondan mətn çıxarmaq üçün səsli mesaja cavab yazın (yalnız ingilis dilini dəstəkləyin).
     
-    *Language Codes*
-      `af,am,ar,az,be,bg,bn,bs,ca,ceb,co,cs,cy,da,de,el,en,eo,es,
-      et,eu,fa,fi,fr,fy,ga,gd,gl,gu,ha,haw,hi,hmn,hr,ht,hu,hy,
-      id,ig,is,it,iw,ja,jw,ka,kk,km,kn,ko,ku,ky,la,lb,lo,lt,lv,mg,mi,mk,
-      ml,mn,mr,ms,mt,my,ne,nl,no,ny,pa,pl,ps,pt,ro,ru,sd,si,sk,sl,
-      sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
-      vi,xh,yi,yo,zh,zh_CN,zh_TW,zu`
-warns_help: |
+     *Dil Kodları*
+       `af,am,ar,az,be,bg,bn,bs,ca,ceb,co,cs,cy,da,de,el,en,eo,es,
+       et,eu,fa,fi,fr,fy,ga,gd,gl,gu,ha,haw,hi,hmn,hr,ht,hu,hy,
+       id,ig,is,it,iw,ja,jw,ka,kk,km,kn,ko,ku,ky,la,lb,lo,lt,lv,mg,mi,mk,
+       ml,mn,mr,ms,mt,my,ne,nl,no,ny,pa,pl,ps,pt,ro,ru,sd,si,sk,sl,
+       sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
+       vi,xh,yi,yo,zh,zh_CN,zh_TW,zu`
+ warns_help: |
     ──「 Warns 」──
 
     ❂ /warns <userhandle>: get a user's number, and reason, of warns.
