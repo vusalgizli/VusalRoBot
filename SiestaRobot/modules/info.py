@@ -23,8 +23,8 @@ async def get_user_info(user, already=False):
     body = {
         "ID": user_id,
         "DC": dc_id,
-        "Name": [first_name],
-        "Username": [("@" + username) if username else None],
+        "Ad": [first_name],
+        "İstifadəçi adı": [("@" + username) if username else None],
         "Mention": [mention],
         "Sudo": is_sudo,
     }
@@ -71,7 +71,7 @@ async def info_func(_, message: Message):
     elif not message.reply_to_message and len(message.command) != 1:
         user = message.text.split(None, 1)[1]
 
-    m = await message.reply_text("Processing...")
+    m = await message.reply_text("Emal edilir...")
 
     try:
         info_caption, photo_id = await get_user_info(user)
@@ -96,7 +96,7 @@ async def chat_info_func(_, message: Message):
     try:
         if len(message.command) > 2:
             return await message.reply_text(
-                "**Usage:**cinfo <chat id/username>"
+               "**İstifadə:**cinfo <chat id/username>"
             )
 
         if len(message.command) == 1:
@@ -104,7 +104,7 @@ async def chat_info_func(_, message: Message):
         elif len(message.command) == 2:
             chat = message.text.split(None, 1)[1]
 
-        m = await message.reply_text("Processing...")
+        m = await message.reply_text("Emal edilir...")
 
         info_caption, photo_id = await get_chat_info(chat)
         if not photo_id:
