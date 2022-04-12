@@ -643,7 +643,7 @@ tools_help: |
        ml,mn,mr,ms,mt,my,ne,nl,no,ny,pa,pl,ps,pt,ro,ru,sd,si,sk,sl,
        sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
        vi,xh,yi,yo,zh,zh_CN,zh_TW,zu`
- warns_help: |
+warns_help: |
     ──「 Xəbərdarlıq」──
 
     ❂ /warns <userhandle>: istifadəçinin nömrəsini və xəbərdarlıq səbəbini əldə edin.
