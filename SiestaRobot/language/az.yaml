@@ -10,7 +10,7 @@ set_chat_lang: "Əla, bundan sonra {} Dilindən istifadə olunur!"
 # PM Text
 pm_start_text: |
   *🥰Salam, {}️*
-  ✪ Mənim Adım Fidan 👮🏻‍♀️Mən Telegram qruplarını qorumaq üçün Azərbaycanca Olan Qrup İdarə Botuyam!. [✨](https://telegra.ph//file/da9930dc036e64b2a12b6.mp4)
+  ✪ Mənim Adım Vüsal 👮🏻‍♂️Mən Telegram qruplarını qorumaq üçün Azərbaycanca Olan Qrup İdarə Botuyam!. [✨](https://telegra.ph//file/da9930dc036e64b2a12b6.mp4)
 
   ┏━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┓
    × *İşləmə müddəti:* `{}`
@@ -20,7 +20,7 @@ pm_start_text: |
    ✪ Əmrlərimi görmək üçün /help düyməsini basın.
    
 group_start_text: |
- *👋🏻 Salam, Mən Fidan Robotam!*
+ *👋🏻 Salam, Mən Vüsal Robotam!*
   
   *Bu tarixdən aktiv olmağa başladı:* `{}`
 
@@ -196,7 +196,7 @@ blacklist_help: |
 chatbot_help: |
     ──「 Chatbot AI 」──
 
-    FidanRobot 200-ə qədər dili aşkarlaya və cavab verə bilən yeganə AI sistemidir
+    fidVüsalRobot 200-ə qədər dili aşkarlaya və cavab verə bilən yeganə AI sistemidir
 
     ❂ /chatbot [ON/OFF]: AI Chat rejimini aktivləşdirir və söndürür.
     ❂ /chatbot EN : Yalnız İngilis chatbotunu aktivləşdirir.
